@@ -1,0 +1,315 @@
+{
+  "dungeons": [
+    {
+      "slug": "krao-cave",
+      "name": "Krao Cave",
+      "tier": "1-star",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 700,
+      "gates": { "exploration": "200 (Lv 20)", "conquest": "700" },
+      "bosses": [
+        {
+          "name": "Ultimate Berk (final boss)",
+          "tldr": [
+            "Wave of Fury is a wide frontal pulse and Stone Swipes is a melee cleave — step out of the telegraphs, no jump needed.",
+            "Berk Whirl spins after a short wind-up — that spin is the party's burst window.",
+            "Extinction for Eternity at 50% HP is a ~9-second stagger check — hold stagger/stun skills for it or eat a heavy raid-wide hit."
+          ]
+        },
+        {
+          "name": "Route minis (optional)",
+          "tldr": [
+            "Two optional mini-bosses guard the route — killing each adds its loot cube to the final clear chest.",
+            "Full-clear runs pay more Odyle Energy but cost more time — skip on farm mode."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 54 Rupture weapons", "Ultimate Berk accessories", "Amplify Stone Fragment (Unique)", "Wrathful Mind"],
+      "transferNote": "This is the ilvl 54 band — first long-term gear, not keeper gear. Roll substats on cheap pieces and save real investment for ilvl 70."
+    },
+    {
+      "slug": "draupnir",
+      "name": "Draupnir",
+      "tier": "1-star",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 700,
+      "gates": { "exploration": "700 (Lv 45)", "conquest": "700" },
+      "bosses": [
+        {
+          "name": "Transcendent Bakarma (final boss)",
+          "tldr": [
+            "Mechanics are not yet documented in English (Global is ~2 weeks old) — bring standard stagger/interrupt discipline.",
+            "Killing it hands off the ilvl 54 armor track (Transcendent Bakarma set)."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 54 Transcendent Bakarma armor", "Amplify Stone Fragment (Unique)", "Enchant materials"],
+      "transferNote": "Armor twin of Krao Cave — same ilvl 54 band, same advice: farm it, don't marry it."
+    },
+    {
+      "slug": "urugugu-canyon",
+      "name": "Urugugu Canyon",
+      "tier": "2-star",
+      "kind": "expedition",
+      "players": "2–5",
+      "ilvlGate": 1400,
+      "gates": { "exploration": "300 (Lv 28)", "conquest": "1,400" },
+      "bosses": [
+        {
+          "name": "Divine Auldor (final boss)",
+          "tldr": [
+            "Mechanics are not yet documented in English as of Oct 17, 2026 — route runs Gate of Unity → Contaminated Waterway.",
+            "Conquest clears drop the ilvl 70 Aulamus weapon/accessory track — the first keeper weapons in the game."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 70 Aulamus weapons & accessories (Conquest)", "Amplify Stone Fragment (Unique)", "Sealed wings fragment"],
+      "transferNote": "KEEPER TIER: ilvl 70 is where Gear Transfer investment starts holding full value — this is the weapons half of the first keeper set."
+    },
+    {
+      "slug": "vakron-sky-island",
+      "name": "Vakron Sky Island",
+      "tier": "2-star",
+      "kind": "expedition",
+      "players": "2–5",
+      "ilvlGate": 1400,
+      "gates": { "exploration": "1,400", "conquest": "1,400" },
+      "bosses": [
+        {
+          "name": "Vakron (final boss)",
+          "tldr": [
+            "Mechanics are not yet documented in English as of Oct 17, 2026.",
+            "Drops the ilvl 70 Vakron armor track — the armor half of the first keeper set."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 70 Vakron armor", "Amplify Stone Fragment (Unique)", "Enchant materials"],
+      "transferNote": "KEEPER TIER: pair Urugugu (weapons) with Vakron (armor) to complete your first ilvl 70 transfer targets."
+    },
+    {
+      "slug": "fire-temple",
+      "name": "Fire Temple",
+      "tier": "3-star",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 2100,
+      "gates": { "exploration": "500 (Lv 35)", "conquest": "2,100" },
+      "bosses": [
+        {
+          "name": "Red Spark Ignus & Black Smoke Murute (optional minis)",
+          "tldr": [
+            "Both minis are optional — each kill adds its loot cube to the final clear chest.",
+            "Take them on first clears; skip on Odyle-efficient farm runs."
+          ]
+        },
+        {
+          "name": "Kromede's Desire (final boss)",
+          "tldr": [
+            "The WHOLE party must be inside the boss room before the pull — latecomers get locked behind the door.",
+            "Flame Wall: she flies up and sweeps fire walls across the arena — move to the gaps, don't outrun the wave.",
+            "Triple Sweep = two quick slashes then a delayed third, and Slowed Slam is a jump-slam with a slow telegraph — dodge late, not early.",
+            "In Conquest, adds station at the sides and fire projectiles from the flanks."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 86 Enraged Kromede weapons & accessories", "Amplify Stone Fragment (Unique)", "Pantheon Artwork"]
+    },
+    {
+      "slug": "ferocious-horn-den",
+      "name": "Ferocious Horn Den",
+      "tier": "3-star",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 2100,
+      "gates": { "exploration": "2,100", "conquest": "2,100" },
+      "bosses": [
+        {
+          "name": "Ferocious Horn Nuakum (final boss)",
+          "tldr": [
+            "Mechanics are not yet documented in English as of Oct 17, 2026.",
+            "Drops the ilvl 86 Nuakum armor track plus Wrathful Ego — the key Draconic crafting material."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 86 Nuakum armor", "Wrathful Ego (Draconic crafting)", "Enchant materials"]
+    },
+    {
+      "slug": "dying-dramatas-nest",
+      "name": "Dying Dramata's Nest",
+      "tier": "4-star+",
+      "kind": "expedition",
+      "players": "2–5",
+      "ilvlGate": 2800,
+      "gates": { "exploration": "2,800", "conquest": "2,800", "hard": "3,000" },
+      "bosses": [
+        {
+          "name": "Final boss (post-launch tier)",
+          "tldr": [
+            "Post-launch 4★+ tier — English mechanic documentation is still thin; expect ground-hazard kiting and stagger-check patterns from this band.",
+            "Reported Global rule: you must contribute ≥5% of total party damage to receive rewards."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 102-track gear (post-launch)", "Amplify Stone Fragment (Unique)", "Equipment crafting materials"]
+    },
+    {
+      "slug": "cradle-of-nihility",
+      "name": "Cradle of Nihility",
+      "tier": "4-star+",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 2800,
+      "gates": { "exploration": "2,800", "conquest": "2,800", "hard": "3,000" },
+      "bosses": [
+        {
+          "name": "Final boss (post-launch tier)",
+          "tldr": [
+            "Post-launch 4★+ tier — mechanics not yet documented in English.",
+            "Reported Global rule: ≥5% personal damage contribution required for rewards."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 102-track gear (post-launch)", "Amplify Stone Fragment (Unique)"]
+    },
+    {
+      "slug": "hall-of-illusion",
+      "name": "Hall of Illusion",
+      "tier": "4-star+",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 3000,
+      "gates": { "exploration": "3,000", "conquest": "3,000", "hard": "3,500" },
+      "bosses": [
+        {
+          "name": "Final boss (post-launch tier)",
+          "tldr": [
+            "Post-launch 4★+ tier — mechanics not yet documented in English.",
+            "Reported Global rule: ≥5% personal damage contribution required for rewards."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 102-track gear (post-launch)", "Amplify Stone Fragment (Unique)"]
+    },
+    {
+      "slug": "azure-breath-island",
+      "name": "Azure Breath Island",
+      "tier": "4-star+",
+      "kind": "expedition",
+      "players": "2–5",
+      "ilvlGate": 3000,
+      "gates": { "exploration": "3,000", "conquest": "3,000", "hard": "3,500" },
+      "bosses": [
+        {
+          "name": "Final boss (post-launch tier)",
+          "tldr": [
+            "Post-launch 4★+ tier — mechanics not yet documented in English.",
+            "Reported Global rule: ≥5% personal damage contribution required for rewards."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 102-track gear (post-launch)", "Amplify Stone Fragment (Unique)"]
+    },
+    {
+      "slug": "citadel-of-the-fallen-daeva",
+      "name": "Citadel of the Fallen Daeva",
+      "tier": "4-star+",
+      "kind": "expedition",
+      "players": "1–5",
+      "ilvlGate": 3800,
+      "gates": { "exploration": "3,800", "conquest": "3,800", "hard": "4,500" },
+      "bosses": [
+        {
+          "name": "Final boss (post-launch tier)",
+          "tldr": [
+            "Current endgame treadmill apex — mechanics not yet documented in English.",
+            "Source of ~ilvl 102 Uniques; reported ≥5% personal damage contribution rule applies."
+          ]
+        }
+      ],
+      "rewards": ["~ilvl 102 Unique gear", "Amplify Stone Fragment (Unique)", "Spear Spirit Equipment Scroll materials"]
+    },
+    {
+      "slug": "abyssal-forge-ludra",
+      "name": "Abyssal Forge: Ludra",
+      "tier": "Raid",
+      "kind": "raid",
+      "players": "10",
+      "ilvlGate": 2800,
+      "gates": { "exploration": "2,800 (Lv 45)", "conquest": "2,800" },
+      "bosses": [
+        {
+          "name": "Rahu",
+          "tldr": [
+            "Pink Circle DoT debuff: stand in the marked player's circle to pass it on — three failed passes enrage-wipe the raid.",
+            "Area sweep: safe cone is behind the boss; a line AoE follows the sweep, so move behind, then sidestep the line.",
+            "Donut rings: stack on the boss to skip the jump check; edge poison puddles punish wide positioning.",
+            "50%: four-quadrant split — cluster on the boss, avoid the violet cross, jump the back-swiping lasers. 25%: adds spawn, aim line AoEs into them (a violet DoT applied 3× = wipe)."
+          ]
+        },
+        {
+          "name": "Ketu",
+          "tldr": [
+            "Vertical lasers sweep the room; the sword-slam creates a ring you must jump, then re-position inside it.",
+            "Spirit summon: interrupt before the white triangles complete or the raid takes escalating damage.",
+            "Orb colours: red = face the boss, blue = look away, purple = absorb by jumping.",
+            "Below 40%: cone AoEs plus Mortal Soul Stones — destroy the stones for the invulnerability buff or the cones one-shot."
+          ]
+        },
+        {
+          "name": "Eternal Ludra (final boss)",
+          "tldr": [
+            "Claw slams are jumpable; the red orb must be blocked or invulned — dodging it detonates.",
+            "Big donut + blue orbs + tornado gaps + lightning spikes: move through the tornado gap and spread for spikes.",
+            "50% — Ludra's Ordeal: a 36-box lightning grid; find the safe box or wipe, then burn in the DPS window.",
+            "Arena shrinks and line damage inverts — stand ON the line. 30%: split red/blue sides. 10%: stand only on your colour's platforms.",
+            "Enrage: 10-minute timer with a 60-second warning."
+          ]
+        }
+      ],
+      "rewards": ["Unique gear ilvl 54–102 (256-item loot table)", "Ludra weapons", "Bracelets (raid-only slot)", "~1,000,000 Kinah per final boss"],
+      "transferNote": "First 10-player Sanctuary raid: 4 attempts/week (spent on entry), final-boss kill credit 1/week, Wednesday reset. Bracelets are the raid-only progression slot."
+    },
+    {
+      "slug": "corroded-decontamination-facility",
+      "name": "Corroded Decontamination Facility",
+      "tier": "Raid",
+      "kind": "raid",
+      "players": "10",
+      "ilvlGate": 3500,
+      "gates": { "exploration": "3,500", "conquest": "3,500" },
+      "bosses": [
+        {
+          "name": "Terminator Bargott (+4 more bosses)",
+          "tldr": [
+            "Five-boss raid — mechanics are not yet documented in any English source as of Oct 17, 2026.",
+            "Same Sanctuary frame: 4 attempts/week, 2 final-boss kill credits, 2×5-party split encounters."
+          ]
+        }
+      ],
+      "rewards": ["ilvl 102+ Unique gear", "Raid crafting materials"],
+      "transferNote": "2 final-boss kill credits per week — the faster weekly gear route once your group clears Ludra."
+    },
+    {
+      "slug": "chalice-of-muspel",
+      "name": "Chalice of Muspel",
+      "tier": "Raid",
+      "kind": "raid",
+      "players": "10",
+      "ilvlGate": 4300,
+      "gates": { "exploration": "4,300", "conquest": "4,300", "hard": "4,500" },
+      "bosses": [
+        {
+          "name": "Kaldrix & Iscariel (+more)",
+          "tldr": [
+            "Current top-end raid — mechanics are not yet documented in English as of Oct 17, 2026.",
+            "Same Sanctuary frame: 4 attempts/week, 2 final-boss kill credits, Hard mode at 4,500 GS."
+          ]
+        }
+      ],
+      "rewards": ["Top-tier Unique gear", "Raid-exclusive materials"],
+      "transferNote": "The current ceiling: every investment you transferred through the ilvl 70→86→102 path pays off here."
+    }
+  ]
+}

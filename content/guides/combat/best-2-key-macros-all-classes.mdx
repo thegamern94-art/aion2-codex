@@ -1,0 +1,171 @@
+# Best 2-Key Macro Slots for All 8 Classes
+
+AION 2 ships an **official in-game Skill Macro editor** — no third-party tools, no ambiguity about legality. This guide shows you how the system actually works and gives you copy-paste slot setups for every launch class.
+
+## How the official macro system works
+
+- Open the **Skill menu (K) → Skill Macro** (upper right).
+- Register **up to 4 skills per macro slot**. **The bottom slot is the highest priority** — if a skill's cooldown or condition is unmet, the game auto-falls upward to the next one.
+- **Hold the macro key** to cycle-execute the registered sequence.
+- The macro key is **unbound by default**: enable it via **Settings → Key Settings → General → Gameplay/Skill Macro**.
+- Official tuning guidance: **~10–20 ms delay on low ping, ~40–50 ms above ~80–100 ms ping**, and **turn the separate Skill Queue option OFF** while using macros so the two systems don't fight.
+- Put the **longest-cooldown skill first** in the slot, and keep **long-CD buffs, Stigmas, movement and defensive skills manual**.
+- Third-party automation is **not sanctioned** — community reports describe bans for unauthorized tools (including DPS meters). Stick to the built-in editor.
+
+The copy boxes below use that slot format. Each class gets two setups: a **damage loop** you can safely automate, and a **manual key** for the things that must never be macroed.
+
+## Templar — Longsword & Shield
+
+Templar's shield skills conditionally unlock **Judgment**, the tank's hardest hit — the loop exists to light it up as often as possible.
+
+<MacroCopyBox
+  name="Threat Loop"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Vicious Strike", "Slot 2: Shield Smite", "Slot 3: Judgment"]}
+  useCase="Bottom-up priority keeps Vicious Strike feeding Shield Smite and Judgment. Hold the key; delay 10–20 ms low ping, 40–50 ms high ping; Skill Queue OFF."
+/>
+<MacroCopyBox
+  name="Panic Save"
+  keys={["R", "T"]}
+  lines={["Slot 1: Aegis-type defensive skill", "Slot 2: Self-shield / damage-immunity skill"]}
+  useCase="Defensives stay manual per official guidance — this key is your 'oh no' button, not part of the damage loop."
+/>
+
+## Gladiator — Greatsword
+
+The documented community sequence: **Rage Burst → Overhead Slam → Rending Blow**.
+
+<MacroCopyBox
+  name="Rage Burst Sequence"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Rage Burst", "Slot 2: Overhead Slam", "Slot 3: Rending Blow"]}
+  useCase="Longest cooldown first (Rage Burst), then the slam, then the cash-out. The crafted gold Chalice can even lock Overhead Slam for extra skill levels."
+/>
+<MacroCopyBox
+  name="Sustain Weave"
+  keys={["R", "T"]}
+  lines={["Slot 1: Sustain / self-heal skill", "Slot 2: Basic builder"]}
+  useCase="Weave sustain after the boss's AoE patterns, not after you're already low."
+/>
+
+## Assassin — Dual Daggers
+
+Crits unlock **Heart Gore** — the hardest rotation in the game, and the one where macro delay matters most.
+
+<MacroCopyBox
+  name="Burst Sequence"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Insignia Explosion", "Slot 2: Heart Gore", "Slot 3: Savage Roar"]}
+  useCase="The documented Assassin sequence. If your ping is above ~100 ms, use 40–50 ms delay — this kit is the most ping-sensitive in the game."
+/>
+<MacroCopyBox
+  name="Escape Hatch"
+  keys={["R", "T"]}
+  lines={["Slot 1: Movement / stealth skill", "Slot 2: Defensive skill"]}
+  useCase="Movement and defensives stay manual — official guidance, and doubly important on a squishy burst class."
+/>
+
+## Ranger — Bow
+
+The documented sequence: **Gale Arrow → Marking Shot → Snare Shot**.
+
+<MacroCopyBox
+  name="Volley Sequence"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Gale Arrow", "Slot 2: Marking Shot", "Slot 3: Snare Shot"]}
+  useCase="Keeps arrows flying through the window without fumbling the mark-then-snare order."
+/>
+<MacroCopyBox
+  name="Kite Escape"
+  keys={["R", "T"]}
+  lines={["Slot 1: Snare / CC skill", "Slot 2: Movement skill"]}
+  useCase="Roots the pursuer and buys distance — the Abyss survival combo."
+/>
+
+## Sorcerer — Spellbook
+
+Cast-time discipline is the class: the macro aligns setup and nuke, the manual key keeps you alive.
+
+<MacroCopyBox
+  name="Burn Window"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Amplification / setup skill", "Slot 2: Hellfire"]}
+  useCase="Longest-cooldown skill first (official guidance) so the amplifier always precedes the nuke in the cycle."
+/>
+<MacroCopyBox
+  name="Glass Escape"
+  keys={["R", "T"]}
+  lines={["Slot 1: Defensive / shield skill", "Slot 2: Blink-type movement skill"]}
+  useCase="Cancel casts into this key the moment a telegraph appears — finishing a dead cast is the #1 Sorcerer death cause."
+/>
+
+## Spiritmaster — Orb
+
+Pet commands plus curses: the macro keeps the spirit working while you handle mechanics.
+
+<MacroCopyBox
+  name="Pet Command"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Spirit attack command", "Slot 2: Curse DoT skill"]}
+  useCase="Sends the spirit onto your target and starts the DoT stack in one held press."
+/>
+<MacroCopyBox
+  name="Attrition Stack"
+  keys={["R", "T"]}
+  lines={["Slot 1: DoT curse A", "Slot 2: DoT curse B"]}
+  useCase="Bottom slot highest priority — the curse pair applies in order every time."
+/>
+
+## Cleric — Mace
+
+Healing stays responsive; macros here are about speed, not automation of judgment.
+
+<MacroCopyBox
+  name="Tank Saver"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Big single-target heal", "Slot 2: Shield / buff skill"]}
+  useCase="Shield-then-heal on one held key for scripted tank damage windows."
+/>
+<MacroCopyBox
+  name="Cleanup Loop"
+  keys={["R", "T"]}
+  lines={["Slot 1: Cleanse", "Slot 2: Efficient top-off heal"]}
+  useCase="Debuffs tick harder than most bosses — this is the loop you press most in raids."
+/>
+
+## Chanter — Staff
+
+The documented unlock combo: **Spinning Strike → Impactful Crush → Dark Crush**.
+
+<MacroCopyBox
+  name="Dark Crush Combo"
+  keys={["Q", "E"]}
+  lines={["Slot 1: Spinning Strike", "Slot 2: Impactful Crush", "Slot 3: Dark Crush"]}
+  useCase="Bottom-up priority lights Dark Crush as soon as the two openers land — hold the key and melee."
+/>
+<MacroCopyBox
+  name="Mantra Refresh"
+  keys={["R", "T"]}
+  lines={["Slot 1: Attack mantra", "Slot 2: Defense mantra"]}
+  useCase="Mantra downtime is party damage downtime — press this on cooldown."
+/>
+
+## What never goes in a macro
+
+<BossMechanicAlert title="Official guidance — keep these manual">
+
+- **Long-cooldown buffs, Stigmas, movement and defensive skills** — the game's own setup guidance calls these out; automating them wastes their exact timing.
+- **The separate Skill Queue** — turn it OFF while macros are active, or the two systems fight over your presses.
+- **Anything from outside the game** — third-party automation is not sanctioned, and community reports describe bans for unauthorized tools. The built-in editor is the whole legal toolbox.
+- **Healing decisions** (Cleric's big reactive heals) — a macro that fires your emergency heal on a timer is how raids lose their Cleric's cooldowns at the wrong second.
+
+</BossMechanicAlert>
+
+## Tuning checklist
+
+1. Bind the macro key: **Settings → Key Settings → General → Gameplay/Skill Macro**.
+2. Build the slot **bottom-up**: longest cooldown first, fillers after.
+3. Set **delay 10–20 ms** on low ping; **40–50 ms** above ~80–100 ms.
+4. Turn **Skill Queue OFF**.
+5. Practice the hold-to-cycle rhythm on trash before taking it into a Sanctuary raid.
+6. Re-tune after balance patches — the Oct 2026 pass (Cleric heal nerf, Chanter PvP nerf) is exactly the kind of change that shifts optimal slot order.

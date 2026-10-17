@@ -1,0 +1,37 @@
+{
+  "resets": {
+    "eu": { "label": "Daily Reset — EU (07:00 UTC)", "utc": "07:00" },
+    "na": { "label": "Daily Reset — NA (07:00 UTC)", "utc": "07:00" },
+    "weekly": { "label": "Weekly Reset", "utc": "07:00", "weekday": "Wednesday" }
+  },
+  "rift": {
+    "name": "Space-Time Rift",
+    "description": "Recurring cross-faction incursions: portals open every 3 hours and send Elyos into Asmodian territory (and vice versa) — the only way to enter the opposing faction's lands. Open-world PvPvE, separate from the Abyss. PvP is opt-in; unflagged players cannot be attacked. Portal usable for 10 minutes, stay up to 1 hour, 240-player cap per portal.",
+    "windowsUtc": ["02:00", "05:00", "08:00", "11:00", "14:00", "17:00", "20:00", "23:00"],
+    "durationMinutes": 60
+  },
+  "events": [
+    {
+      "name": "Trick or Treat — Halloween Event",
+      "start": "2026-10-14T09:00:00Z",
+      "end": "2026-11-04T09:00:00Z",
+      "summary": "Halloween 2026 on Global: a 14-day Trick or Treat login track (35 Pumpkin Coins/day, +100 bonus on days 7 and 14 → 620 total), 10 repeatable weekly Season Missions (~235 coins/week), Candy Keys crafted from 60 dungeon fragments (1 per colour per server per week, Wednesday reset — Blue candy is the best value), and a Pumpkin Coin shop. The shop stays open until Nov 24.",
+      "rewards": [
+        "Special Halloween Chest (skeleton breastplate skin) — 250 coins",
+        "Odyle Energy — 10 coins ×4/week",
+        "Lower Abyss Rift Stone — 30 coins ×2",
+        "Skin Chest — 15 coins ×5",
+        "Cash-shop outfits, Spider Wings, Pumpkin Carriage (until Nov 24)"
+      ]
+    }
+  ],
+  "gearTransfer": {
+    "summary": "Gear Transfer moves investment from one piece of gear to another (the donor is consumed). It carries Enhancement level and Soul Binding lines — plus Amplification — but loses Potential rolls, Manastones, Theostones and the Philosopher's Stone line. It unlocks at character level 45 and only works between items soul-bound to the same character. ilvl 70 is the community's \"first keeper tier\": the first gear worth transferring into.",
+    "rules": [
+      "Carried over: Enhancement level, Soul Binding lines, Amplification. Lost: Potential, Manastones, Theostones, Philosopher's Stone line.",
+      "The destination cannot already have a fixed Soul Binding, and 4→5 lines rolls the 5th free while 5→3 keeps only the first three.",
+      "Soul-binding lines keep the same percentage of the item's max roll — the same line is worth more on an ilvl 70 base, which is why ilvl 70 (Aulamus, Vakron, crafted T1.5) is the first keeper tier.",
+      "No official NCSoft rules page exists — these rules are community-verified; always read the preview window before confirming."
+    ]
+  }
+}

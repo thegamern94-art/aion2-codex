@@ -1,0 +1,17 @@
+{
+  "updated": "2026-10-17",
+  "howTo": [
+    "Launch AION 2 — redemption is in-game only (there is no website portal).",
+    "Open Settings → Miscellaneous → Account → Enter Coupon.",
+    "Paste the code exactly (case-sensitive) and confirm; rewards land in your product inventory."
+  ],
+  "codes": [
+    {
+      "code": "TAKEFLIGHTAION2",
+      "reward": "Odyle Energy (Bound) ×4 · Resurrection Spiritstone (Bound) ×5 · Battle Enhance Scroll (Bound) ×10 — 1 per account",
+      "status": "expired",
+      "added": "2026-10-17",
+      "source": "Steam Top Sellers #1 celebration; expired Oct 13, 23:00 PDT / Oct 14, 08:00 CEST"
+    }
+  ]
+}

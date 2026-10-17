@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-200 antialiased;
+}
+
+::selection {
+  @apply bg-amber-500/30 text-amber-100;
+}
+
+/* subtle line-art grid used behind heroes */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* thin amber corner brackets on cards */
+.card-corners {
+  position: relative;
+}
+.card-corners::before,
+.card-corners::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-color: rgba(245, 158, 11, 0.35);
+  border-style: solid;
+  pointer-events: none;
+}
+.card-corners::before {
+  top: -1px;
+  left: -1px;
+  border-width: 1px 0 0 1px;
+}
+.card-corners::after {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 1px 1px 0;
+}
+
+/* thin scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(63 63 70) transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgb(63 63 70);
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Minimal typography for MDX guide bodies (no external prose plugin). */
+.guide-prose h2 {
+  @apply mt-10 border-b border-zinc-800 pb-2 text-xl font-semibold tracking-tight text-zinc-100;
+}
+.guide-prose h3 {
+  @apply mt-8 text-lg font-semibold tracking-tight text-zinc-200;
+}
+.guide-prose p {
+  @apply mt-4 text-sm leading-7 text-zinc-300;
+}
+.guide-prose ul {
+  @apply mt-4 list-disc space-y-1.5 pl-5 text-sm leading-6 text-zinc-300;
+}
+.guide-prose ol {
+  @apply mt-4 list-decimal space-y-1.5 pl-5 text-sm leading-6 text-zinc-300;
+}
+.guide-prose a {
+  @apply text-sky-400 underline-offset-2 hover:underline;
+}
+.guide-prose strong {
+  @apply font-semibold text-zinc-100;
+}
+.guide-prose code {
+  @apply rounded bg-zinc-800/80 px-1.5 py-0.5 font-mono text-xs text-amber-300;
+}
+.guide-prose blockquote {
+  @apply mt-4 border-l-2 border-zinc-700 pl-4 text-sm italic text-zinc-400;
+}
+.guide-prose hr {
+  @apply my-8 border-zinc-800;
+}
+.guide-prose table {
+  @apply mt-4 w-full border-collapse text-sm;
+}
+.guide-prose th {
+  @apply border-b border-zinc-700 px-3 py-2 text-left text-xs font-semibold uppercase tracking-wider text-zinc-400;
+}
+.guide-prose td {
+  @apply border-b border-zinc-800/70 px-3 py-2 text-zinc-300;
+}

@@ -1,0 +1,900 @@
+{
+  "classes": [
+    {
+      "slug": "templar",
+      "name": "Templar",
+      "role": "Tank",
+      "weapons": ["Longsword", "Shield"],
+      "difficulty": 3,
+      "tiers": { "pve": "S", "raid": "S", "pvp": "S" },
+      "tagline": "AION 2's only dedicated tank — the immovable front line every serious group builds around.",
+      "overview": "Templar is the game's sole main tank, converting shield skills into threat and party-wide mitigation — and shield skills conditionally unlock its hardest-hitting skill, Judgment. Group-utility tier lists rank it S-tier across PvE, raids and Abyss PvP for exactly that reason.",
+      "playstyle": "Hold aggro with a tight provoke loop, face bosses away from the party (most cleaves are frontal), and rotate defensive cooldowns against scripted burst windows. In PvP Templars anchor pushes and peel for carries.",
+      "strengths": [
+        "Only dedicated tank at launch — permanent raid demand",
+        "S-tier in group-utility PvE and PvP rankings",
+        "Shield skills unlock Judgment: real tank damage spikes",
+        "Forgiving entry with a high cooldown-management ceiling"
+      ],
+      "weaknesses": [
+        "Low solo farming speed",
+        "Damage depends entirely on group uptime",
+        "Mistimed defensive cooldowns can wipe a raid attempt"
+      ],
+      "skillChains": [
+        {
+          "name": "Judgment Unlocked",
+          "keys": ["1", "2"],
+          "description": "The signature Templar loop — landing shield skills conditionally unlocks Judgment, your biggest hit and threat spike.",
+          "steps": [
+            "Open with Vicious Strike to build initial threat",
+            "Follow with Shield Smite — landing shield skills lights up Judgment",
+            "Fire Judgment the moment it unlocks",
+            "Repeat the loop; never let Judgment sit unlocked while the cooldown idles"
+          ],
+          "tips": [
+            "Stack the hotbar slot: Vicious Strike below Judgment so the auto-fallback keeps the loop smooth",
+            "Keep long-cooldown defensives manual — official macro guidance says never macro movement or defensive skills"
+          ]
+        },
+        {
+          "name": "Aggro & Bulwark",
+          "keys": ["3", "4"],
+          "description": "Threat discipline and mitigation timing — the unglamorous half of tanking that decides raid attempts.",
+          "steps": [
+            "Provoke on cooldown — most raid wipes start with a lost taunt",
+            "Face the boss away from the party (frontal cleaves are standard)",
+            "Rotate personal mitigation against scripted burst windows",
+            "Coordinate big defensive skills with your Cleric's heals"
+          ],
+          "tips": [
+            "Call your mitigation in chat so healers can spend mana elsewhere",
+            "Sanctuary raids allow only 2 revives per encounter — your positioning is a resource"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Threat Loop",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Vicious Strike", "Slot 2: Shield Smite", "Slot 3: Judgment"],
+          "useCase": "Official Skill Macro slot (K → Skill Macro; bottom slot = highest priority). Hold the key to cycle — set delay 10–20 ms on low ping, 40–50 ms above ~80 ms, and turn the separate Skill Queue option OFF."
+        },
+        {
+          "name": "Panic Save",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Aegis-type defensive skill", "Slot 2: Self-shield / damage-immunity skill"],
+          "useCase": "Emergency personal defense stack. Keep it on a separate manual key rather than macroing it into your damage loop."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock your core threat/rotation skill",
+          "Frontal damage amplification — you fight face-to-face all fight",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack",
+          "Only enhance gold cards whose 4 skill lines are 3–4 Templar skills; bank materials otherwise"
+        ],
+        "notes": "Arcana is a card system (Chalice, Parchment, Bell, Mirror, Scales, Key, Hourglass, Dice, Lantern) with mixable 2-piece/4-piece set bonuses. Each gold-card enhancement upgrades one of its 4 skill lines at random — no pity — so cards with wrong lines are set-bonus fodder, not enhance targets."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (Nezekan → Zikel → Vaizel → Triniel) for +4 total skill levels",
+          "Skill-level nodes before anything else — they multiply every other investment",
+          "Then attack nodes, then survivability; skip MP/crit-resist nodes",
+          "PvE: points into the Ariel stat board; PvP: Azphel"
+        ],
+        "notes": "Daevanion in AION 2 is a node-board system, not wearable gear. Boards unlock at level thresholds (Nezekan ~13, Zikel 20, Vaizel 30, Triniel 40); nodes cost 1/2/3/4 points (gray/green/blue/orange). The late-game Marchutan/Yustiel boards were reported absent from Global at launch."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Quest and field-drop Uniques",
+          "notes": "Don't invest — roll substats on cheap gold gear to transfer later."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Vakron armor (+ Aulamus accessories from Urugugu)",
+          "notes": "The first tier worth enhancing and transferring into — see the Gear Transfer guide."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Nuakum armor (Ferocious Horn Den)",
+          "notes": "Block/HP rolls matter more than threat here — DPS carries damage checks."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra raid set + crafted Splendent pieces",
+          "notes": "Enhance to +15 (last 5 steps can fail — item is safe, +5% pity per fail)."
+        }
+      ]
+    },
+    {
+      "slug": "gladiator",
+      "name": "Gladiator",
+      "role": "Melee DPS",
+      "weapons": ["Greatsword"],
+      "difficulty": 2,
+      "tiers": { "pve": "A", "raid": "A", "pvp": "S" },
+      "tagline": "The greatsword bruiser — sustained cleave, self-sustain and an S-tier Abyss PvP rating.",
+      "overview": "Gladiator trades the shield for raw two-handed damage: documented community sequences run Rage Burst → Overhead Slam → Rending Blow, and game8 ranks it S-tier for raw PvE output. It also off-tanks when your Templar is busy.",
+      "playstyle": "Ramp through the Rage Burst loop, weave sustain to shrug off chip damage, and stay glued to the boss's back for rear-positioning damage. In PvP Gladiators punish isolated targets and rank S-tier in Abyss ratings.",
+      "strengths": [
+        "S-tier raw damage (game8) and S-tier Abyss PvP rating",
+        "Easy-to-medium difficulty — the best melee entry point",
+        "Self-sustain reduces healer burden",
+        "Off-tank utility when the Templar needs help"
+      ],
+      "weaknesses": [
+        "Melee range in a telegraph-heavy game",
+        "PvP burst is predictable against organized teams",
+        "Group-utility lists rank it below the S-tier supports"
+      ],
+      "skillChains": [
+        {
+          "name": "Rage Burst Loop",
+          "keys": ["1", "2"],
+          "description": "The documented community damage sequence — rage generation into the heavy Overhead Slam, cashed with Rending Blow.",
+          "steps": [
+            "Build rage with your basic builders",
+            "Pop Rage Burst when the damage window opens",
+            "Land Overhead Slam inside the buff window",
+            "Finish with Rending Blow before the window closes"
+          ],
+          "tips": [
+            "Stack this sequence into one Skill Macro slot (bottom = highest priority) and hold the key",
+            "Frontal amplification Arcana fits Gladiator — you're face-to-face with the boss all fight"
+          ]
+        },
+        {
+          "name": "Sustain & Offtank",
+          "keys": ["3", "4"],
+          "description": "The bruiser half — self-healing weaves and emergency aggro when things go sideways.",
+          "steps": [
+            "Weave your sustain skill after the boss's AoE patterns, not after you're already low",
+            "Hold off-tank aggro on adds when the Templar is committed to the boss",
+            "Drop your defensive skill before telegraphed heavies",
+            "Re-anchor to the boss's rear for the damage window"
+          ],
+          "tips": [
+            "Gladiators make raid adds-phase offtanks — practice the aggro grab on trash",
+            "Sanctuary attempts are consumed on entry: stay alive, even at damage cost"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Rage Burst Sequence",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Rage Burst", "Slot 2: Overhead Slam", "Slot 3: Rending Blow"],
+          "useCase": "Documented community sequence as one official Skill Macro slot — hold the key to cycle, delay 10–20 ms on low ping (40–50 ms high ping), Skill Queue OFF."
+        },
+        {
+          "name": "Sustain Weave",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Sustain/self-heal skill", "Slot 2: Basic builder"],
+          "useCase": "Keeps healing woven into the rotation without a dedicated press."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock Overhead Slam (the documented community example)",
+          "Frontal damage amplification — melee face-time is guaranteed",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack",
+          "Only enhance gold cards with 3–4 Gladiator skill lines; bank the rest"
+        ],
+        "notes": "The crafted Chalice can lock one chosen skill (community testing rolled ~1-in-18 odds without it), which is why 'gold grail first' is the standard Arcana route. Transmutation: 5 Mysterious Crystals + 2,000,000 Kinah guarantees one skill."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear all 4 skill boards first (+4 total skill levels — includes your core rotation)",
+          "Attack nodes next, survivability last; skip MP/crit-resist nodes",
+          "PvE focus: Ariel board; PvP focus: Azphel board",
+          "Watch for the known PvP-useless nodes: Multi-hit Resist (Triniel), Crit Damage Tolerance (Vaizel)"
+        ],
+        "notes": "Node costs: gray 1, green (passive) 2, blue (active) 3, orange (percent) 4. Points come from side quests, Sealed Dungeons and the one-time Shugo Festival purchase (50 pts); crystals are tradeable on the Auction House."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Any greatsword with damage rolls",
+          "notes": "The weapon is the only slot that matters — save everything else."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus weapon (Urugugu Conquest)",
+          "notes": "Your first real investment target — enhance and transfer here."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Enraged Kromede weapon (Fire Temple)",
+          "notes": "Crafted gear gives ~+5% PvE over same-tier dungeon gear — worth it for weapons."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra weapon + Splendent crafts",
+          "notes": "+10→+15 rates run 65/50/35/25/20% with +5% pity; budget Kinah accordingly (~15M average from +0)."
+        }
+      ]
+    },
+    {
+      "slug": "assassin",
+      "name": "Assassin",
+      "role": "Melee DPS",
+      "weapons": ["Dual Daggers"],
+      "difficulty": 5,
+      "tiers": { "pve": "B", "raid": "B", "pvp": "A" },
+      "tagline": "The hardest class in the game — dual-dagger burst that deletes targets, and the Abyss's most feared ganker.",
+      "overview": "Assassin tops the difficulty curve (game8's hardest ease-of-use rating; ping-sensitive above ~100 ms) and pays you back with S-tier PvP ratings from game8 and BlueStacks. Its kit is crit-gated: Heart Gore only opens after critical hits.",
+      "playstyle": "Track crits to unlock Heart Gore, cycle Insignia Explosion → Heart Gore → Savage Roar, and exit before retaliation. In the Abyss, Assassins define the ganking meta — but only with clean execution.",
+      "strengths": [
+        "S-tier PvP rating (game8, BlueStacks)",
+        "Highest skill ceiling in the game",
+        "Crit-gated Heart Gore rewards mastery with huge spikes",
+        "Rear-position amplification fits its playstyle perfectly"
+      ],
+      "weaknesses": [
+        "Hardest rotation to execute — ping-sensitive (~100 ms+ hurts)",
+        "Group-utility tier lists rank it B for PvE",
+        "Squishy once burst cooldowns are spent"
+      ],
+      "skillChains": [
+        {
+          "name": "Heart Gore Window",
+          "keys": ["1", "2"],
+          "description": "The documented Assassin sequence — crits unlock Heart Gore, and the whole rotation is built around cashing it.",
+          "steps": [
+            "Open with Insignia Explosion",
+            "Land criticals to unlock Heart Gore",
+            "Fire Heart Gore the instant it lights up",
+            "Reset the cycle with Savage Roar"
+          ],
+          "tips": [
+            "Stack the sequence into one Skill Macro slot — hold the key, bottom slot highest priority",
+            "Rear amplification Arcana is the Assassin pick — you live behind the boss"
+          ]
+        },
+        {
+          "name": "Positioning Discipline",
+          "keys": ["3", "4"],
+          "description": "Survival through never being where the damage is — the skill that separates good Assassins from floor-lore.",
+          "steps": [
+            "Pre-position behind the boss before mechanic windows",
+            "Save your escape skill for telegraphs, not for greed",
+            "Peel resets between burst windows instead of face-tanking",
+            "Re-enter through flanks — never through the frontal cone"
+          ],
+          "tips": [
+            "Sanctuary raids allow 2 revives per encounter — dead Assassins deal zero damage",
+            "If your ping is above ~100 ms, tighten your delay settings to 40–50 ms in the macro editor"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Burst Sequence",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Insignia Explosion", "Slot 2: Heart Gore", "Slot 3: Savage Roar"],
+          "useCase": "Documented community sequence as one official Skill Macro slot. Delay matters more for Assassins than any class — 10–20 ms low ping, 40–50 ms high ping, Skill Queue OFF."
+        },
+        {
+          "name": "Escape Hatch",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Movement / stealth skill", "Slot 2: Defensive skill"],
+          "useCase": "Official guidance: keep movement and defensive skills manual — that's exactly what this key is for."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock Heart Gore",
+          "Rear damage amplification — the Assassin-specific pick",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack",
+          "Only enhance gold cards whose lines are 3–4 Assassin skills"
+        ],
+        "notes": "Arcana skill lines are the quiet Assassin multiplier: each gold-card enhancement upgrades one of 4 lines at random, so a card with Heart Gore + crit skills is worth more than any stat card."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (+4 total skill levels — prioritize Heart Gore nodes)",
+          "Attack nodes next; skip MP/crit-resist nodes entirely",
+          "PvE: Ariel board; PvP: Azphel board (Assassins usually run both)",
+          "Avoid the known PvP-useless nodes: Multi-hit Resist (Triniel), Crit Damage Tolerance (Vaizel)"
+        ],
+        "notes": "Skill boards unlock at ~13/20/30/40 (Nezekan, Zikel, Vaizel, Triniel) and share one currency; stat boards (Ariel/Azphel) each use their own. PvP currency: Monolith feathers, weekly 10v10 Battlefields, Abyss Points shop."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Dual daggers with crit rolls",
+          "notes": "Execution matters more than gear until ~1,400 GS."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus daggers (Urugugu Conquest)",
+          "notes": "Dual-wield = two transfer targets — budget accordingly."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Enraged Kromede daggers (Fire Temple)",
+          "notes": "Rear-amp positioning starts paying off visibly at this tier."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra daggers + Splendent crafts",
+          "notes": "KR logs reportedly favor Assassin/Ranger in late-game parsing — the ceiling is real."
+        }
+      ]
+    },
+    {
+      "slug": "ranger",
+      "name": "Ranger",
+      "role": "Ranged DPS",
+      "weapons": ["Bow"],
+      "difficulty": 2,
+      "tiers": { "pve": "B", "raid": "B", "pvp": "A" },
+      "tagline": "The easy-to-play ranged powerhouse — sustained bow damage, traps, and uptime that never drops.",
+      "overview": "Ranger is the best low-difficulty DPS in the game: game8 ranks it S-tier for raw PvE damage with an easy-to-medium difficulty rating. The documented sequence Gale Arrow → Marking Shot → Snare Shot carries most fights.",
+      "playstyle": "Keep the bow cycling through the Gale Arrow sequence, use traps to control space, and never stop attacking — instant skills keep uptime during movement phases. In PvP Rangers kite melee and rank A-tier in the Abyss.",
+      "strengths": [
+        "S-tier raw PvE damage (game8) at easy-to-medium difficulty",
+        "Ranged uptime through mechanics that displace melee",
+        "Traps and mobility control fights",
+        "Strong A-tier Abyss PvP presence"
+      ],
+      "weaknesses": [
+        "Group-utility lists (Mobalytics) rank it B for PvE",
+        "Damage drops when forced into full movement",
+        "Squishy when a melee closes the gap"
+      ],
+      "skillChains": [
+        {
+          "name": "Marked Volley",
+          "keys": ["1", "2"],
+          "description": "The documented Ranger sequence — marks the target, snares it, and keeps arrows flying through the whole window.",
+          "steps": [
+            "Open with Gale Arrow for the burst tick",
+            "Apply Marking Shot to the priority target",
+            "Root with Snare Shot when adds or players push in",
+            "Reset the cycle with your basic attack skill"
+          ],
+          "tips": [
+            "Stack the sequence into one Skill Macro slot — hold the key to cycle, Skill Queue OFF",
+            "Pre-trap choke points before pulls instead of reacting late"
+          ]
+        },
+        {
+          "name": "Deadshot Discipline",
+          "keys": ["3", "4"],
+          "description": "Uptime and positioning — the ranged-damage habits that make Ranger's numbers look effortless.",
+          "steps": [
+            "Fire Deadshot inside the damage window, from max range",
+            "Never cast during the boss's dash — instant skills keep uptime",
+            "Save the escape skill for telegraphs you can't sidestep",
+            "Re-anchor to max range after every reposition"
+          ],
+          "tips": [
+            "Ranger damage is uptime-driven — movement discipline beats raw stats",
+            "Kite melee in the Abyss around guards; enemy outpost guards one-shot under-geared players"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Volley Sequence",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Gale Arrow", "Slot 2: Marking Shot", "Slot 3: Snare Shot"],
+          "useCase": "Documented community sequence as one official Skill Macro slot — hold the key, delay 10–20 ms low ping / 40–50 ms high ping, Skill Queue OFF."
+        },
+        {
+          "name": "Kite Escape",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Snare/CC skill", "Slot 2: Movement skill"],
+          "useCase": "Roots the pursuer and buys distance. Manual key — official guidance says keep movement skills out of damage macros."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock your core rotation skill",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack",
+          "Directional amps matter less — reposition freely without losing value",
+          "Only enhance gold cards with 3–4 Ranger skill lines"
+        ],
+        "notes": "Ranger is one of the few classes where positional amplification (front/rear) is skippable — uptime from max range is the actual multiplier."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (+4 total skill levels)",
+          "Attack nodes next; skip MP/crit-resist nodes",
+          "PvE: Ariel board; PvP: Azphel board",
+          "Skip the known PvP-useless nodes (Multi-hit Resist on Triniel, Crit Damage Tolerance on Vaizel)"
+        ],
+        "notes": "Daevanion crystals are tradeable on the Auction House — Rangers with spare Kinah can shortcut the stat boards."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Any bow with damage rolls",
+          "notes": "The bow is ~60% of your damage — prioritize it above armor."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus bow (Urugugu Conquest)",
+          "notes": "First real investment target — enhance and transfer here."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Enraged Kromede bow (Fire Temple)",
+          "notes": "Game8's S-tier raw damage assumes a kept-up weapon — don't fall behind here."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra bow + Splendent crafts",
+          "notes": "KR parsing reportedly favors Ranger in late-game — the ceiling holds at ilvl 102."
+        }
+      ]
+    },
+    {
+      "slug": "sorcerer",
+      "name": "Sorcerer",
+      "role": "Magic DPS",
+      "weapons": ["Spellbook"],
+      "difficulty": 4,
+      "tiers": { "pve": "A", "raid": "A", "pvp": "A" },
+      "tagline": "The magic burst cannon — Hellfire nukes, cast-time discipline, and A-tier ratings everywhere.",
+      "overview": "Sorcerer is the ranged magic burst benchmark: S-tier raw damage on game8, A-tier on Mobalytics PvE and PvP. It's rated medium-hard to play — cast times punish sloppy positioning harder than any other ranged class.",
+      "playstyle": "Pre-position before big casts, unload Hellfire and burst inside damage windows, and cancel casts into movement the moment mechanics demand it. In PvP Sorcerers are lethal behind a screen and feed kills when caught.",
+      "strengths": [
+        "S-tier raw PvE damage (game8)",
+        "A-tier PvE and PvP on Mobalytics' group-utility scale",
+        "Huge burst windows for burn checks",
+        "Ranged magic damage — positional amps barely matter"
+      ],
+      "weaknesses": [
+        "Medium-hard difficulty rating",
+        "Cast times punished by movement-heavy fights",
+        "Glass build — caught Sorcerers die fast"
+      ],
+      "skillChains": [
+        {
+          "name": "Hellfire Burn",
+          "keys": ["1", "2"],
+          "description": "The standard burn loop — set up, amplify, then unload the nuke inside the damage window.",
+          "steps": [
+            "Pre-position before the window opens",
+            "Apply your amplification/setup skill",
+            "Cast Hellfire inside the window",
+            "Cancel into movement the instant mechanics demand it"
+          ],
+          "tips": [
+            "Start the cast so it lands as the window opens — late Sorcerers lose whole windows",
+            "Boss dashes end casts: cancel early, re-anchor, resume"
+          ]
+        },
+        {
+          "name": "Blink Discipline",
+          "keys": ["3", "4"],
+          "description": "Survival through positioning — the habits that keep a glass cannon alive in A-tier content.",
+          "steps": [
+            "Save the escape/blink skill for telegraphs, not for greed",
+            "Stand with the ranged group, not mid-arena",
+            "Use CC utility on rampaging adds",
+            "Re-anchor to max range after every reposition"
+          ],
+          "tips": [
+            "Never finish a cast into a telegraph — the death recap always shows it",
+            "Sanctuary raids allow 2 revives: dead glass cannons deal zero damage"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Burn Window",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Amplification/setup skill", "Slot 2: Hellfire"],
+          "useCase": "Aligns setup and nuke in one held key. Longest-cooldown skill first (official guidance); delay 10–20 ms low ping, 40–50 ms high ping, Skill Queue OFF."
+        },
+        {
+          "name": "Glass Escape",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Defensive/shield skill", "Slot 2: Blink-type movement skill"],
+          "useCase": "Panic combo for divers. Manual key — movement and defensives stay out of damage macros per official guidance."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock Hellfire",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack",
+          "Magic scaling makes flat attack less valuable than amplification",
+          "Only enhance gold cards with 3–4 Sorcerer skill lines"
+        ],
+        "notes": "Arcana card sets (Primal Vigor for PvE offense, Guardian for defense) mix at 2-piece/4-piece — Sorcerers typically run offense sets and solve survivability with positioning."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (+4 total skill levels — Hellfire nodes first)",
+          "Attack nodes next; skip MP/crit-resist nodes",
+          "PvE: Ariel board; PvP: Azphel board",
+          "Skip known PvP-useless nodes (Multi-hit Resist, Crit Damage Tolerance)"
+        ],
+        "notes": "Points come from side quests, Sealed Dungeons and the Shugo Festival one-time purchase (50 pts). Weekly Ascension Trial fragments feed the PvE stat-board currency."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Magic-boost spellbook",
+          "notes": "Mana problems disappear with decent gear — don't overinvest early."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus spellbook (Urugugu Conquest)",
+          "notes": "First transfer target — weapon first, always."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Enraged Kromede spellbook (Fire Temple)",
+          "notes": "Burn-window damage starts one-shotting trash packs at this tier."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra spellbook + Splendent crafts",
+          "notes": "Hold burst cooldowns for raid burn windows — desynced Sorcerers waste the check."
+        }
+      ]
+    },
+    {
+      "slug": "spiritmaster",
+      "name": "Spiritmaster",
+      "role": "Magic DPS",
+      "weapons": ["Orb"],
+      "difficulty": 3,
+      "tiers": { "pve": "B", "raid": "B", "pvp": "A" },
+      "tagline": "The summoner warlock — an elemental spirit fights beside you while your curses grind everything down.",
+      "overview": "Spiritmaster fights through a summoned elemental (Fire Spirit is the representative damage spirit) layered with damage-over-time curses. Raw-damage lists rank it S-tier (game8) while group-utility lists hold it at B — the truth is pet-management-dependent.",
+      "playstyle": "Keep the spirit commanded onto the right target, stack DoTs across enemies, and reposition freely while damage continues. Pet aggro discipline is the class's real skill check.",
+      "strengths": [
+        "S-tier raw damage rating (game8)",
+        "A-tier Abyss PvP rating (Mobalytics)",
+        "Damage continues while you reposition or kite",
+        "Spirit bodyblocks and tanks trash effectively"
+      ],
+      "weaknesses": [
+        "B-tier on group-utility PvE lists",
+        "Pet management adds real complexity",
+        "DoT ramp wastes time on trash that dies instantly"
+      ],
+      "skillChains": [
+        {
+          "name": "Spirit Command",
+          "keys": ["1", "2"],
+          "description": "The pet-control loop — summon, stance, and command cycles that keep the spirit doing real damage.",
+          "steps": [
+            "Ensure the spirit is summoned before the pull (the cast is long)",
+            "Set the aggression stance for damage phases",
+            "Command the spirit onto the priority target",
+            "Swap to a tanking stance when adds need holding"
+          ],
+          "tips": [
+            "Watch the spirit's aggro, not just your own bars — it's your second health bar",
+            "Re-summon between encounters, never mid-fight"
+          ]
+        },
+        {
+          "name": "Curse Cascade",
+          "keys": ["3", "4"],
+          "description": "The DoT stacker — layered curses that tick through whole phases while you handle mechanics.",
+          "steps": [
+            "Apply your damage-over-time curses to the priority target",
+            "Spread curses across packs during add phases",
+            "Refresh at roughly half duration — fallen DoTs cost more cast time to restore",
+            "Keep casting while running; DoTs don't need you to stand still"
+          ],
+          "tips": [
+            "Fire Spirit is the representative burst pet — command it during burn windows",
+            "The Shugo Festival and Sealed Dungeons feed the skill boards that power this rotation"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Pet Command",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Spirit attack command", "Slot 2: Curse DoT skill"],
+          "useCase": "Sends the spirit onto your target and starts the DoT stack in one held press. Delay 10–20 ms low ping / 40–50 ms high ping."
+        },
+        {
+          "name": "Attrition Stack",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: DoT curse A", "Slot 2: DoT curse B"],
+          "useCase": "Applies the core curse pair without thinking about it — bottom slot highest priority."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock your core curse/attack skill",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack",
+          "Spirit scaling follows your stats — amplification empowers the pet too",
+          "Only enhance gold cards with 3–4 Spiritmaster skill lines"
+        ],
+        "notes": "Cards from Transcendence dungeons (entry: Lv 45 + 2,200 GS) are the main source — Mysterious Crystals from Awakening Battle milestones fund the guaranteed-skill transmutations."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (+4 total skill levels — pet and curse nodes)",
+          "Attack nodes next; skip MP/crit-resist nodes",
+          "PvE: Ariel board; PvP: Azphel board",
+          "Skip known PvP-useless nodes (Multi-hit Resist, Crit Damage Tolerance)"
+        ],
+        "notes": "Skill boards (Nezekan ~13, Zikel 20, Vaizel 30, Triniel 40) contain every active and passive skill once — fully clearing adds +4 skill levels across the kit."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Magic-boost orb",
+          "notes": "The spirit carries early content — gear matters less here than any other class."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus orb (Urugugu Conquest)",
+          "notes": "Single weapon slot keeps transfer costs low — invest early."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Enraged Kromede orb (Fire Temple)",
+          "notes": "DoT pressure shines in the long encounters of this tier."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra orb + Splendent crafts",
+          "notes": "Accept the support-damage role in raids — your DoTs carry the phases between burn windows."
+        }
+      ]
+    },
+    {
+      "slug": "cleric",
+      "name": "Cleric",
+      "role": "Healer",
+      "weapons": ["Mace"],
+      "difficulty": 3,
+      "tiers": { "pve": "S", "raid": "S", "pvp": "S" },
+      "tagline": "The only dedicated healer in AION 2 — the reason your raid attempt survives attempt #4.",
+      "overview": "Cleric is the game's sole main healer and the second pillar of the group meta (S-tier on both BlueStacks and Mobalytics PvE lists). Every serious group builds around one — Conquest can be rerolled, a dead healer cannot.",
+      "playstyle": "Track party health bars, pre-cast big heals during scripted damage, and manage mana like a resource bar you're raid-leading with. In PvP Clerics heal from the backline and peel with CC — S-tier on Mobalytics' Abyss list.",
+      "strengths": [
+        "Only dedicated healer at launch — permanent raid demand",
+        "S-tier PvE (group-utility lists) and S-tier PvP (Mobalytics)",
+        "Heals, cleanses and resurrections in one kit",
+        "Medium difficulty with instant group queues"
+      ],
+      "weaknesses": [
+        "Minimal solo damage output",
+        "Mana pressure in long fights",
+        "A recent heal nerf (Oct 2026 balance pass) tightened the margin for error"
+      ],
+      "skillChains": [
+        {
+          "name": "Radiant Recovery",
+          "keys": ["1", "2"],
+          "description": "The core healing loop — pre-casts, renewals and big heals timed against the boss's damage script.",
+          "steps": [
+            "Pre-cast your big heal before scripted damage, not after",
+            "Keep your renewal-type heal ticking on the tank at all times",
+            "Top off between patterns with efficient heals",
+            "Cleanse debuffs the moment they land — most tick harder than the boss"
+          ],
+          "tips": [
+            "Learn each boss's damage script — pre-casting is the true gear upgrade",
+            "Sanctuary raids allow 2 revives — save resurrections for safe windows"
+          ]
+        },
+        {
+          "name": "Punish & Peel",
+          "keys": ["3", "4"],
+          "description": "The Cleric's damage and control suite — Condemnation and interrupts for quiet phases.",
+          "steps": [
+            "Cast Condemnation during no-damage phases to contribute damage",
+            "Interrupt or CC divers that reach the backline",
+            "Weave mana recovery between damage windows",
+            "Re-anchor behind the raid before the next scripted hit"
+          ],
+          "tips": [
+            "Mana wasted is healing wasted — manage it actively in raids",
+            "Your CC is a raid tool: coordinate it with the Templar's interrupts"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Tank Saver",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Big single-target heal", "Slot 2: Shield/buff skill"],
+          "useCase": "Shield-then-heal emergency combo on one held key. Delay 10–20 ms low ping / 40–50 ms high ping, Skill Queue OFF."
+        },
+        {
+          "name": "Cleanup Loop",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Cleanse", "Slot 2: Efficient top-off heal"],
+          "useCase": "Removes debuffs and patches the target in a single press — the loop you'll press most in raids."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock your core heal skill",
+          "Healing amplification over damage stats — every point multiplies your entire kit",
+          "Magic Armor (defensive) set pieces fit the Cleric's risk profile",
+          "Only enhance gold cards with 3–4 Cleric skill lines"
+        ],
+        "notes": "Arcana card slots (Chalice, Parchment, Bell, Mirror, Scales, Key, Hourglass, Dice, Lantern) take mixable 2/4-piece set bonuses — defensive sets are a legitimate Cleric endgame."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (+4 total skill levels — heal nodes first)",
+          "Then survivability nodes — dead Clerics heal nothing",
+          "Attack nodes last; skip MP/crit-resist nodes",
+          "PvE: Ariel board; PvP: Azphel board (Cleric is S-tier in the Abyss — invest there)"
+        ],
+        "notes": "Node costs: gray 1, green 2, blue 3, orange 4. The Oct 2026 heal nerf makes the skill-level nodes even more valuable — +4 skill levels is a real throughput bump."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Healing-boost mace",
+          "notes": "Quest gear heals fine — save materials for the keeper tier."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus accessories + Vakron armor",
+          "notes": "Healers get the most value out of early transfer investment."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Nuakum armor (Ferocious Horn Den)",
+          "notes": "Mana-efficiency rolls matter as much as raw healing here."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra raid set",
+          "notes": "Bracelets are raid-only progression — your weekly Ludra kills fund them."
+        }
+      ]
+    },
+    {
+      "slug": "chanter",
+      "name": "Chanter",
+      "role": "Support",
+      "weapons": ["Staff"],
+      "difficulty": 3,
+      "tiers": { "pve": "S", "raid": "S", "pvp": "S" },
+      "tagline": "The hybrid battle-support — buff mantras, Dark Crush combos and off-heals in one staff package.",
+      "overview": "Chanter is the group-utility darling: S-tier on Mobalytics PvE and PvP lists and S-tier on BlueStacks. Spinning Strike and Impactful Crush open Dark Crush, and its buff mantras amplify the whole party while it off-heals and melees.",
+      "playstyle": "Keep buff mantras live (their downtime is party damage downtime), run the Spinning Strike → Impactful Crush → Dark Crush combo in melee, and weave off-heals between windows. In PvP Chanters buff the push and strip priority targets — S-tier in the Abyss.",
+      "strengths": [
+        "S-tier PvE and PvP on group-utility lists",
+        "Party-wide mantras amplify every damage dealer",
+        "Dark Crush combo adds real melee damage",
+        "Off-heals cover light damage phases"
+      ],
+      "weaknesses": [
+        "Not as strong as Cleric at raw healing",
+        "Not as strong as Gladiator at raw damage",
+        "A recent PvP nerf (Oct 2026) trimmed its Abyss dominance"
+      ],
+      "skillChains": [
+        {
+          "name": "Dark Crush Setup",
+          "keys": ["1", "2"],
+          "description": "The documented Chanter combo — Spinning Strike and Impactful Crush conditionally unlock Dark Crush, your heavy melee hit.",
+          "steps": [
+            "Open with Spinning Strike",
+            "Chain Impactful Crush to unlock Dark Crush",
+            "Fire Dark Crush the moment it lights up",
+            "Reset the loop with your basic attack skill"
+          ],
+          "tips": [
+            "Stack the combo into one Skill Macro slot (bottom = highest priority) and hold the key",
+            "Melee uptime matters — you're a support who hits, not a DPS who occasionally buffs"
+          ]
+        },
+        {
+          "name": "Mantra Cycle",
+          "keys": ["3", "4"],
+          "description": "The buff engine — maintaining the mantra set the entire party scales from.",
+          "steps": [
+            "Open with your attack mantra before the pull",
+            "Layer the defense mantra as the fight settles",
+            "Refresh both before they fall off — never let them lapse",
+            "Swap in the recovery mantra during heavy damage phases"
+          ],
+          "tips": [
+            "Check mantra timers every rotation — lapses are invisible in logs but huge in damage",
+            "Only a limited mantra set runs at once: pick per fight, not per mood"
+          ]
+        }
+      ],
+      "macros": [
+        {
+          "name": "Dark Crush Combo",
+          "keys": ["Q", "E"],
+          "lines": ["Slot 1: Spinning Strike", "Slot 2: Impactful Crush", "Slot 3: Dark Crush"],
+          "useCase": "Documented unlock combo as one official Skill Macro slot — hold the key to cycle, delay 10–20 ms low ping / 40–50 ms high ping, Skill Queue OFF."
+        },
+        {
+          "name": "Mantra Refresh",
+          "keys": ["R", "T"],
+          "lines": ["Slot 1: Attack mantra", "Slot 2: Defense mantra"],
+          "useCase": "Keeps both party mantras alive on one button — press it on cooldown during fights."
+        }
+      ],
+      "arcana": {
+        "priority": [
+          "Craft the gold Chalice first and lock Dark Crush",
+          "Buff/utility amplification over personal damage stats",
+          "Weapon Damage Amplification > Crit/General Amp > Max Attack for the melee half",
+          "Only enhance gold cards with 3–4 Chanter skill lines"
+        ],
+        "notes": "Chanter multiplies the party, so Arcana lines that empower mantras and Dark Crush outvalue raw attack — the 2/4-piece set bonuses do a lot of quiet work."
+      },
+      "daevanion": {
+        "priority": [
+          "Clear the 4 skill boards first (+4 total skill levels — Dark Crush and mantra nodes)",
+          "Then attack nodes (you're in melee), then utility",
+          "Skip MP/crit-resist nodes and the known PvP-useless nodes",
+          "PvE: Ariel board; PvP: Azphel board"
+        ],
+        "notes": "Boards unlock at ~13/20/30/40 (Nezekan, Zikel, Vaizel, Triniel). The Oct 2026 Chanter PvP nerf makes the Azphel board's percent-stat nodes the comeback path."
+      },
+      "gearProgression": [
+        {
+          "stage": "Post-story",
+          "ilvl": "~700–750 GS (ilvl 36–51)",
+          "focus": "Any staff with support rolls",
+          "notes": "Mantra uptime practice > gear while leveling."
+        },
+        {
+          "stage": "First keeper — ilvl 70",
+          "ilvl": "1,400 GS",
+          "focus": "Aulamus staff (Urugugu Conquest)",
+          "notes": "Staff first, mantra-relevant armor second."
+        },
+        {
+          "stage": "Mid tier — ilvl 86",
+          "ilvl": "2,100 GS",
+          "focus": "Enraged Kromede staff (Fire Temple)",
+          "notes": "Melee uptime at this tier decides your real contribution."
+        },
+        {
+          "stage": "Endgame — ilvl 102",
+          "ilvl": "2,800–4,300 GS",
+          "focus": "Ludra staff + Splendent crafts",
+          "notes": "Your logs show buff uptime and interrupts — the gear just stops you dying."
+        }
+      ]
+    }
+  ]
+}
