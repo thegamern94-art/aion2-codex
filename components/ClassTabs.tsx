@@ -6,7 +6,7 @@ import type { ClassInfo } from '@/types/game';
 import MacroCopyBox from './MacroCopyBox';
 import { DifficultyPips, TierBadge } from './ClassFilters';
 
-const TABS = ['Overview', 'Skill Chains & 2-Key Macros', 'Arcana & Daevanion', 'Gear Progression'] as const;
+const TABS = ['Overview', 'Skill Chains & 2-Key Macros', 'Arcana & Daevanion', 'Gear Progression', 'Class Codex'] as const;
 type Tab = (typeof TABS)[number];
 
 export default function ClassTabs({ cls }: { cls: ClassInfo }) {
@@ -37,7 +37,45 @@ export default function ClassTabs({ cls }: { cls: ClassInfo }) {
         {tab === 'Skill Chains & 2-Key Macros' && <Skills cls={cls} />}
         {tab === 'Arcana & Daevanion' && <Priorities cls={cls} />}
         {tab === 'Gear Progression' && <Gear cls={cls} />}
+        {tab === 'Class Codex' && <Codex cls={cls} />}
       </div>
+    </div>
+  );
+}
+
+function Codex({ cls }: { cls: ClassInfo }) {
+  const c = cls.codex;
+  if (!c) {
+    return <p className="text-sm text-zinc-500">Codex content for this class is being researched — check back soon.</p>;
+  }
+  return (
+    <div className="space-y-8">
+      <CodexSection title="Stat & Manastone Priority" items={c.statPriority} ordered />
+      <CodexSection title="Rotation Loop" items={c.rotation} ordered />
+      <CodexSection title="Gear Rolls to Chase" items={c.gearRolls} />
+      <CodexSection title="PvP Notes (Abyss & Battlefields)" items={c.pvpTips} />
+      <div className="grid gap-8 sm:grid-cols-2">
+        <CodexSection title="Team Synergies" items={c.synergies} />
+        <CodexSection title="Consumables & Buffs" items={c.consumables} />
+      </div>
+      {c.sourceNote && <p className="text-xs leading-5 text-zinc-600">{c.sourceNote}</p>}
+    </div>
+  );
+}
+
+function CodexSection({ title, items, ordered = false }: { title: string; items: string[]; ordered?: boolean }) {
+  if (!items || items.length === 0) return null;
+  const List = ordered ? 'ol' : 'ul';
+  return (
+    <div>
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">{title}</h3>
+      <List
+        className={`mt-3 space-y-2 pl-5 text-sm leading-6 text-zinc-300 ${ordered ? 'list-decimal' : 'list-disc'}`}
+      >
+        {items.map((s, i) => (
+          <li key={i}>{s}</li>
+        ))}
+      </List>
     </div>
   );
 }

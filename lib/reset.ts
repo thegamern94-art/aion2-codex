@@ -52,6 +52,23 @@ export function nextWindowUtc(windows: string[], now: Date): Date {
   return best ?? new Date(now.getTime() + 86_400_000);
 }
 
+/** Next occurrence of a weekly UTC time on one of the given weekday names (e.g. sieges Mon/Thu/Sat). */
+export function nextWeeklyOnDaysUtc(hm: string, days: string[], now: Date): Date {
+  const { h, m } = parseHm(hm);
+  const targets = days
+    .map((d) => WEEKDAYS.findIndex((w) => w.toLowerCase() === d.toLowerCase()))
+    .filter((i) => i >= 0);
+  const list = targets.length > 0 ? targets : [1, 4, 6];
+  let best: Date | null = null;
+  for (const idx of list) {
+    const daysAhead = (idx - now.getUTCDay() + 7) % 7;
+    let candidate = atUtc(new Date(now.getTime() + daysAhead * 86_400_000), h, m);
+    if (candidate.getTime() <= now.getTime()) candidate = new Date(candidate.getTime() + 7 * 86_400_000);
+    if (best === null || candidate < best) best = candidate;
+  }
+  return best ?? new Date(now.getTime() + 86_400_000);
+}
+
 /** "2d 03:04:05" or "03:04:05" */
 export function formatCountdown(ms: number): string {
   if (ms <= 0) return '00:00:00';

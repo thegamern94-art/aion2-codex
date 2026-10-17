@@ -84,6 +84,29 @@ export default function HomePage() {
 
       <div className="mx-auto max-w-6xl space-y-16 px-4 py-14 sm:px-6">
         <section>
+          <h2 className="text-lg font-semibold tracking-tight text-zinc-100">Daily driver tools</h2>
+          <p className="mt-1 text-sm text-zinc-500">
+            Built for the weekly loop — track every cap, price every enhance, plan every alt.
+          </p>
+          <div className="mt-5 grid gap-4 md:grid-cols-3">
+            {[
+              { href: '/checklist/', title: 'Weekly Checklist', desc: 'Every cap, per character — auto-resets Wednesday 07:00 UTC.' },
+              { href: '/tools/enhancement/', title: 'Enhancement Calculator', desc: 'Expected attempts, stones and Kinah with pity-aware math.' },
+              { href: '/kinah/', title: 'Kinah Hub', desc: 'Verified income sources, sinks, and the alt multiplier.' },
+            ].map((t) => (
+              <Link
+                key={t.href}
+                href={t.href}
+                className="card-corners group rounded-lg border border-zinc-800 bg-zinc-900/40 p-5 transition hover:border-amber-500/40"
+              >
+                <h3 className="font-medium text-zinc-100 group-hover:text-amber-300">{t.title}</h3>
+                <p className="mt-2 text-xs leading-5 text-zinc-500">{t.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section>
           <h2 className="text-lg font-semibold tracking-tight text-zinc-100">Live schedule</h2>
           <p className="mt-1 text-sm text-zinc-500">
             Countdowns tick in your browser — times are UTC-based from the systems database.

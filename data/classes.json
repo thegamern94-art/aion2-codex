@@ -110,7 +110,42 @@
           "focus": "Ludra raid set + crafted Splendent pieces",
           "notes": "Enhance to +15 (last 5 steps can fail — item is safe, +5% pity per fail)."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Front Attack Damage Boost > Weapon Damage Boost > Critical Damage Boost — damage feeds threat via Fury [Odealo]",
+          "Survival alternative when taking lethal boss damage: HP > Defense > Accuracy [Odealo]",
+          "ExpCarry ranks survival-first for tanks; MetaBot's top-3 is Block > Defense > HP — a real emphasis conflict, both documented",
+          "Sheet Crit caps at 50% on Global — class buffs count toward it"
+        ],
+        "gearRolls": [
+          "Theostone (weapon proc): Combat Speed reduction — 'fits a tank best' [MetaBot]",
+          "Weapon suffix / armor roll tables are not community-documented yet — chase Soul Binding percentage lines instead",
+          "Build-level order [Mythic-Store]: Accuracy > Combat Speed > Attack/Damage Boost > Block"
+        ],
+        "rotation": [
+          "Open with Vicious Strike → Shield Smite — landing shield skills lights up Judgment",
+          "Fire Judgment the moment it unlocks: threat and damage in one spike",
+          "Provoke on cooldown — most raid wipes start with a lost taunt",
+          "Face the boss away from the party (frontal cleaves are standard)",
+          "Layer mitigation against scripted burst windows and call it in chat so healers can spend elsewhere"
+        ],
+        "pvpTips": [
+          "PvP Accuracy matters more up front — players stack Block/Evasion [Odealo]",
+          "PvP Tolerance and defensive lines are the documented Templar PvP picks",
+          "Anchor the push and peel for carries — S-tier group utility is why you're brought"
+        ],
+        "synergies": [
+          "Cleric: your mitigation callouts are their mana schedule — sync burst defense",
+          "Chanter mantras + your aggro loop are the standard raid spine"
+        ],
+        "consumables": [
+          "HP and defense food before progression pulls",
+          "Resurrection Spiritstones for the raid stash (25,000 Kinah each)",
+          "Verify the Global consumable list in your craft window — Alchemy covers most buffs"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches. Conflicts documented, not averaged."
+      }
     },
     {
       "slug": "gladiator",
@@ -222,7 +257,41 @@
           "focus": "Ludra weapon + Splendent crafts",
           "notes": "+10→+15 rates run 65/50/35/25/20% with +5% pity; budget Kinah accordingly (~15M average from +0)."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Front Attack Damage Boost > Weapon Damage Boost > Critical Damage Boost > Damage Boost [Odealo + ExpCarry agree]",
+          "Early gear: Attack + Crit + Accuracy is fine before Superior stones exist",
+          "Double Chance is #2 in priority but never rolls on manastones — it comes from Impact Hit / Lunge Stance",
+          "Combat Speed is a real stat: hit counts change at speed breakpoints"
+        ],
+        "gearRolls": [
+          "Theostone: AoE stone — 10 of your attacks hit multiple targets [MetaBot]",
+          "Build-level order [Mythic-Store]: Accuracy > Critical Hit > Double > Attack/Damage Boost",
+          "MetaBot top-3: Attack > Critical Hit > Accuracy"
+        ],
+        "rotation": [
+          "Build rage with your basic builders",
+          "Rage Burst when the damage window opens",
+          "Overhead Slam inside the buff window",
+          "Rending Blow to cash the window before it closes",
+          "Front position is near-guaranteed — that's why Front Attack amps lead your priority list"
+        ],
+        "pvpTips": [
+          "S-tier Abyss rating (game8, BlueStacks); no class-specific PvP stat split documented yet",
+          "Expect PvP Accuracy to matter — you hit front-position players holding Block/Evasion [inference]"
+        ],
+        "synergies": [
+          "Pairs with any backline: you hold the front while Assassins/Rangers take the rear",
+          "Off-tank the adds so your Templar never leaves the boss"
+        ],
+        "consumables": [
+          "Attack/crit food during damage windows",
+          "Sustain consumables to reduce healer load",
+          "Check Combat Speed breakpoints before re-gearing"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches."
+      }
     },
     {
       "slug": "assassin",
@@ -334,7 +403,40 @@
           "focus": "Ludra daggers + Splendent crafts",
           "notes": "KR logs reportedly favor Assassin/Ranger in late-game parsing — the ceiling is real."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Back Attack Damage Boost > Weapon Damage Boost > Critical Damage Boost > Damage Boost [Odealo + ExpCarry]",
+          "Crit is the rotation engine — Heart Gore triggers after crits: build toward the 50% cap, then stop",
+          "Back hits ignore Block, so PvE Accuracy is less urgent than for front melee",
+          "PvP split (documented): PvP Accuracy, PvP Damage Boost, Evasion, Status Effect Resist — PvP Damage Boost is the premium burst line"
+        ],
+        "gearRolls": [
+          "Theostone: low-chance, high-damage single-target stone — your fast hits rarely hit its 1s proc cooldown [MetaBot]",
+          "Build-level order [Mythic-Store]: Accuracy > Crit > Back Attack Damage > Crit/Weapon Damage"
+        ],
+        "rotation": [
+          "Stack Insignias to 5 behind the target (Ambush gives +30% from behind)",
+          "Insignia Explosion → Heart Gore → Savage Roar (documented sequence)",
+          "Re-enter through stealth resets; exit before retaliation",
+          "Ping discipline: 40–50 ms macro delay above ~80–100 ms ping"
+        ],
+        "pvpTips": [
+          "S-tier PvP (game8, BlueStacks) — burst from stealth defines the gank meta",
+          "Documented split: stack PvP Damage Boost and PvP Accuracy over PvE positional lines",
+          "Back uptime can't be assumed in PvP — adapt or burst-and-reset"
+        ],
+        "synergies": [
+          "Templar holds the boss still — your rear window is their aggro stability",
+          "Sorcerer CC covers your disengage"
+        ],
+        "consumables": [
+          "Crit/Attack food — Crit is your engine, feed it",
+          "Evasion/defensive consumables for raid survival checks",
+          "Escape consumables hotkeyed in the Abyss"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches."
+      }
     },
     {
       "slug": "ranger",
@@ -446,7 +548,38 @@
           "focus": "Ludra bow + Splendent crafts",
           "notes": "KR parsing reportedly favors Ranger in late-game — the ceiling holds at ilvl 102."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Front Attack Damage Boost > Weapon Damage Boost > Critical Damage Boost > Damage Boost [Odealo — ranged shots count as front; single-source positional claim, ExpCarry gives no positional emphasis — verify]",
+          "Do the Crit math: Marking Shot's Precision gives +300 Crit and Bow of Blessing adds more — don't buy Crit past the 50% cap while buffs are up",
+          "A weapon with Combat Speed + Weapon Damage Boost can beat redundant Crit rolls [Odealo]"
+        ],
+        "gearRolls": [
+          "Theostone: AoE stone in PvE; Move-Speed-reduction stone for PvP kiting [MetaBot]",
+          "Build-level order [Mythic-Store]: Accuracy > Crit > Attack > Double/Damage Boost"
+        ],
+        "rotation": [
+          "Keep both self-buffs up: Precision (Marking Shot) and Gale (Gale Arrow: +7% Combat Speed, +7% PvE Damage Boost)",
+          "Gale Arrow → Marking Shot → Snare Shot (documented sequence)",
+          "Deadshot (+35% with Precision) inside the buff window",
+          "Never cast during boss dashes — instant skills keep uptime"
+        ],
+        "pvpTips": [
+          "A-tier both modes — kite forever; Move Speed is your defensive stat [inference]",
+          "Pre-trap choke points before pushes, not after contact"
+        ],
+        "synergies": [
+          "Snare Shot peels divers off your Sorcerer/Cleric",
+          "Front-position uptime pairs with front-amped melee — you rarely compete for rear windows"
+        ],
+        "consumables": [
+          "Attack Speed / Combat Speed food if available",
+          "Alchemy buff consumables — check the Global craft list",
+          "Root/snare-enhancing consumables for Abyss kiting"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches."
+      }
     },
     {
       "slug": "sorcerer",
@@ -558,7 +691,39 @@
           "focus": "Ludra spellbook + Splendent crafts",
           "notes": "Hold burst cooldowns for raid burn windows — desynced Sorcerers waste the check."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Weapon Damage Boost > Front Attack Damage Boost > Critical Damage Boost [Odealo]",
+          "Front Attack boosts direct hits only — ground effects (Bittercold Wind, Fire Wall, Cold Storm) and DoTs skip it, making Crit Damage a strong alternative",
+          "Cooldown Reduction is a top stat but NOT a manastone roll — it comes from Daevanion, titles, Wings, Pantheon and Arcana",
+          "MP ≥ 25% gates Grace of Enhancement (+20% PvE Damage Boost) — MetaBot's top-3 includes MP for a reason"
+        ],
+        "gearRolls": [
+          "Theostone: AoE Fire stone for packs; Seal stone for PvP [MetaBot]",
+          "Build-level order [Mythic-Store]: Accuracy > CDR > Combat Speed > Attack > Crit/Double"
+        ],
+        "rotation": [
+          "Pre-position before the window opens",
+          "Amplification/setup skill → Hellfire (longest cooldown first in the macro)",
+          "Firestorm's per-fireball cooldown cuts feed the Hellfire loop",
+          "Cancel casts into movement the instant mechanics demand it"
+        ],
+        "pvpTips": [
+          "A-tier PvE / S-tier PvP [BlueStacks]; no documented class-specific PvP stat split yet",
+          "MP sustain + defensive lines [inference]: your defense punishes dives only if you survive them"
+        ],
+        "synergies": [
+          "Cleric/Chanter mana support keeps Grace of Enhancement windows alive",
+          "Templar peels let you finish casts"
+        ],
+        "consumables": [
+          "MP restoration consumables — mana is your damage passive",
+          "Cast-relevant food buffs from Alchemy",
+          "Review the blink/escape macro before every raid"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches."
+      }
     },
     {
       "slug": "spiritmaster",
@@ -670,7 +835,38 @@
           "focus": "Ludra orb + Splendent crafts",
           "notes": "Accept the support-damage role in raids — your DoTs carry the phases between burn windows."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Damage Boost > Weapon Damage Boost > Critical Damage Boost > Front Attack Boost — and the class is deliberately flexible: don't reroll a good multiplier for half a step [Odealo]",
+          "Double Chance is excellent but never rolls on manastones — Impact Hit, passives and Pantheon only",
+          "Flame Blessing contributes Accuracy AND Crit at higher Stigma levels — count it before gearing Crit"
+        ],
+        "gearRolls": [
+          "Theostone: Poison stone — one more DoT ticking feeds Consecutive Countercurrent [MetaBot]",
+          "Build-level order [Mythic-Store]: Accuracy > Combat Speed > Attack > Crit > Double/Damage Boost"
+        ],
+        "rotation": [
+          "Spirit summoned before the pull, commanded onto the priority target",
+          "Curse/DoT every target — Jointstrike-line curses keep uptime while you move",
+          "Spirit skills feed Four Elements → Elemental Fusion, your biggest hit",
+          "Refresh DoTs at ~50% duration, not on expiry"
+        ],
+        "pvpTips": [
+          "A-tier PvP — control identity (Fear/Seal) makes Status Effect Resist valuable [inference]",
+          "DoTs keep ticking while you kite — attrition wins long fights"
+        ],
+        "synergies": [
+          "Your spirit bodyblocks adds — give your Templar breathing room",
+          "Curse debuffs stack with party amplification windows"
+        ],
+        "consumables": [
+          "MP sustain — pet commands and curses add up",
+          "Accuracy food if Flame Blessing isn't maxed yet",
+          "Pet growth consumables (Halloween red candy = 20 Growth Pet Chests during the event)"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches."
+      }
     },
     {
       "slug": "cleric",
@@ -782,7 +978,41 @@
           "focus": "Ludra raid set",
           "notes": "Bracelets are raid-only progression — your weekly Ludra kills fund them."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Damage-healer framing [Odealo]: Attack first (Healing Enhancement converts Attack into Heal Boost) > Weapon Damage Boost > Critical Damage Boost > Damage Boost",
+          "Full-support framing [Game8 Absolution build]: main stats HP / MP / Combat Speed; armor stones Evasion / Crit Resist / Block / Defense; weapon Abyssal stones Weapon Damage / Accuracy / HP / Attack",
+          "ExpCarry bridges the two: damage lines for solo play, HP/defensive/reliability stats when the group requires it",
+          "These are two ROLES, not a contradiction — pick per content and per group"
+        ],
+        "gearRolls": [
+          "Theostone: any damage stone in PvE; Stun or Seal stone to peel attackers in PvP [MetaBot]",
+          "Insight node priority [Game8]: HP > Defense Bonus > MP > Combat Speed",
+          "Game8's support Cleric build is the only full worked gear table published — read it before spending"
+        ],
+        "rotation": [
+          "Pre-cast big heals against scripted damage — learn each boss's damage script",
+          "Keep renewal-type heals ticking on the tank between windows",
+          "Cleanse the moment debuffs land — most tick harder than the boss",
+          "Cast Condemnation in quiet phases (guaranteed-crit interactions during Earth Punishment)",
+          "Chain of Torment (−5% enemy PvE Damage Tolerance) is a party-wide damage amp — use it"
+        ],
+        "pvpTips": [
+          "PvP Tolerance/defensive lines documented for Cleric [Odealo]",
+          "Post-launch heal nerfs thinned the margin — peel with the Stun/Seal Theostone in PvP"
+        ],
+        "synergies": [
+          "Templar mitigation callouts = your mana schedule",
+          "Chanter off-heals cover chip damage so your big heals stay reserved for scripts"
+        ],
+        "consumables": [
+          "Mana potions/restoration on cooldown in raids",
+          "HP food for yourself — dead Clerics heal nothing",
+          "Resurrection economy: Spiritstones are 25,000 Kinah each"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), Game8 Cleric build (changelog Sep 30, 2026), ExpCarry, MetaBot (client 2.0.3.0). The Odealo-vs-Game8 split is role-based, not an error — both documented."
+      }
     },
     {
       "slug": "chanter",
@@ -894,7 +1124,38 @@
           "focus": "Ludra staff + Splendent crafts",
           "notes": "Your logs show buff uptime and interrupts — the gear just stops you dying."
         }
-      ]
+      ],
+      "codex": {
+        "statPriority": [
+          "Front/Back Attack Damage Boost > Weapon Damage Boost — which positional line is right depends on where your group lets you stand: 'the better roll is the one you can actually keep active' [Odealo]",
+          "Double Chance from Impact Hit, Undefeated Mantra, Pantheon and pets — it never rolls on manastones",
+          "Accuracy runs tight in early Global gear; Attack has bonus value because Blessing of Life scales healing from Attack"
+        ],
+        "gearRolls": [
+          "Theostone: AoE stone — most Chanter hits are 4-target [MetaBot]",
+          "Build-level order [Mythic-Store]: Accuracy > Combat Speed > Attack > Crit > Damage Boost/Double"
+        ],
+        "rotation": [
+          "Spinning Strike → Impactful Crush → Dark Crush (documented unlock combo)",
+          "Mantras live at all times — Victory + Protection baseline, swap Recovery in during heavy phases",
+          "Weave Healing Splash for off-heals between combos",
+          "Interrupt with Stagger Strike — coordinate with the Templar's"
+        ],
+        "pvpTips": [
+          "PvP Tolerance/defensive lines documented [Odealo]; B-tier after the Oct 2026 nerfs",
+          "Undefeated Mantra + Power of the Storm (+20% Combat Speed for the party) — you are the push's engine"
+        ],
+        "synergies": [
+          "Buff uptime multiplies every DPS — the logs show you, not your gear",
+          "Off-heal the chip damage; leave scripted hits to the Cleric"
+        ],
+        "consumables": [
+          "Attack food — you melee",
+          "Alchemy buff consumables — verify the Global list",
+          "Healing Splash support consumables for progression nights"
+        ],
+        "sourceNote": "Sources: Odealo (updated Oct 7, 2026), ExpCarry, MetaBot (client 2.0.3.0), Mythic-Store. Community claims as dated — re-verify after balance patches."
+      }
     }
   ]
 }

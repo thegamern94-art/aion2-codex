@@ -1,0 +1,207 @@
+{
+  "updated": "2026-10-17",
+  "categories": [
+    { "id": "dungeons", "label": "Dungeons & Odyle" },
+    { "id": "raids", "label": "Sanctuary Raids" },
+    { "id": "trials", "label": "Trials & Dailies" },
+    { "id": "pvp", "label": "Abyss & PvP" },
+    { "id": "shops", "label": "Shops & Currency" },
+    { "id": "events", "label": "Event Caps" }
+  ],
+  "items": [
+    {
+      "id": "exploration-cubes",
+      "label": "Exploration cubes — 7 rewards per dungeon",
+      "cap": "7 / dungeon / week",
+      "scope": "character",
+      "category": "dungeons",
+      "hint": "Reward cubes are capped per dungeon — swap dungeons before rerunning favorites. Unclaimed cubes roll over up to 10."
+    },
+    {
+      "id": "conquest-cubes",
+      "label": "Conquest cubes — 1 per 8 h",
+      "cap": "≤21 / week",
+      "scope": "character",
+      "category": "dungeons",
+      "hint": "The reward-count cap is 21/week even though the timer allows more."
+    },
+    {
+      "id": "conquest-boss-kills",
+      "label": "Conquest final-boss kills",
+      "cap": "35 / week",
+      "scope": "character",
+      "category": "dungeons"
+    },
+    {
+      "id": "odyne-budget",
+      "label": "Odyle Energy — spend before Wednesday",
+      "cap": "cap 560 (840 w/ membership), +15 per 3 h",
+      "scope": "character",
+      "category": "dungeons",
+      "hint": "Exploration cubes cost 20–30, Conquest cubes 40. Accrues +120/day worth — cap it before reset."
+    },
+    {
+      "id": "sanctuary-attempts",
+      "label": "Sanctuary attempts — 4 per raid",
+      "cap": "4 / raid / week",
+      "scope": "character",
+      "category": "raids",
+      "hint": "Attempts are consumed on ENTRY, not on kill — don't queue unless the group is committed."
+    },
+    {
+      "id": "ludra-credit",
+      "label": "Abyssal Forge: Ludra — final-boss credit",
+      "cap": "1 / week",
+      "scope": "character",
+      "category": "raids",
+      "hint": "~1,000,000 Kinah + Unique loot table (ilvl 54–102) + bracelets."
+    },
+    {
+      "id": "corroded-credit",
+      "label": "Corroded Decontamination Facility — final-boss credit",
+      "cap": "2 / week",
+      "scope": "character",
+      "category": "raids"
+    },
+    {
+      "id": "muspel-credit",
+      "label": "Chalice of Muspel — final-boss credit",
+      "cap": "2 / week",
+      "scope": "character",
+      "category": "raids"
+    },
+    {
+      "id": "transcendence",
+      "label": "Transcendence dungeons",
+      "cap": "28 / week (2/day accumulate)",
+      "scope": "character",
+      "category": "trials",
+      "hint": "Entry: Lv 45 + 2,200 GS. Primary Arcana card farm."
+    },
+    {
+      "id": "ascension-trial",
+      "label": "Ascension Trial",
+      "cap": "3 / week",
+      "scope": "character",
+      "category": "trials",
+      "hint": "Feeds the PvE Daevanion board currency (Substance Morph)."
+    },
+    {
+      "id": "subjugation",
+      "label": "Subjugation",
+      "cap": "3 / week",
+      "scope": "character",
+      "category": "trials"
+    },
+    {
+      "id": "daily-dungeon",
+      "label": "Daily Dungeon — Daeva Bio-Research Base",
+      "cap": "14 / server / week",
+      "scope": "server",
+      "category": "trials",
+      "hint": "Enhance-stone source. Server-wide pool, not per character."
+    },
+    {
+      "id": "nightmare",
+      "label": "Nightmare attempts",
+      "cap": "+2 / day (accumulate)",
+      "scope": "character",
+      "category": "trials"
+    },
+    {
+      "id": "duty-missions",
+      "label": "Duty missions (~250k Bound Kinah + ~1,000 AP each)",
+      "cap": "5 / day",
+      "scope": "character",
+      "category": "trials",
+      "hint": "Community conflict: one source reads 5/day per SERVER — verify on your server."
+    },
+    {
+      "id": "abyss-entry",
+      "label": "Abyss entry — accumulated time",
+      "cap": "7 h / week",
+      "scope": "character",
+      "category": "pvp",
+      "hint": "Oct 14 patch: entry is a capped accumulated currency now."
+    },
+    {
+      "id": "sieges",
+      "label": "Abyss Sieges (Mon / Thu / Sat 12:00 UTC)",
+      "cap": "3 / week",
+      "scope": "server",
+      "category": "pvp",
+      "hint": "~45,000 AP bursts — the week's biggest AP paydays."
+    },
+    {
+      "id": "battlefields",
+      "label": "10v10 Battlefields",
+      "cap": "3 / week",
+      "scope": "character",
+      "category": "pvp",
+      "hint": "Feeds the PvP Daevanion board (Azphel) currency — Monolith feathers."
+    },
+    {
+      "id": "arena",
+      "label": "Arena of Solitude / Cooperation",
+      "cap": "~10 / week",
+      "scope": "character",
+      "category": "pvp"
+    },
+    {
+      "id": "superior-stones",
+      "label": "Superior manastones — dungeon shop",
+      "cap": "5 / week / character",
+      "scope": "character",
+      "category": "shops"
+    },
+    {
+      "id": "stigma-shards",
+      "label": "Stigma Shards — Abyss Trade Shop (Growth tab)",
+      "cap": "4 tiers × 50 shards (10k/15k/20k/25k AP)",
+      "scope": "character",
+      "category": "shops",
+      "hint": "The Lv 45 power gate — dump surplus AP here after siege weeks."
+    },
+    {
+      "id": "abyss-entry-stones",
+      "label": "Abyss Entry Stones — from Abyss weeklies",
+      "cap": "weekly mission set",
+      "scope": "character",
+      "category": "shops",
+      "hint": "Season Missions moved to the Abyss tab and now pay entry stones (Oct 14 patch)."
+    },
+    {
+      "id": "halloween-login",
+      "label": "Trick or Treat login (35 coins + day-7/14 bonuses)",
+      "cap": "daily until Nov 4",
+      "scope": "character",
+      "category": "events",
+      "hint": "Missing a day costs 35 coins — 620 total needs perfect attendance."
+    },
+    {
+      "id": "halloween-missions",
+      "label": "Halloween Season Missions (~235 coins)",
+      "cap": "10 missions / week",
+      "scope": "character",
+      "category": "events"
+    },
+    {
+      "id": "candy-keys",
+      "label": "Candy Keys — 60 fragments → 1 key",
+      "cap": "1 / colour / server / week",
+      "scope": "server",
+      "category": "events",
+      "hint": "Blue candy is the best value. Server-wide cap — don't over-farm fragments."
+    },
+    {
+      "id": "sealed-wings",
+      "label": "Sealed Wings → Substance Morph",
+      "cap": "20 / server / week",
+      "scope": "server",
+      "category": "events",
+      "hint": "Oct 6/7 patch cap — coordinate with legionmates."
+    }
+  ],
+  "odyne": { "base": 560, "membership": 840, "regen": "+15 per 3 h (+120/day)" },
+  "resetNote": "Weekly caps reset Wednesday 07:00 UTC on all Global servers (16:00 in-game server time). The checklist below auto-clears at that moment."
+}

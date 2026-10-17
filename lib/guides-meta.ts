@@ -76,6 +76,75 @@ export const GUIDES: GuideMeta[] = [
       },
     ],
   },
+  {
+    category: 'progression',
+    slug: 'stigma-shards-ap-economy',
+    title: 'Stigma & the AP Economy',
+    description:
+      'Stigma is the post-45 power gate: shard costs (1/2/4/8, ~75 to Lv 20), the AP-shop tiers, Festival and Nightmare sources, AP income (~104–127k/week measured), the 7-hour Abyss entry budget and the siege schedule.',
+    updated: '2026-10-17',
+    readingMinutes: 7,
+    faq: [
+      {
+        q: 'How many Stigma Shards does one stigma need in AION 2?',
+        a: 'Level bands cost 1 / 2 / 4 / 8 shards — roughly 75 shards to reach Lv 20 on a single stigma, with Superior Stigma Shards required beyond that. Learning is per ability-preset, so two presets double the cost.',
+      },
+      {
+        q: 'Where do Stigma Shards come from?',
+        a: '30 free shards from level-up rewards by 45, then the Abyss Trade Shop Growth tab (4 tiers × 50 shards for 10k/15k/20k/25k AP — ~200 shards per character), plus 35 from the Festival Shop (300 Centuryroot) and 35 from the Nightmare Shop (1,500 Phantasmal Fragments).',
+      },
+      {
+        q: 'What is the fastest way to farm Abyss Points?',
+        a: 'Duties (~1,000 AP × 5/day), Arena of Solitude/Cooperation (~10/week) and above all Abyss Sieges (~45,000 AP bursts) on Monday/Thursday/Saturday at 12:00 UTC. Community measurement at 45: ~104,000–127,500 AP per week.',
+      },
+    ],
+  },
+  {
+    category: 'gear',
+    slug: 'manastones-socketing-guide',
+    title: 'Manastones, Soulstones & Theostones',
+    description:
+      'The whole socketing pipeline: the three stone families, socket capacity by grade, merge odds (11.12% / 9.10%), the Superior-stone weekly cap, which stats never roll on stones, and how Alchemy feeds it all.',
+    updated: '2026-10-17',
+    readingMinutes: 6,
+    faq: [
+      {
+        q: 'What are the merge odds for manastones in AION 2?',
+        a: 'Rare → Epic merges succeed 11.12% of the time and Epic → Unique 9.10%. Stones consume on failure, and Superior stones are capped at 5 per week per character in the dungeon shop — plan merges around the cap.',
+      },
+      {
+        q: 'Do manastones survive Gear Transfer?',
+        a: 'No — manastones and soulstones do not transfer with the gear, and Theostones are destroyed on removal. Socket a transferred piece fresh; unsocket before donating anything you plan to keep.',
+      },
+      {
+        q: 'Which stats should I socket per class?',
+        a: 'Superior stones roll the premium multiplier lines (Damage Boost, Weapon/Crit Damage Boost, Front/Back Attack Damage Boost) — positional amps lead for front-position melee and back-position burst. Full per-class orders live in each class’s Codex tab.',
+      },
+    ],
+  },
+  {
+    category: 'economy',
+    slug: 'market-membership-explained',
+    title: 'Market, Membership & the Daeva Pass, Explained',
+    description:
+      'The two economic gates: the Market requires the Special Quai Membership ($14.99/30d, server-bound, Odyle cap 840) and the Daeva Pass bills per character (1,500 Quna each). Plus the Oct 14 gathering-material listing restriction and Regular vs Bound Kinah.',
+    updated: '2026-10-17',
+    readingMinutes: 6,
+    faq: [
+      {
+        q: 'Do you need membership to trade in AION 2?',
+        a: 'Yes — listing on the Market and using the Quna Exchange require the Special Quai Membership ($14.99/30 days, server-bound). Player-to-player direct trades are disabled entirely, so membership is the only way to move value between players.',
+      },
+      {
+        q: 'What does the Odyle cap increase actually give?',
+        a: 'Membership raises the Odyle Energy cap from 560 to 840 — +50% dungeon reward throughput for players who actually cap out. Regeneration is unchanged at +15 per 3 hours.',
+      },
+      {
+        q: 'Is the Daeva Pass worth it for alts?',
+        a: 'The Premium pass costs 1,500 Quna PER CHARACTER for Season 1 (ends Dec 16, 2026) — buy it on your most-played character and only if you will reach the reward tiers. Ranking titles carry no stats.',
+      },
+    ],
+  },
 ];
 
 export function guideHref(g: GuideMeta): string {

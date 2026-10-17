@@ -1,0 +1,39 @@
+{
+  "updated": "2026-10-17",
+  "slots": ["Chalice", "Parchment", "Bell", "Mirror", "Scales", "Key", "Hourglass", "Dice", "Lantern"],
+  "sets": [
+    { "name": "Primal Vigor", "pieces": "2 / 4", "effect": "PvE attack set — the standard offense baseline", "focus": "pve" },
+    { "name": "Magic Armor", "pieces": "2 / 4", "effect": "Defensive set — the standard survivability baseline", "focus": "defense" },
+    { "name": "Guardian", "pieces": "4", "effect": "+5% Weapon Damage Amplification + shield proc; popular 4pc Punishment + 4pc Guardian combo", "focus": "pve" },
+    { "name": "Punishment", "pieces": "4", "effect": "Offense set — exact bonuses not yet documented in English; known from the Punishment+Guardian combo", "focus": "pve" },
+    { "name": "Frenzy", "pieces": "2 / 4", "effect": "2pc: PvE Attack +50 · 4pc: Boss Damage Amp +5% and Boss Damage Resist +10% while ≤70% HP", "focus": "pve" },
+    { "name": "Pure Blood", "pieces": "2 / 4", "effect": "2pc: PvE Defense +500 · 4pc: Crit Damage Amp +5% and Defense +1,000 while ≤70% HP", "focus": "defense" }
+  ],
+  "transmutation": {
+    "guaranteed1": "5 Mysterious Crystals + 2,000,000 Kinah → 1 guaranteed skill",
+    "guaranteed2": "15 Mysterious Crystals + 5,000,000 Kinah → 2 guaranteed skills",
+    "crystalSources": [
+      "Awakening Battle score milestones: 1k/3k points → 2 crystals; 4k/5k/6k → 3 crystals",
+      "Arcana Extraction gauge: 1 crystal per 100%",
+      "Season Shop: 25,000 Oath Coins each, max 5 per character"
+    ]
+  },
+  "chaliceRoute": [
+    "Craft the gold (Natural Unique) Chalice first — its natural drop is gated behind Transcendence Stage 10.",
+    "Lock your core rotation skill on the crafted Chalice (e.g. Gladiator Overhead Slam); skill rolls are otherwise ~1-in-18.",
+    "Only enhance gold cards whose 4 skill lines are 3–4 of your build's skills — each enhancement upgrades ONE existing line at random, and no pity system is documented.",
+    "Equip mismatched gold cards for their 2-piece/4-piece set bonuses and bank materials for better cards.",
+    "Mix sets freely: 2-piece and 4-piece bonuses stack across sets."
+  ],
+  "statPriority": [
+    "Weapon Damage Amplification",
+    "Crit / General Damage Amplification",
+    "Max Attack",
+    "Positional amps (Frontal for Templar/Gladiator, Rear for Assassin/Ranger) when your uptime supports them"
+  ],
+  "caveats": [
+    "Most numbers were verified on KR/TW-era systems and may differ on Global until patch parity is confirmed.",
+    "Card farming is gated: Transcendence dungeons require Lv 45 + 2,200 Gear Score.",
+    "Community routing is unanimous: 'gold grail (Chalice) first'."
+  ]
+}

@@ -6,7 +6,10 @@ const LINKS = [
   { href: '/classes/', label: 'Classes' },
   { href: '/dungeons/', label: 'Dungeons & Raids' },
   { href: '/tools/gear-check/', label: 'Gear Check' },
+  { href: '/tools/enhancement/', label: 'Enhancement Calculator' },
+  { href: '/checklist/', label: 'Weekly Checklist' },
   { href: '/guides/', label: 'Guides' },
+  { href: '/roadmap/', label: 'Roadmap' },
   { href: '/codes/', label: 'Redeem Codes' },
 ];
 

@@ -1,0 +1,36 @@
+{
+  "updated": "2026-10-17",
+  "guaranteedSteps": 10,
+  "uniqueSteps": [
+    { "label": "+10 → +11", "rate": 0.65, "pityPerFail": 5, "capAttempts": 8 },
+    { "label": "+11 → +12", "rate": 0.5, "pityPerFail": 5, "capAttempts": 11 },
+    { "label": "+12 → +13", "rate": 0.35, "pityPerFail": 5, "capAttempts": 14 },
+    { "label": "+13 → +14", "rate": 0.25, "pityPerFail": 5, "capAttempts": 16 },
+    { "label": "+14 → +15", "rate": 0.2, "pityPerFail": 5, "capAttempts": 17 }
+  ],
+  "amplifySteps": [
+    { "label": "+15 → +16", "rate": 0.66, "pityPerFail": 5, "capAttempts": null },
+    { "label": "+16 → +17", "rate": 0.5, "pityPerFail": 4, "capAttempts": null },
+    { "label": "+17 → +18", "rate": 0.33, "pityPerFail": 3, "capAttempts": null },
+    { "label": "+18 → +19", "rate": 0.25, "pityPerFail": 2, "capAttempts": null },
+    { "label": "+19 → +20", "rate": 0.2, "pityPerFail": 1, "capAttempts": null }
+  ],
+  "potential": {
+    "levels": 4,
+    "apPerLevel": 100000,
+    "note": "Potential adds PvP-only stats (weapons/accessories: +0.5%/level PvP Damage Boost; armor: PvP Damage Tolerance). Always succeeds, requires Soul Bound gear, costs Potential Stones + 100,000 Abyss Points per level."
+  },
+  "tiers": [
+    { "ilvl": 54, "label": "ilvl 54 — Krao / Draupnir band", "stonesPerAttempt": 1855, "kinahPerAttempt": 46500, "estimated": true },
+    { "ilvl": 70, "label": "ilvl 70 — Urugugu / Vakron keeper band", "stonesPerAttempt": 2320, "kinahPerAttempt": 58000, "estimated": true },
+    { "ilvl": 86, "label": "ilvl 86 — Fire Temple / Ferocious Horn band", "stonesPerAttempt": 3092, "kinahPerAttempt": 77510, "estimated": false },
+    { "ilvl": 102, "label": "ilvl 102 — Ludra / Splendid craft band", "stonesPerAttempt": 3668, "kinahPerAttempt": 92040, "estimated": false }
+  ],
+  "notes": [
+    "Success rates and pity are community-derived from the live client (metabot.gg); NCSoft publishes no official table.",
+    "Per-attempt costs are anchored to documented totals: an ilvl-86 helm +0→+10 ≈ 30,920 stones + 775,100 Kinah; an ilvl-102 piece +0→+10 ≈ 36,680 stones + 920,400 Kinah. ilvl 54/70 values are interpolated estimates.",
+    "The published ilvl-102 average for +0→+15 (~15.0M Kinah, ~190,700 stones) implies per-attempt cost escalates in the +10→+15 range — treat flat-model totals as lower bounds.",
+    "Failures never destroy regular gear (Kinah + stones only) and each failure at the same step adds ~+5% soft pity, resetting on success. Sole downgrade exception: the Clash Rune.",
+    "Extraction refunds Enhance Stones but not Kinah; gear cannot be sold to NPCs."
+  ]
+}

@@ -58,6 +58,8 @@ export interface ClassInfo {
   arcana: PriorityGuide;
   daevanion: PriorityGuide;
   gearProgression: GearStage[];
+  /** Phase 2: deep-dive codex content (optional until populated) */
+  codex?: ClassCodex;
 }
 
 export interface BossCheat {
@@ -95,6 +97,25 @@ export interface EventInfo {
   end: string;
   summary: string;
   rewards?: string[];
+  /** Rich detail for the events hub (optional) */
+  detail?: EventDetail;
+}
+
+export interface EventDetail {
+  coinMath?: { label: string; value: string }[];
+  candyKeys?: string[];
+  shop?: { item: string; cost: string; limit: string }[];
+  shopNote?: string;
+  traders?: string;
+  patchContext?: string[];
+}
+
+export interface SiegeConfig {
+  name: string;
+  daysUtc: string[];
+  timeUtc: string;
+  durationMinutes: number;
+  description?: string;
 }
 
 export interface GearTransferInfo {
@@ -116,6 +137,8 @@ export interface SystemData {
   };
   events: EventInfo[];
   gearTransfer: GearTransferInfo;
+  /** Phase 2: Abyss siege schedule (optional) */
+  sieges?: SiegeConfig;
 }
 
 export type CodeStatus = 'active' | 'expired' | 'unknown';
@@ -150,4 +173,118 @@ export interface GuideMeta {
   updated: string;
   readingMinutes: number;
   faq: GuideFaq[];
+}
+
+// ---------- Phase 2 ----------
+
+export interface ClassCodex {
+  statPriority: string[];
+  gearRolls: string[];
+  rotation: string[];
+  pvpTips: string[];
+  synergies: string[];
+  consumables: string[];
+  sourceNote?: string;
+}
+
+export interface ChecklistItem {
+  id: string;
+  label: string;
+  cap: string;
+  scope: 'character' | 'server';
+  category: 'dungeons' | 'raids' | 'trials' | 'pvp' | 'shops' | 'events';
+  hint?: string;
+}
+
+export interface ChecklistCategory {
+  id: string;
+  label: string;
+}
+
+export interface ChecklistData {
+  updated: string;
+  categories: ChecklistCategory[];
+  items: ChecklistItem[];
+  odyne: { base: number; membership: number; regen: string };
+  resetNote: string;
+}
+
+export interface EnhStep {
+  label: string;
+  /** null = guaranteed success (no rate) */
+  rate: number | null;
+  /** % pity added per failure at the same step */
+  pityPerFail: number;
+  /** attempts after which success is guaranteed (null = uncapped) */
+  capAttempts: number | null;
+}
+
+export interface EnhTier {
+  ilvl: number;
+  label: string;
+  stonesPerAttempt: number;
+  kinahPerAttempt: number;
+  estimated: boolean;
+}
+
+export interface EnhancementData {
+  updated: string;
+  /** +0 → +10 guaranteed block */
+  guaranteedSteps: number;
+  /** +10 → +15, can fail */
+  uniqueSteps: EnhStep[];
+  /** +15 → +20 Amplified, can fail */
+  amplifySteps: EnhStep[];
+  potential: { levels: number; apPerLevel: number; note: string };
+  tiers: EnhTier[];
+  notes: string[];
+}
+
+export interface ArcanaSet {
+  name: string;
+  pieces: string;
+  effect: string;
+  focus?: 'pve' | 'pvp' | 'defense';
+}
+
+export interface ArcanaData {
+  updated: string;
+  slots: string[];
+  sets: ArcanaSet[];
+  transmutation: { guaranteed1: string; guaranteed2: string; crystalSources: string[] };
+  chaliceRoute: string[];
+  statPriority: string[];
+  caveats: string[];
+}
+
+export interface KinahSource {
+  name: string;
+  amount: string;
+  currency: 'Regular' | 'Bound' | 'Both';
+  cadence: string;
+  note?: string;
+}
+
+export interface KinahData {
+  updated: string;
+  regularVsBound: string[];
+  sources: KinahSource[];
+  sinks: string[];
+  altStrategy: string[];
+}
+
+export interface RoadmapStage {
+  id: string;
+  title: string;
+  range: string;
+  ilvl?: string;
+  summary: string;
+  actions: string[];
+  link?: { href: string; label: string };
+}
+
+export interface RoadmapData {
+  updated: string;
+  stages: RoadmapStage[];
+  altGuide: string[];
 }

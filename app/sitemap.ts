@@ -8,7 +8,20 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date(SITE.updated);
 
-  const staticRoutes = ['/', '/classes/', '/dungeons/', '/tools/gear-check/', '/guides/', '/codes/'];
+  const staticRoutes = [
+    '/',
+    '/classes/',
+    '/dungeons/',
+    '/tools/gear-check/',
+    '/tools/enhancement/',
+    '/checklist/',
+    '/guides/',
+    '/arcana/',
+    '/kinah/',
+    '/roadmap/',
+    '/events/',
+    '/codes/',
+  ];
 
   return [
     ...staticRoutes.map((p) => ({

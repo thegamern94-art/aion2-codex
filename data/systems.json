@@ -22,9 +22,46 @@
         "Lower Abyss Rift Stone — 30 coins ×2",
         "Skin Chest — 15 coins ×5",
         "Cash-shop outfits, Spider Wings, Pumpkin Carriage (until Nov 24)"
-      ]
+      ],
+      "detail": {
+        "coinMath": [
+          { "label": "Daily login (35 × 14 days)", "value": "490 coins" },
+          { "label": "Day-7 and day-14 bonuses", "value": "+200 coins" },
+          { "label": "Perfect attendance total", "value": "620 coins" },
+          { "label": "Weekly Season Missions (10, repeatable)", "value": "~235 coins/week (~1,325 across the event)" }
+        ],
+        "candyKeys": [
+          "Fragments drop from Expeditions and Transcendence (~6 per run).",
+          "60 fragments → 1 Candy Key via Substance Morph → Event.",
+          "One key per colour per server per week, Wednesday reset — capped, not farmable.",
+          "Blue candy is the best value: 4 Odyle Energy + 10 resurrection stones + food.",
+          "Yellow: 10,000 Abyss Points + 10 Life Crystals. Red: 20 Growth Pet Chests + scrolls."
+        ],
+        "shop": [
+          { "item": "Special Halloween Chest (skeleton breastplate skin + 10,000 pet soul crystals)", "cost": "250", "limit": "1" },
+          { "item": "Odyle Energy", "cost": "10", "limit": "4/week" },
+          { "item": "Nightmare Challenge Ticket / Shugo key", "cost": "7", "limit": "3/week each" },
+          { "item": "Lower Abyss Rift Stone", "cost": "30", "limit": "2" },
+          { "item": "Skin Chest", "cost": "15", "limit": "5" },
+          { "item": "Halloween food buffs", "cost": "low", "limit": "per character" }
+        ],
+        "shopNote": "Shop stays open until Nov 24, 2026 — weeks after the event itself ends.",
+        "traders": "Elyos: Verteron (Dawn Legion Base, Zumion Village) · Asmodian: Altgard (Safe Haven, Nornir Assembly)",
+        "patchContext": [
+          "Odyle (Bound) purchase limit raised 4 → 20 per character per week; the 16-per-server cap was removed (temporary measure).",
+          "Parallel event: Conquerors of the Abyss (Oct 14–28) — buy Abyss Rift Stones with Kinah.",
+          "Instant-clear tickets and soul crystals moved into Substance Morph."
+        ]
+      }
     }
   ],
+  "sieges": {
+    "name": "Abyss Siege",
+    "daysUtc": ["Monday", "Thursday", "Saturday"],
+    "timeUtc": "12:00",
+    "durationMinutes": 60,
+    "description": "Artifact fight windows — arrive early. ~45,000 AP bursts per siege make these the week's biggest Abyss Points paydays."
+  },
   "gearTransfer": {
     "summary": "Gear Transfer moves investment from one piece of gear to another (the donor is consumed). It carries Enhancement level and Soul Binding lines — plus Amplification — but loses Potential rolls, Manastones, Theostones and the Philosopher's Stone line. It unlocks at character level 45 and only works between items soul-bound to the same character. ilvl 70 is the community's \"first keeper tier\": the first gear worth transferring into.",
     "rules": [

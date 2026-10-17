@@ -1,0 +1,83 @@
+{
+  "updated": "2026-10-17",
+  "stages": [
+    {
+      "id": "leveling",
+      "title": "Level 1 → 45",
+      "range": "Levels 1–45",
+      "summary": "754.8M EXP to 45 — and Episode quests pay 97–99% of it. Zone progression pairs Poeta→Verteron (Elyos) and Ishalgen→Altgard (Asmodian).",
+      "actions": [
+        "Follow Episode quests exclusively — side content is optional EXP",
+        "Open all Sealed Dungeons you pass (61 per faction, ~15k Kinah + 2 Daevanion Crystals + a title each)",
+        "Fill Daevanion skill boards as they unlock (~13 / 20 / 30 / 40) — +4 total skill levels by 45",
+        "Stigma slots open at Lv 22 / 27 / 32 / 37 — plan which 4 stigmas you'll level",
+        "Levels 30–39 story covers only ~70% of EXP — top up with Sealed Dungeons and dailies"
+      ],
+      "link": { "href": "/guides/progression/stigma-shards-ap-economy/", "label": "Stigma & AP guide" }
+    },
+    {
+      "id": "fresh45",
+      "title": "Fresh 45 — the ~700–750 GS baseline",
+      "range": "GS ~700–750",
+      "ilvl": "36–51",
+      "summary": "Story done. Every per-week loop unlocks. Do NOT invest upgrade materials yet — everything here is replaced within days.",
+      "actions": [
+        "Set up the weekly loop: Duties 5/day, Exploration cubes, Ascension Trial, Arena — see the Weekly Checklist",
+        "Start the AP engine: ~1,000 AP per Duty, sieges Mon/Thu/Sat 12:00 UTC for ~45k bursts",
+        "Roll substats on cheap gold (Epic) gear — these rolls become your first Transfer donors",
+        "Farm 1★ expeditions (Krao Cave / Draupnir) for the ilvl 54 band"
+      ],
+      "link": { "href": "/checklist/", "label": "Open the Weekly Checklist" }
+    },
+    {
+      "id": "keepers70",
+      "title": "First keeper tier — ilvl 70",
+      "range": "GS 1,400",
+      "ilvl": "70",
+      "summary": "The first gear worth investing in: Aulamus weapons/accessories (Urugugu Canyon) and Vakron armor (Vakron Sky Island).",
+      "actions": [
+        "Hit 1,400 GS via ilvl-54 gear — no enhancement investment needed",
+        "Farm Urugugu Conquest for Aulamus weapons + Vakron for armor",
+        "Transfer your rolled substats into the keepers (donor consumed, % of max roll preserved)",
+        "Enhance keepers to +10 safely — only +10→+15 can fail"
+      ],
+      "link": { "href": "/guides/progression/gear-transfer-ilvl-70-guide/", "label": "Gear Transfer & ilvl 70 guide" }
+    },
+    {
+      "id": "mid86",
+      "title": "Mid tier — ilvl 86",
+      "range": "GS 2,100",
+      "ilvl": "86",
+      "summary": "Fire Temple (Enraged Kromede weapons) and Ferocious Horn Den (Nuakum armor + Wrathful Ego for Draconic crafting).",
+      "actions": [
+        "Transfer forward from ilvl-70 keepers — full-value rules apply above 70",
+        "Push the raid set pieces to +10, then budget for +10→+15 (65/50/35/25/20% with +5% pity)",
+        "Start Stigma Lv 20+ plans — Superior Stigma Shards come from the AP shop tiers",
+        "Begin Transcendence dungeons at 2,200 GS for the Arcana card engine"
+      ],
+      "link": { "href": "/tools/enhancement/", "label": "Enhancement Calculator" }
+    },
+    {
+      "id": "endgame",
+      "title": "Endgame — ilvl 102 & Sanctuary",
+      "range": "GS 2,800–4,300",
+      "ilvl": "102",
+      "summary": "Abyssal Forge: Ludra (2,800) → Corroded Decontamination Facility (3,500) → Chalice of Muspel (4,300/4,500 Hard).",
+      "actions": [
+        "Ludra first: bracelets are the raid-only progression slot",
+        "4 attempts per raid per week, consumed on entry — use the checklist to track them",
+        "Amplify past +15 (66/50/33/25/20%, shrinking pity) on your BiS pieces only",
+        "Potential (4 levels, always succeeds) on Soul Bound PvP pieces with spare AP"
+      ],
+      "link": { "href": "/tools/gear-check/", "label": "Check raid gates in Gear Check" }
+    }
+  ],
+  "altGuide": [
+    "Alts are the weekly-cap multiplier: Ascension Trial 3/wk, Superior stones 5/wk, Conquest cubes, event shops — all per character.",
+    "Default ~4 character slots (up to 8 reported); alt efficiency ≈70–80% of a geared main (community estimate).",
+    "What syncs across the roster: Founder rewards (cross-character since Oct 6/7), account-wide pets/titles collections.",
+    "What does NOT sync: Daeva Pass bills per character (1,500 Quna each for Season 1), Market access requires membership.",
+    "Best alt roles: a second Gathering profession set for the manastone/craft economy, and a cash-cow farmer for the ilvl-54 band.",
+    "Respect the anti-bot walls: no player-to-player trades — move value through the Marketplace (membership) or Bound sinks."
+  ]
+}

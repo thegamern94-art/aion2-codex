@@ -1,0 +1,66 @@
+{
+  "updated": "2026-10-17",
+  "regularVsBound": [
+    "Regular (tradeable) Kinah comes from Marketplace sales, Conquest expeditions and raid kills — it pays for enhancement, transfers and the Legion Hall.",
+    "Bound Kinah comes from Duties and quests — it can only be spent (sinks), never traded or listed.",
+    "Both share the same wallet display but only Regular funds player-to-player economy. Plan big purchases around Regular income."
+  ],
+  "sources": [
+    {
+      "name": "Duty missions",
+      "amount": "~250,000 / day",
+      "currency": "Bound",
+      "cadence": "5 rewards / day",
+      "note": "Per-server vs per-character reading conflicts across sources — verify on your server."
+    },
+    {
+      "name": "Conquest expeditions (full clear, e.g. Krao Cave)",
+      "amount": "~72,000–200,000",
+      "currency": "Regular",
+      "cadence": "Cube-capped weekly",
+      "note": "Range reflects ilvl band and clear depth; double-reward cubes cost 80 Odyle."
+    },
+    {
+      "name": "Sanctuary raid final boss (Abyssal Forge: Ludra)",
+      "amount": "~1,000,000 / kill",
+      "currency": "Regular",
+      "cadence": "1 credit / week",
+      "note": "Plus the 256-item Unique loot table and bracelets."
+    },
+    {
+      "name": "Regional quests",
+      "amount": "21,000–57,000",
+      "currency": "Both",
+      "cadence": "Per quest line",
+      "note": "Also the Space-Time Rift quest reward band."
+    },
+    {
+      "name": "Sealed Dungeons",
+      "amount": "~15,000 + 2 Daevanion Crystals + 2 Wisdom Stones + title",
+      "currency": "Bound",
+      "cadence": "61 per faction (one source claims 81 — verify)",
+      "note": "Quick, spammable, and feeds Daevanion boards."
+    },
+    {
+      "name": "Alt roster weekly loop",
+      "amount": "≈70–80% of main efficiency per alt (community estimate)",
+      "currency": "Both",
+      "cadence": "Per character caps stack",
+      "note": "Ascension Trial 3/wk, Superior stones 5/wk, event shops — all per character."
+    }
+  ],
+  "sinks": [
+    "Enhancement: an ilvl-86 helm +0→+10 costs ≈775,100 Kinah; ilvl-102 +0→+15 averages ≈15M.",
+    "Gear Transfer cost scales with the ilvl gap between donor and destination.",
+    "Legion Hall rental: 1,000,000 Kinah / 30 days.",
+    "Gathering specialty respec: 50,000 Kinah.",
+    "Resurrection Spiritstones: 25,000 Kinah each (×10/server/week promo window until Dec 15)."
+  ],
+  "altStrategy": [
+    "Alts multiply every per-character cap: Ascension Trial 3/wk, Superior stones 5/wk, event shops, Conquest cubes.",
+    "Default ~4 character slots, expandable to 8 (reported from the Aug 7 livestream).",
+    "Anti-bot design taxes alts: no player-to-player trades, Market requires membership, Daeva Pass bills per character.",
+    "Founder rewards were patched to be cross-character/server (Oct 6/7) — claim on whichever alt needs them.",
+    "Community efficiency estimate for geared alts: ~70–80% of a main."
+  ]
+}

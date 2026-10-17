@@ -5,7 +5,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { SYSTEMS } from '@/lib/data';
-import { formatCountdown, nextDailyUtc, nextWeeklyUtc, nextWindowUtc } from '@/lib/reset';
+import { formatCountdown, nextDailyUtc, nextWeeklyOnDaysUtc, nextWeeklyUtc, nextWindowUtc } from '@/lib/reset';
 
 export function useNow(intervalMs = 1000): Date | null {
   const [now, setNow] = useState<Date | null>(null);
@@ -22,6 +22,7 @@ export interface ScheduleSnapshot {
   na: string;
   weekly: string;
   rift: string;
+  siege: string | null;
   riftWindows: string[];
   event: { name: string; label: string; countdown: string } | null;
 }
@@ -60,6 +61,11 @@ export function computeSchedule(now: Date): ScheduleSnapshot {
       nextWeeklyUtc(resets.weekly.utc, resets.weekly.weekday ?? 'Thursday', now).getTime() - now.getTime(),
     ),
     rift: formatCountdown(nextWindowUtc(rift.windowsUtc, now).getTime() - now.getTime()),
+    siege: SYSTEMS.sieges
+      ? formatCountdown(
+          nextWeeklyOnDaysUtc(SYSTEMS.sieges.timeUtc, SYSTEMS.sieges.daysUtc, now).getTime() - now.getTime(),
+        )
+      : null,
     riftWindows: rift.windowsUtc,
     event,
   };
