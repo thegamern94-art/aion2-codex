@@ -65,3 +65,9 @@ NEXT_PUBLIC_BASE_PATH=/aion2-codex NEXT_PUBLIC_SITE_URL=https://yourname.github.
 Data was researched on **Oct 17, 2026** (Global build, ~2 weeks after launch) and cross-checked against game8, Mobalytics (Oct 15, 2026 snapshots), BlueStacks, metabot.gg (client-extracted values) and community trackers. Where sources disagree (expedition gates, tier-list philosophy), the site says so instead of averaging. Entries with no English documentation (e.g. several 4★+ dungeon mechanics) are labeled as such rather than invented. Tier lists shift fast at launch — re-verify weekly.
 
 This is a **fan project** — not affiliated with or endorsed by NCSOFT. AION 2 and all related marks belong to NCSOFT Corporation.
+
+## Third-party data & icon attribution
+
+- **Daevanion board data, skill/stigma/wings tables and game icons** are adapted from [aion2-meta.com](https://aion2-meta.com), which builds on AION2CAL Korean ranking data and NCSOFT official Global profiles (snapshot October 2026).
+- **Class portraits** and the Skill Specializations documentation are adapted from [daevaguides.com](https://daevaguides.com).
+- All game art and icons are property of NCSOFT; they are used here for identification in a non-commercial fan guide. Board layouts reflect the Global client — KR layouts may differ.

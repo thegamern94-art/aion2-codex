@@ -1,0 +1,412 @@
+{
+ "slug": "spiritmaster",
+ "source": "aion2-meta.com — KR top-player builds (AION2CAL) + NCSOFT official Global profiles",
+ "skillOrder": [
+  {
+   "name": "Combustion",
+   "icon": "/icons/spiritmaster-combustion.webp",
+   "order": 1,
+   "meta": null
+  },
+  {
+   "name": "Elemental Fusion",
+   "icon": "/icons/spiritmaster-elemental-fusion.webp",
+   "order": 2,
+   "meta": null
+  },
+  {
+   "name": "Cold Shock",
+   "icon": "/icons/spiritmaster-cold-shock.webp",
+   "order": 3,
+   "meta": null
+  },
+  {
+   "name": "Summon: Fire Spirit",
+   "icon": "/icons/spiritmaster-summon-fire-spirit.webp",
+   "order": 4,
+   "meta": "Cooldown: 15s"
+  },
+  {
+   "name": "Jointstrike: Curse",
+   "icon": "/icons/spiritmaster-jointstrike-curse.webp",
+   "order": 5,
+   "meta": "Cooldown: 10s"
+  }
+ ],
+ "ringSkills": [
+  {
+   "name": "Combustion",
+   "icon": "/icons/spiritmaster-combustion.webp"
+  },
+  {
+   "name": "Elemental Fusion",
+   "icon": "/icons/spiritmaster-elemental-fusion.webp"
+  },
+  {
+   "name": "Summon: Fire Spirit",
+   "icon": "/icons/spiritmaster-summon-fire-spirit.webp"
+  },
+  {
+   "name": "Cold Shock",
+   "icon": "/icons/spiritmaster-cold-shock.webp"
+  },
+  {
+   "name": "Jointstrike: Curse",
+   "icon": "/icons/spiritmaster-jointstrike-curse.webp"
+  },
+  {
+   "name": "Combustion",
+   "icon": "/icons/spiritmaster-combustion.webp"
+  },
+  {
+   "name": "Elemental Fusion",
+   "icon": "/icons/spiritmaster-elemental-fusion.webp"
+  },
+  {
+   "name": "Cold Shock",
+   "icon": "/icons/spiritmaster-cold-shock.webp"
+  },
+  {
+   "name": "Summon: Fire Spirit",
+   "icon": "/icons/spiritmaster-summon-fire-spirit.webp"
+  },
+  {
+   "name": "Jointstrike: Curse",
+   "icon": "/icons/spiritmaster-jointstrike-curse.webp"
+  },
+  {
+   "name": "Dimensional Control",
+   "icon": "/icons/spiritmaster-dimensional-control.webp"
+  },
+  {
+   "name": "Summon: Water Spirit",
+   "icon": "/icons/spiritmaster-summon-water-spirit.webp"
+  },
+  {
+   "name": "Soul's Cry",
+   "icon": "/icons/spiritmaster-souls-cry.webp"
+  },
+  {
+   "name": "Rapid Scattershot",
+   "icon": "/icons/spiritmaster-rapid-scattershot.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/spiritmaster-defiance.webp"
+  },
+  {
+   "name": "Summon: Earth Spirit",
+   "icon": "/icons/spiritmaster-summon-earth-spirit.webp"
+  },
+  {
+   "name": "Summon: Wind Spirit",
+   "icon": "/icons/spiritmaster-summon-wind-spirit.webp"
+  }
+ ],
+ "specialties": [
+  {
+   "name": "Combustion",
+   "icon": "/icons/spiritmaster-combustion.webp"
+  },
+  {
+   "name": "Elemental Fusion",
+   "icon": "/icons/spiritmaster-elemental-fusion.webp"
+  },
+  {
+   "name": "Combustion",
+   "icon": "/icons/spiritmaster-combustion.webp"
+  },
+  {
+   "name": "Elemental Fusion",
+   "icon": "/icons/spiritmaster-elemental-fusion.webp"
+  },
+  {
+   "name": "Cold Shock",
+   "icon": "/icons/spiritmaster-cold-shock.webp"
+  },
+  {
+   "name": "Summon: Fire Spirit",
+   "icon": "/icons/spiritmaster-summon-fire-spirit.webp"
+  },
+  {
+   "name": "Summon: Water Spirit",
+   "icon": "/icons/spiritmaster-summon-water-spirit.webp"
+  },
+  {
+   "name": "Summon: Earth Spirit",
+   "icon": "/icons/spiritmaster-summon-earth-spirit.webp"
+  },
+  {
+   "name": "Dimensional Control",
+   "icon": "/icons/spiritmaster-dimensional-control.webp"
+  }
+ ],
+ "passives": [],
+ "stigmas": [
+  {
+   "name": "Summon: Ancient Spirit",
+   "icon": "/icons/spiritmaster-summon-ancient-spirit.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "98.2%",
+   "pvp": "99.7%",
+   "global": "100%"
+  },
+  {
+   "name": "Enhance: Spirit's Benediction",
+   "icon": "/icons/spiritmaster-enhance-spirits-benediction.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "97.9%",
+   "pvp": "99.7%",
+   "global": "100%"
+  },
+  {
+   "name": "Flame Blessing",
+   "icon": "/icons/spiritmaster-flame-blessing.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "93.8%",
+   "pvp": "94.4%",
+   "global": "84.8%"
+  },
+  {
+   "name": "Jointstrike: Corrode",
+   "icon": "/icons/spiritmaster-jointstrike-corrode.webp",
+   "tip": "200",
+   "meta": "Cooldown: 45s",
+   "pve": "92.2%",
+   "pvp": "93.1%",
+   "global": "97%"
+  },
+  {
+   "name": "Siphon",
+   "icon": "/icons/spiritmaster-siphon.webp",
+   "tip": "—",
+   "meta": "Cooldown: 30s",
+   "pve": "81.5%",
+   "pvp": "96.3%",
+   "global": "21.2%"
+  },
+  {
+   "name": "Command: Proxy",
+   "icon": "/icons/spiritmaster-command-proxy.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "63.7%",
+   "pvp": "97.6%",
+   "global": "54.5%"
+  },
+  {
+   "name": "Jointstrike: Destructive Attack",
+   "icon": "/icons/spiritmaster-jointstrike-destructive-attack.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "57.8%",
+   "pvp": "71.5%",
+   "global": "33.3%"
+  },
+  {
+   "name": "Seize Magic",
+   "icon": "/icons/spiritmaster-seize-magic.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "42.1%",
+   "pvp": "92%",
+   "global": "21.2%"
+  },
+  {
+   "name": "Kaisinel's Power",
+   "icon": "/icons/spiritmaster-kaisinels-power.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "36.6%",
+   "pvp": "84.8%",
+   "global": "6.1%"
+  },
+  {
+   "name": "Assault Terror",
+   "icon": "/icons/spiritmaster-assault-terror.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "31.5%",
+   "pvp": "54.8%",
+   "global": "0%"
+  },
+  {
+   "name": "Magic Block",
+   "icon": "/icons/spiritmaster-magic-block.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "26.4%",
+   "pvp": "53.2%",
+   "global": "12.1%"
+  },
+  {
+   "name": "Cursed Cloud",
+   "icon": "/icons/spiritmaster-cursed-cloud.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "26.3%",
+   "pvp": "48.4%",
+   "global": "0%"
+  }
+ ],
+ "wings": [
+  {
+   "name": "Talisra Wings",
+   "icon": "/icons/talisra-wings.webp",
+   "tip": "+10: Flight Power +300, Defense Bonus +100, Attack Bonus +10, Accuracy Bonus +20 How to get it: • Season Shop (Special tab, 210,000 Oath Coin)",
+   "meta": "Stats when equipped",
+   "pve": "57.1%",
+   "pvp": "59.3%"
+  },
+  {
+   "name": "Nightmare Wings",
+   "icon": "/icons/nightmare-wings.webp",
+   "tip": "+10: Flight Power +300, Boss Attack +20, Boss Defense +300, PvE Damage Boost +1% How to get it: • Nightmare Trade Shop (Wings tab, 160,000 Phantasmal Fragment)",
+   "meta": "Stats when equipped",
+   "pve": "4.6%",
+   "pvp": "1.3%"
+  },
+  {
+   "name": "Dark Veil Wings",
+   "icon": "/icons/dark-veil-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Boost +1%, Boss Defense +300, PvE Attack +20 How to get it: • Substance Morph (1 x Sealed Dark Veil Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "3.5%",
+   "pvp": "–"
+  },
+  {
+   "name": "Forest Spirit Wings",
+   "icon": "/icons/forest-spirit-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Tolerance +1%, Boss Attack +30, Accuracy Bonus +20 How to get it: • Substance Morph (1 x Sealed Forest Spirit Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "1.1%",
+   "pvp": "–"
+  },
+  {
+   "name": "Brawler Wings",
+   "icon": "/icons/brawler-wings.webp",
+   "tip": "+10: Flight Power +300, Status Effect Chance +2.5%, PvP Damage Boost +1%, PvP Defense +100 How to get it: • Abyss Trade Shop (Wings tab, 800,000 Abyss Points)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "14.1%"
+  },
+  {
+   "name": "Springflower Butterfly Wings",
+   "icon": "/icons/springflower-butterfly-wings.webp",
+   "tip": "+10: Flight Power +300, Evasion Bonus +20, Block +20, Front Attack +20 How to get it: • Festival Shop (Wings tab, 8,350 Centuryroot Token)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "2.4%"
+  }
+ ],
+ "titles": [
+  {
+   "name": "Empty Closet",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Combat Speed +3.5%, Natural HP Regen +42, Cooldown Reduction +3.5% How to get it: • Fashionista VII (Achievement): Collect 700 Skins",
+   "meta": "Both factions",
+   "pve": "67.1%"
+  },
+  {
+   "name": "Unbound by Genus",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvE Damage Boost +4.5%, Attack Bonus +34, Critical Hit +68 How to get it: • Genus Genius (Achievement): Reach All Genus Insights Level 10",
+   "meta": "Both factions",
+   "pve": "50.5%"
+  },
+  {
+   "name": "Rule All Creation",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +320, Back Attack Damage Tolerance +3%, Boss Damage Tolerance +4% How to get it: • My Reliable Friends VII (Achievement): Collect 200 pets",
+   "meta": "Both factions",
+   "pve": "25.2%"
+  },
+  {
+   "name": "Saint of Altgard",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Altgard Monolith (Monolith, Safe Haven / Nornir Assembly)",
+   "meta": "Asmodian",
+   "pve": "16%"
+  },
+  {
+   "name": "Saint of Verteron",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Verteron Monolith (Monolith, Dawn Legion Base / Zumion Village)",
+   "meta": "Elyos",
+   "pve": "13.1%"
+  },
+  {
+   "name": "Dominator of Dimensions",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +340, HP +1,000, PvE Damage Tolerance +4.5% How to get it: • Veteran Wing Collector V (Achievement): Collect 25 Wings",
+   "meta": "Both factions",
+   "pve": "8.8%"
+  },
+  {
+   "name": "Through Hell and Back",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Cooldown Reduction +3%, HP +900, Stamina +225 How to get it: • Ruins of the Ancient City of Ru (Sealed Dungeon)",
+   "meta": "Both factions",
+   "pve": "5%"
+  },
+  {
+   "name": "Saint of Ereshkigal",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, Endurance Penetration +2.5%, Critical Hit +60 How to get it: • Ereshkigal's Monolith (Monolith, Latesran Eastern Root / Western Root)",
+   "meta": "Both factions",
+   "pve": "4.5%"
+  },
+  {
+   "name": "Treading on White Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Asmodian",
+   "pve": "4.4%"
+  },
+  {
+   "name": "Golden Glow",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: Critical Attack +45, Critical Damage Boost +3%, Accuracy Bonus +60 How to get it: • Tailor-Made V (Achievement): Enhance Unique Gear to +15",
+   "meta": "Both factions",
+   "pve": "3.8%"
+  },
+  {
+   "name": "Treading on Black Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Elyos",
+   "pve": "2.8%"
+  },
+  {
+   "name": "Encountering Zikel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Zikel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Asmodian",
+   "pve": "2.6%"
+  },
+  {
+   "name": "Encountering Kaisinel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Kaisinel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Elyos",
+   "pve": "2.4%"
+  }
+ ],
+ "statPriority": [
+  {
+   "slot": "Weapons",
+   "text": "Weapons All come with the piece Manastones: Attack › HP › Critical Hit"
+  },
+  {
+   "slot": "Armor",
+   "text": "Armor Attack › Perfect Chance › Accuracy Manastones: Attack › HP › Critical Hit"
+  },
+  {
+   "slot": "Jewelry",
+   "text": "Jewelry Critical Hit › Accuracy Manastones: Attack › HP › Critical Hit Slot Bonus stats Manastones Weapon Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Attack 57% Critical Hit 41% HP 40% Weapon Damage Boost 39% Off-hand Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Attack 64% Accuracy Bonus 41% HP 40% MP 35% Helmet Attack increase 100% Double Chance 100% Attack 90% Incoming Heal 37% Attack 63% Accuracy Bonus 40% MP 39% HP 39% Shoulders Critical Damage Boost 100% Attack 97% Accuracy 33% Critical Hit 32% Attack 62% Critical Hit 44% HP 38% Accuracy Bonus 34% Chest Damage Boost 100% Attack 96% Accuracy 36% Critical Hit 31% Attack 60% Critical Hit 40% MP 39% HP 39% Legs Attack increase 99% Damage Tolerance 98% Perfect Chance 96% Attack 84% Attack 57% HP 41% Critical Hit 39% Accuracy Bonus 37% Gloves Combat Speed 100% Perfect Chance 97% Attack 94% Critical Hit 17% Attack 62% HP 42% MP 38% Accuracy Bonus 37% Boots Move Speed 100% Perfect Chance 96% Attack 93% Accuracy 16% Attack 63% HP 41% Critical Hit 39% Accuracy Bonus 36% Cloak Attack increase 99% Double Chance 99% Perfect Chance 97% Attack 76% Attack 60% HP 41% MP 40% Critical Hit 34% Necklace Attack 100% Accuracy 87% Critical Hit 82% Attack 60% Critical Hit 40% Accuracy Bonus 38% HP 38% Earrings Attack 100% Accuracy 89% Critical Hit 89% Attack 83% HP 65% Accuracy Bonus 62% Critical Hit 58% Rings Attack 97% Critical Hit 35% Accuracy 25% Attack 84% MP 62% HP 61% Critical Hit 60% Bracelets Time [Siel] 100% Destruction [Zikel] 100% Illusion [Kaisinel] 100% Wisdom [Lumiel] 98% Attack 81% HP 64% Critical Hit 63% Accuracy Bonus 62% Data: AION2CAL (Korean PvE rankings), 12 October 2026. Stat names as in the global client."
+  }
+ ]
+}

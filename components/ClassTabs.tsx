@@ -1,15 +1,33 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Check, X } from 'lucide-react';
-import type { ClassInfo } from '@/types/game';
+import type { ClassInfo, DaevanionData, MetaBuildData } from '@/types/game';
 import MacroCopyBox from './MacroCopyBox';
+import DaevanionBoardPlanner from './DaevanionBoardPlanner';
+import MetaBuild from './MetaBuild';
 import { DifficultyPips, TierBadge } from './ClassFilters';
 
-const TABS = ['Overview', 'Skill Chains & 2-Key Macros', 'Arcana & Daevanion', 'Gear Progression', 'Class Codex'] as const;
+const TABS = [
+  'Overview',
+  'Skill Chains & 2-Key Macros',
+  'Arcana',
+  'Daevanion',
+  'Meta Build',
+  'Gear Progression',
+  'Class Codex',
+] as const;
 type Tab = (typeof TABS)[number];
 
-export default function ClassTabs({ cls }: { cls: ClassInfo }) {
+export default function ClassTabs({
+  cls,
+  daevanion,
+  meta,
+}: {
+  cls: ClassInfo;
+  daevanion?: DaevanionData;
+  meta?: MetaBuildData;
+}) {
   const [tab, setTab] = useState<Tab>('Overview');
 
   return (
@@ -35,7 +53,9 @@ export default function ClassTabs({ cls }: { cls: ClassInfo }) {
       <div className="py-8">
         {tab === 'Overview' && <Overview cls={cls} />}
         {tab === 'Skill Chains & 2-Key Macros' && <Skills cls={cls} />}
-        {tab === 'Arcana & Daevanion' && <Priorities cls={cls} />}
+        {tab === 'Arcana' && <ArcanaPriority cls={cls} />}
+        {tab === 'Daevanion' && <DaevanionTab cls={cls} daevanion={daevanion} />}
+        {tab === 'Meta Build' && <MetaTab meta={meta} />}
         {tab === 'Gear Progression' && <Gear cls={cls} />}
         {tab === 'Class Codex' && <Codex cls={cls} />}
       </div>
@@ -43,39 +63,11 @@ export default function ClassTabs({ cls }: { cls: ClassInfo }) {
   );
 }
 
-function Codex({ cls }: { cls: ClassInfo }) {
-  const c = cls.codex;
-  if (!c) {
-    return <p className="text-sm text-zinc-500">Codex content for this class is being researched — check back soon.</p>;
-  }
+function Fact({ label, value }: { label: string; value: ReactNode }) {
   return (
-    <div className="space-y-8">
-      <CodexSection title="Stat & Manastone Priority" items={c.statPriority} ordered />
-      <CodexSection title="Rotation Loop" items={c.rotation} ordered />
-      <CodexSection title="Gear Rolls to Chase" items={c.gearRolls} />
-      <CodexSection title="PvP Notes (Abyss & Battlefields)" items={c.pvpTips} />
-      <div className="grid gap-8 sm:grid-cols-2">
-        <CodexSection title="Team Synergies" items={c.synergies} />
-        <CodexSection title="Consumables & Buffs" items={c.consumables} />
-      </div>
-      {c.sourceNote && <p className="text-xs leading-5 text-zinc-600">{c.sourceNote}</p>}
-    </div>
-  );
-}
-
-function CodexSection({ title, items, ordered = false }: { title: string; items: string[]; ordered?: boolean }) {
-  if (!items || items.length === 0) return null;
-  const List = ordered ? 'ol' : 'ul';
-  return (
-    <div>
-      <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">{title}</h3>
-      <List
-        className={`mt-3 space-y-2 pl-5 text-sm leading-6 text-zinc-300 ${ordered ? 'list-decimal' : 'list-disc'}`}
-      >
-        {items.map((s, i) => (
-          <li key={i}>{s}</li>
-        ))}
-      </List>
+    <div className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
+      <p className="text-xs uppercase tracking-wider text-zinc-500">{label}</p>
+      <p className="mt-1.5 text-sm font-medium text-zinc-200">{value}</p>
     </div>
   );
 }
@@ -88,7 +80,11 @@ function Overview({ cls }: { cls: ClassInfo }) {
         <Fact label="Weapons" value={cls.weapons.join(' / ')} />
         <Fact
           label="Difficulty"
-          value={<span className="flex items-center gap-2">{cls.difficulty}/5 <DifficultyPips value={cls.difficulty} /></span>}
+          value={
+            <span className="flex items-center gap-2">
+              {cls.difficulty}/5 <DifficultyPips value={cls.difficulty} />
+            </span>
+          }
         />
         <Fact
           label="Meta Tiers"
@@ -135,15 +131,6 @@ function Overview({ cls }: { cls: ClassInfo }) {
   );
 }
 
-function Fact({ label, value }: { label: string; value: React.ReactNode }) {
-  return (
-    <div className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-4">
-      <p className="text-xs uppercase tracking-wider text-zinc-500">{label}</p>
-      <p className="mt-1.5 text-sm font-medium text-zinc-200">{value}</p>
-    </div>
-  );
-}
-
 function Skills({ cls }: { cls: ClassInfo }) {
   return (
     <div className="space-y-10">
@@ -186,29 +173,59 @@ function Skills({ cls }: { cls: ClassInfo }) {
   );
 }
 
-function Priorities({ cls }: { cls: ClassInfo }) {
+function ArcanaPriority({ cls }: { cls: ClassInfo }) {
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
-      <div className="card-corners rounded-lg border border-zinc-800 bg-zinc-900/40 p-5">
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">Arcana Priority</h3>
-        <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-6 text-zinc-300">
-          {cls.arcana.priority.map((p, i) => (
-            <li key={i}>{p}</li>
-          ))}
-        </ol>
-        <p className="mt-4 border-t border-zinc-800 pt-3 text-xs leading-5 text-zinc-500">{cls.arcana.notes}</p>
-      </div>
-      <div className="card-corners rounded-lg border border-zinc-800 bg-zinc-900/40 p-5">
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">Daevanion Priority</h3>
-        <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-6 text-zinc-300">
-          {cls.daevanion.priority.map((p, i) => (
-            <li key={i}>{p}</li>
-          ))}
-        </ol>
-        <p className="mt-4 border-t border-zinc-800 pt-3 text-xs leading-5 text-zinc-500">{cls.daevanion.notes}</p>
-      </div>
+    <div className="card-corners max-w-3xl rounded-lg border border-zinc-800 bg-zinc-900/40 p-5">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">Arcana Priority</h3>
+      <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-6 text-zinc-300">
+        {cls.arcana.priority.map((p, i) => (
+          <li key={i}>{p}</li>
+        ))}
+      </ol>
+      <p className="mt-4 border-t border-zinc-800 pt-3 text-xs leading-5 text-zinc-500">{cls.arcana.notes}</p>
     </div>
   );
+}
+
+function DaevanionPriority({ cls }: { cls: ClassInfo }) {
+  return (
+    <div className="card-corners max-w-3xl rounded-lg border border-zinc-800 bg-zinc-900/40 p-5">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">Daevanion Priority</h3>
+      <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-6 text-zinc-300">
+        {cls.daevanion.priority.map((p, i) => (
+          <li key={i}>{p}</li>
+        ))}
+      </ol>
+      <p className="mt-4 border-t border-zinc-800 pt-3 text-xs leading-5 text-zinc-500">{cls.daevanion.notes}</p>
+    </div>
+  );
+}
+
+function DaevanionTab({ cls, daevanion }: { cls: ClassInfo; daevanion?: DaevanionData }) {
+  return (
+    <div className="space-y-8">
+      {daevanion ? (
+        <DaevanionBoardPlanner slug={cls.slug} data={daevanion} />
+      ) : (
+        <p className="text-sm text-zinc-500">
+          Interactive board data for this class is not imported yet — the priority guide below still
+          applies.
+        </p>
+      )}
+      <DaevanionPriority cls={cls} />
+    </div>
+  );
+}
+
+function MetaTab({ meta }: { meta?: MetaBuildData }) {
+  if (!meta) {
+    return (
+      <p className="text-sm text-zinc-500">
+        Meta build data for this class is not imported yet — check back soon.
+      </p>
+    );
+  }
+  return <MetaBuild meta={meta} />;
 }
 
 function Gear({ cls }: { cls: ClassInfo }) {
@@ -234,6 +251,43 @@ function Gear({ cls }: { cls: ClassInfo }) {
           ))}
         </tbody>
       </table>
+    </div>
+  );
+}
+
+function Codex({ cls }: { cls: ClassInfo }) {
+  const c = cls.codex;
+  if (!c) {
+    return <p className="text-sm text-zinc-500">Codex content for this class is being researched — check back soon.</p>;
+  }
+  return (
+    <div className="space-y-8">
+      <CodexSection title="Stat & Manastone Priority" items={c.statPriority} ordered />
+      <CodexSection title="Rotation Loop" items={c.rotation} ordered />
+      <CodexSection title="Gear Rolls to Chase" items={c.gearRolls} />
+      <CodexSection title="PvP Notes (Abyss & Battlefields)" items={c.pvpTips} />
+      <div className="grid gap-8 sm:grid-cols-2">
+        <CodexSection title="Team Synergies" items={c.synergies} />
+        <CodexSection title="Consumables & Buffs" items={c.consumables} />
+      </div>
+      {c.sourceNote && <p className="text-xs leading-5 text-zinc-600">{c.sourceNote}</p>}
+    </div>
+  );
+}
+
+function CodexSection({ title, items, ordered = false }: { title: string; items: string[]; ordered?: boolean }) {
+  if (!items || items.length === 0) return null;
+  const List = ordered ? 'ol' : 'ul';
+  return (
+    <div>
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-amber-400">{title}</h3>
+      <List
+        className={`mt-3 space-y-2 pl-5 text-sm leading-6 text-zinc-300 ${ordered ? 'list-decimal' : 'list-disc'}`}
+      >
+        {items.map((s, i) => (
+          <li key={i}>{s}</li>
+        ))}
+      </List>
     </div>
   );
 }

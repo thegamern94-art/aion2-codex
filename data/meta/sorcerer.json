@@ -1,0 +1,472 @@
+{
+ "slug": "sorcerer",
+ "source": "aion2-meta.com — KR top-player builds (AION2CAL) + NCSOFT official Global profiles",
+ "skillOrder": [
+  {
+   "name": "Blaze",
+   "icon": "/icons/sorcerer-blaze.webp",
+   "order": 1,
+   "meta": "Cooldown: 5s"
+  },
+  {
+   "name": "Wish of Concentration",
+   "icon": "/icons/sorcerer-wish-of-concentration.webp",
+   "order": 2,
+   "meta": "Cooldown: 60s"
+  },
+  {
+   "name": "Bittercold Wind",
+   "icon": "/icons/sorcerer-bittercold-wind.webp",
+   "order": 3,
+   "meta": "Cooldown: 15s"
+  },
+  {
+   "name": "Hellfire",
+   "icon": "/icons/sorcerer-hellfire.webp",
+   "order": 4,
+   "meta": "Cooldown: 45s"
+  },
+  {
+   "name": "Flame Arrow",
+   "icon": "/icons/sorcerer-flame-arrow.webp",
+   "order": 5,
+   "meta": null
+  },
+  {
+   "name": "Firestorm",
+   "icon": "/icons/sorcerer-firestorm.webp",
+   "order": 6,
+   "meta": "Cooldown: 5s"
+  },
+  {
+   "name": "Winter's Shackles",
+   "icon": "/icons/sorcerer-winters-shackles.webp",
+   "order": 7,
+   "meta": "Cooldown: 45s"
+  }
+ ],
+ "ringSkills": [
+  {
+   "name": "Blaze",
+   "icon": "/icons/sorcerer-blaze.webp"
+  },
+  {
+   "name": "Hellfire",
+   "icon": "/icons/sorcerer-hellfire.webp"
+  },
+  {
+   "name": "Wish of Concentration",
+   "icon": "/icons/sorcerer-wish-of-concentration.webp"
+  },
+  {
+   "name": "Bittercold Wind",
+   "icon": "/icons/sorcerer-bittercold-wind.webp"
+  },
+  {
+   "name": "Flame Arrow",
+   "icon": "/icons/sorcerer-flame-arrow.webp"
+  },
+  {
+   "name": "Blaze",
+   "icon": "/icons/sorcerer-blaze.webp"
+  },
+  {
+   "name": "Wish of Concentration",
+   "icon": "/icons/sorcerer-wish-of-concentration.webp"
+  },
+  {
+   "name": "Bittercold Wind",
+   "icon": "/icons/sorcerer-bittercold-wind.webp"
+  },
+  {
+   "name": "Hellfire",
+   "icon": "/icons/sorcerer-hellfire.webp"
+  },
+  {
+   "name": "Flame Arrow",
+   "icon": "/icons/sorcerer-flame-arrow.webp"
+  },
+  {
+   "name": "Firestorm",
+   "icon": "/icons/sorcerer-firestorm.webp"
+  },
+  {
+   "name": "Winter's Shackles",
+   "icon": "/icons/sorcerer-winters-shackles.webp"
+  },
+  {
+   "name": "Ice Chain",
+   "icon": "/icons/sorcerer-ice-chain.webp"
+  },
+  {
+   "name": "Frost Burst",
+   "icon": "/icons/sorcerer-frost-burst.webp"
+  },
+  {
+   "name": "Flame Scattershot",
+   "icon": "/icons/sorcerer-flame-scattershot.webp"
+  },
+  {
+   "name": "Frost",
+   "icon": "/icons/sorcerer-frost.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/sorcerer-defiance.webp"
+  }
+ ],
+ "specialties": [
+  {
+   "name": "Blaze",
+   "icon": "/icons/sorcerer-blaze.webp"
+  },
+  {
+   "name": "Wish of Concentration",
+   "icon": "/icons/sorcerer-wish-of-concentration.webp"
+  },
+  {
+   "name": "Bittercold Wind",
+   "icon": "/icons/sorcerer-bittercold-wind.webp"
+  },
+  {
+   "name": "Hellfire",
+   "icon": "/icons/sorcerer-hellfire.webp"
+  },
+  {
+   "name": "Hellfire",
+   "icon": "/icons/sorcerer-hellfire.webp"
+  },
+  {
+   "name": "Bittercold Wind",
+   "icon": "/icons/sorcerer-bittercold-wind.webp"
+  },
+  {
+   "name": "Firestorm",
+   "icon": "/icons/sorcerer-firestorm.webp"
+  },
+  {
+   "name": "Winter's Shackles",
+   "icon": "/icons/sorcerer-winters-shackles.webp"
+  },
+  {
+   "name": "Blaze",
+   "icon": "/icons/sorcerer-blaze.webp"
+  },
+  {
+   "name": "Wish of Concentration",
+   "icon": "/icons/sorcerer-wish-of-concentration.webp"
+  },
+  {
+   "name": "Bittercold Wind",
+   "icon": "/icons/sorcerer-bittercold-wind.webp"
+  },
+  {
+   "name": "Hellfire",
+   "icon": "/icons/sorcerer-hellfire.webp"
+  },
+  {
+   "name": "Firestorm",
+   "icon": "/icons/sorcerer-firestorm.webp"
+  },
+  {
+   "name": "Winter's Shackles",
+   "icon": "/icons/sorcerer-winters-shackles.webp"
+  },
+  {
+   "name": "Flame Arrow",
+   "icon": "/icons/sorcerer-flame-arrow.webp"
+  },
+  {
+   "name": "Flame Scattershot",
+   "icon": "/icons/sorcerer-flame-scattershot.webp"
+  },
+  {
+   "name": "Frost",
+   "icon": "/icons/sorcerer-frost.webp"
+  },
+  {
+   "name": "Frost Burst",
+   "icon": "/icons/sorcerer-frost-burst.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/sorcerer-defiance.webp"
+  }
+ ],
+ "passives": [],
+ "stigmas": [
+  {
+   "name": "Element Enhancement",
+   "icon": "/icons/sorcerer-element-enhancement.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "98.9%",
+   "pvp": "99.4%",
+   "global": "100%"
+  },
+  {
+   "name": "Delayed Explosion",
+   "icon": "/icons/sorcerer-delayed-explosion.webp",
+   "tip": "200",
+   "meta": "Cooldown: 30s",
+   "pve": "97.4%",
+   "pvp": "97.6%",
+   "global": "94.4%"
+  },
+  {
+   "name": "Fire Wall",
+   "icon": "/icons/sorcerer-fire-wall.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "96.7%",
+   "pvp": "96.1%",
+   "global": "100%"
+  },
+  {
+   "name": "Steel Barrier",
+   "icon": "/icons/sorcerer-steel-barrier.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "95.1%",
+   "pvp": "98.5%",
+   "global": "64.8%"
+  },
+  {
+   "name": "Cold Storm",
+   "icon": "/icons/sorcerer-cold-storm.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "91.7%",
+   "pvp": "96.5%",
+   "global": "92.6%"
+  },
+  {
+   "name": "Arctic Armor",
+   "icon": "/icons/sorcerer-arctic-armor.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "75.3%",
+   "pvp": "96.3%",
+   "global": "48.1%"
+  },
+  {
+   "name": "Glacial Smite",
+   "icon": "/icons/sorcerer-glacial-smite.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "70.2%",
+   "pvp": "92%",
+   "global": "22.2%"
+  },
+  {
+   "name": "Hibernation",
+   "icon": "/icons/sorcerer-hibernation.webp",
+   "tip": "—",
+   "meta": "Cooldown: 180s",
+   "pve": "67.9%",
+   "pvp": "95.4%",
+   "global": "50%"
+  },
+  {
+   "name": "Divine Burst",
+   "icon": "/icons/sorcerer-divine-burst.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "53.2%",
+   "pvp": "54.6%",
+   "global": "9.3%"
+  },
+  {
+   "name": "Soul Freeze",
+   "icon": "/icons/sorcerer-soul-freeze.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "34.1%",
+   "pvp": "70.7%",
+   "global": "38.9%"
+  },
+  {
+   "name": "Assault Bombardment",
+   "icon": "/icons/sorcerer-assault-bombardment.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "30.7%",
+   "pvp": "39.1%",
+   "global": "1.9%"
+  },
+  {
+   "name": "Curse: Tree",
+   "icon": "/icons/sorcerer-curse-tree.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "26.7%",
+   "pvp": "41.6%",
+   "global": "13%"
+  }
+ ],
+ "wings": [
+  {
+   "name": "Talisra Wings",
+   "icon": "/icons/talisra-wings.webp",
+   "tip": "+10: Flight Power +300, Defense Bonus +100, Attack Bonus +10, Accuracy Bonus +20 How to get it: • Season Shop (Special tab, 210,000 Oath Coin)",
+   "meta": "Stats when equipped",
+   "pve": "82%",
+   "pvp": "65.3%"
+  },
+  {
+   "name": "Nightmare Wings",
+   "icon": "/icons/nightmare-wings.webp",
+   "tip": "+10: Flight Power +300, Boss Attack +20, Boss Defense +300, PvE Damage Boost +1% How to get it: • Nightmare Trade Shop (Wings tab, 160,000 Phantasmal Fragment)",
+   "meta": "Stats when equipped",
+   "pve": "3.8%",
+   "pvp": "–"
+  },
+  {
+   "name": "Dark Veil Wings",
+   "icon": "/icons/dark-veil-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Boost +1%, Boss Defense +300, PvE Attack +20 How to get it: • Substance Morph (1 x Sealed Dark Veil Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "1%",
+   "pvp": "–"
+  },
+  {
+   "name": "Forest Spirit Wings",
+   "icon": "/icons/forest-spirit-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Tolerance +1%, Boss Attack +30, Accuracy Bonus +20 How to get it: • Substance Morph (1 x Sealed Forest Spirit Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "0.7%",
+   "pvp": "–"
+  },
+  {
+   "name": "Brawler Wings",
+   "icon": "/icons/brawler-wings.webp",
+   "tip": "+10: Flight Power +300, Status Effect Chance +2.5%, PvP Damage Boost +1%, PvP Defense +100 How to get it: • Abyss Trade Shop (Wings tab, 800,000 Abyss Points)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "19.3%"
+  },
+  {
+   "name": "Springflower Butterfly Wings",
+   "icon": "/icons/springflower-butterfly-wings.webp",
+   "tip": "+10: Flight Power +300, Evasion Bonus +20, Block +20, Front Attack +20 How to get it: • Festival Shop (Wings tab, 8,350 Centuryroot Token)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "1.4%"
+  },
+  {
+   "name": "Radiant Love Wings",
+   "icon": "/icons/radiant-love-wings.webp",
+   "tip": "+10: Flight Power +300, Back Attack +10, Critical Hit +25, Accuracy Bonus +20 How to get it: • Hidden Cube",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "0.4%"
+  }
+ ],
+ "titles": [
+  {
+   "name": "Empty Closet",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Combat Speed +3.5%, Natural HP Regen +42, Cooldown Reduction +3.5% How to get it: • Fashionista VII (Achievement): Collect 700 Skins",
+   "meta": "Both factions",
+   "pve": "75.7%"
+  },
+  {
+   "name": "Unbound by Genus",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvE Damage Boost +4.5%, Attack Bonus +34, Critical Hit +68 How to get it: • Genus Genius (Achievement): Reach All Genus Insights Level 10",
+   "meta": "Both factions",
+   "pve": "45.3%"
+  },
+  {
+   "name": "Rule All Creation",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +320, Back Attack Damage Tolerance +3%, Boss Damage Tolerance +4% How to get it: • My Reliable Friends VII (Achievement): Collect 200 pets",
+   "meta": "Both factions",
+   "pve": "24.5%"
+  },
+  {
+   "name": "Saint of Altgard",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Altgard Monolith (Monolith, Safe Haven / Nornir Assembly)",
+   "meta": "Asmodian",
+   "pve": "14.6%"
+  },
+  {
+   "name": "Saint of Verteron",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Verteron Monolith (Monolith, Dawn Legion Base / Zumion Village)",
+   "meta": "Elyos",
+   "pve": "12.6%"
+  },
+  {
+   "name": "Dominator of Dimensions",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +340, HP +1,000, PvE Damage Tolerance +4.5% How to get it: • Veteran Wing Collector V (Achievement): Collect 25 Wings",
+   "meta": "Both factions",
+   "pve": "10.7%"
+  },
+  {
+   "name": "Saint of Ereshkigal",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, Endurance Penetration +2.5%, Critical Hit +60 How to get it: • Ereshkigal's Monolith (Monolith, Latesran Eastern Root / Western Root)",
+   "meta": "Both factions",
+   "pve": "7.9%"
+  },
+  {
+   "name": "Treading on White Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Asmodian",
+   "pve": "4%"
+  },
+  {
+   "name": "Treading on Black Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Elyos",
+   "pve": "3.2%"
+  },
+  {
+   "name": "Through Hell and Back",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Cooldown Reduction +3%, HP +900, Stamina +225 How to get it: • Ruins of the Ancient City of Ru (Sealed Dungeon)",
+   "meta": "Both factions",
+   "pve": "2.2%"
+  },
+  {
+   "name": "Golden Glow",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: Critical Attack +45, Critical Damage Boost +3%, Accuracy Bonus +60 How to get it: • Tailor-Made V (Achievement): Enhance Unique Gear to +15",
+   "meta": "Both factions",
+   "pve": "1.3%"
+  },
+  {
+   "name": "Encountering Zikel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Zikel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Asmodian",
+   "pve": "0.8%"
+  },
+  {
+   "name": "Encountering Kaisinel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Kaisinel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Elyos",
+   "pve": "0.8%"
+  }
+ ],
+ "statPriority": [
+  {
+   "slot": "Weapons",
+   "text": "Weapons All come with the piece Manastones: Attack › Weapon Damage Boost › MP"
+  },
+  {
+   "slot": "Armor",
+   "text": "Armor Perfect Chance › Critical Hit › Attack Manastones: Attack › HP › Critical Hit"
+  },
+  {
+   "slot": "Jewelry",
+   "text": "Jewelry Attack Manastones: Attack › Critical Hit › HP Slot Bonus stats Manastones Weapon Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Attack 66% Weapon Damage Boost 39% MP 39% Accuracy Bonus 37% Off-hand Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Attack 62% HP 42% MP 38% Weapon Damage Boost 38% Helmet Double Chance 100% Attack increase 100% Attack 98% Incoming Heal 71% Attack 69% HP 40% Critical Hit 38% Accuracy Bonus 37% Shoulders Critical Damage Boost 100% Attack 99% Critical Hit 81% Accuracy 71% Attack 62% Critical Hit 41% HP 40% MP 38% Chest Damage Boost 100% Attack 96% Critical Hit 76% Accuracy 71% Attack 62% MP 39% Weapon Damage Boost 38% HP 37% Legs Attack increase 100% Damage Tolerance 100% Attack 96% Perfect Chance 93% Attack 60% MP 40% Critical Hit 40% HP 39% Gloves Combat Speed 100% Attack 99% Perfect Chance 94% Critical Hit 72% Attack 64% Critical Hit 41% HP 40% Weapon Damage Boost 37% Boots Move Speed 100% Attack 98% Perfect Chance 93% Critical Hit 70% Attack 62% Critical Hit 39% MP 38% HP 37% Cloak Double Chance 100% Attack increase 100% Attack 94% Perfect Chance 94% Attack 65% Critical Hit 45% HP 37% Weapon Damage Boost 36% Necklace Attack 100% Critical Hit 99% Accuracy 97% Attack 61% HP 39% MP 38% Critical Hit 37% Earrings Attack 100% Critical Hit 99% Accuracy 99% Attack 82% Critical Hit 63% HP 61% Accuracy Bonus 60% Rings Attack 86% Attack 86% HP 63% Critical Hit 63% MP 58% Bracelets Time [Siel] 100% Destruction [Zikel] 100% Illusion [Kaisinel] 100% Wisdom [Lumiel] 99% Attack 84% Critical Hit 64% HP 63% MP 63% Data: AION2CAL (Korean PvE rankings), 12 October 2026. Stat names as in the global client."
+  }
+ ]
+}

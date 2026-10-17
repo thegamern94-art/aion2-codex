@@ -9,6 +9,7 @@ import MacrosGuide from '@/content/guides/combat/best-2-key-macros-all-classes.m
 import StigmaGuide from '@/content/guides/progression/stigma-shards-ap-economy.mdx';
 import ManastonesGuide from '@/content/guides/gear/manastones-socketing-guide.mdx';
 import MarketGuide from '@/content/guides/economy/market-membership-explained.mdx';
+import SpecializationsGuide from '@/content/guides/progression/skill-specializations-guide.mdx';
 import { GUIDES, guideHref } from '@/lib/guides-meta';
 import { mdxComponents } from '@/mdx-components';
 import JsonLd from '@/components/JsonLd';
@@ -23,6 +24,7 @@ const CONTENT: Record<string, ComponentType<MDXProps>> = {
   'progression/stigma-shards-ap-economy': StigmaGuide,
   'gear/manastones-socketing-guide': ManastonesGuide,
   'economy/market-membership-explained': MarketGuide,
+  'progression/skill-specializations-guide': SpecializationsGuide,
 };
 
 export const dynamicParams = false;

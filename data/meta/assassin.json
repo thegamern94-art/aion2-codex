@@ -1,0 +1,446 @@
+{
+ "slug": "assassin",
+ "source": "aion2-meta.com — KR top-player builds (AION2CAL) + NCSOFT official Global profiles",
+ "skillOrder": [
+  {
+   "name": "Heart Gore",
+   "icon": "/icons/assassin-heart-gore.webp",
+   "order": 1,
+   "meta": "Cooldown: 5s"
+  },
+  {
+   "name": "Quick Slice",
+   "icon": "/icons/assassin-quick-slice.webp",
+   "order": 2,
+   "meta": null
+  },
+  {
+   "name": "Insignia Explosion",
+   "icon": "/icons/assassin-insignia-explosion.webp",
+   "order": 3,
+   "meta": "Cooldown: 10s"
+  },
+  {
+   "name": "Savage Roar",
+   "icon": "/icons/assassin-savage-roar.webp",
+   "order": 4,
+   "meta": null
+  }
+ ],
+ "ringSkills": [
+  {
+   "name": "Heart Gore",
+   "icon": "/icons/assassin-heart-gore.webp"
+  },
+  {
+   "name": "Quick Slice",
+   "icon": "/icons/assassin-quick-slice.webp"
+  },
+  {
+   "name": "Insignia Explosion",
+   "icon": "/icons/assassin-insignia-explosion.webp"
+  },
+  {
+   "name": "Savage Roar",
+   "icon": "/icons/assassin-savage-roar.webp"
+  },
+  {
+   "name": "Heart Gore",
+   "icon": "/icons/assassin-heart-gore.webp"
+  },
+  {
+   "name": "Quick Slice",
+   "icon": "/icons/assassin-quick-slice.webp"
+  },
+  {
+   "name": "Insignia Explosion",
+   "icon": "/icons/assassin-insignia-explosion.webp"
+  },
+  {
+   "name": "Savage Roar",
+   "icon": "/icons/assassin-savage-roar.webp"
+  },
+  {
+   "name": "Ambush",
+   "icon": "/icons/assassin-ambush.webp"
+  },
+  {
+   "name": "Storm Rampage",
+   "icon": "/icons/assassin-storm-rampage.webp"
+  },
+  {
+   "name": "Shadowstrike",
+   "icon": "/icons/assassin-shadowstrike.webp"
+  },
+  {
+   "name": "Whirlwind Slice",
+   "icon": "/icons/assassin-whirlwind-slice.webp"
+  },
+  {
+   "name": "Flash Slice",
+   "icon": "/icons/assassin-flash-slice.webp"
+  },
+  {
+   "name": "Infiltrate",
+   "icon": "/icons/assassin-infiltrate.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/assassin-defiance.webp"
+  },
+  {
+   "name": "Shadow Fall",
+   "icon": "/icons/assassin-shadow-fall.webp"
+  }
+ ],
+ "specialties": [
+  {
+   "name": "Heart Gore",
+   "icon": "/icons/assassin-heart-gore.webp"
+  },
+  {
+   "name": "Insignia Explosion",
+   "icon": "/icons/assassin-insignia-explosion.webp"
+  },
+  {
+   "name": "Quick Slice",
+   "icon": "/icons/assassin-quick-slice.webp"
+  },
+  {
+   "name": "Heart Gore",
+   "icon": "/icons/assassin-heart-gore.webp"
+  },
+  {
+   "name": "Quick Slice",
+   "icon": "/icons/assassin-quick-slice.webp"
+  },
+  {
+   "name": "Insignia Explosion",
+   "icon": "/icons/assassin-insignia-explosion.webp"
+  },
+  {
+   "name": "Heart Gore",
+   "icon": "/icons/assassin-heart-gore.webp"
+  },
+  {
+   "name": "Insignia Explosion",
+   "icon": "/icons/assassin-insignia-explosion.webp"
+  },
+  {
+   "name": "Quick Slice",
+   "icon": "/icons/assassin-quick-slice.webp"
+  },
+  {
+   "name": "Ambush",
+   "icon": "/icons/assassin-ambush.webp"
+  },
+  {
+   "name": "Storm Rampage",
+   "icon": "/icons/assassin-storm-rampage.webp"
+  },
+  {
+   "name": "Whirlwind Slice",
+   "icon": "/icons/assassin-whirlwind-slice.webp"
+  },
+  {
+   "name": "Shadowstrike",
+   "icon": "/icons/assassin-shadowstrike.webp"
+  },
+  {
+   "name": "Savage Roar",
+   "icon": "/icons/assassin-savage-roar.webp"
+  }
+ ],
+ "passives": [],
+ "stigmas": [
+  {
+   "name": "Illusive Clone",
+   "icon": "/icons/assassin-illusive-clone.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "98.7%",
+   "pvp": "99.4%",
+   "global": "100%"
+  },
+  {
+   "name": "Swift Contract",
+   "icon": "/icons/assassin-swift-contract.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "98.1%",
+   "pvp": "98.4%",
+   "global": "97%"
+  },
+  {
+   "name": "Triniel's Dagger",
+   "icon": "/icons/assassin-triniels-dagger.webp",
+   "tip": "200",
+   "meta": "Cooldown: 45s",
+   "pve": "94.5%",
+   "pvp": "96.2%",
+   "global": "90.9%"
+  },
+  {
+   "name": "Throw Shadowblade",
+   "icon": "/icons/assassin-throw-shadowblade.webp",
+   "tip": "—",
+   "meta": "Cooldown: 30s",
+   "pve": "91.3%",
+   "pvp": "95.9%",
+   "global": "86.4%"
+  },
+  {
+   "name": "Savage Fang",
+   "icon": "/icons/assassin-savage-fang.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "86.4%",
+   "pvp": "90.1%",
+   "global": "53%"
+  },
+  {
+   "name": "Evasion Stance",
+   "icon": "/icons/assassin-evasion-stance.webp",
+   "tip": "—",
+   "meta": "Cooldown: 20s",
+   "pve": "86.4%",
+   "pvp": "94.9%",
+   "global": "68.2%"
+  },
+  {
+   "name": "Shadow Walk",
+   "icon": "/icons/assassin-shadow-walk.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "70.3%",
+   "pvp": "94.1%",
+   "global": "56.1%"
+  },
+  {
+   "name": "Spiral Slice",
+   "icon": "/icons/assassin-spiral-slice.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "49.3%",
+   "pvp": "82.2%",
+   "global": "25.8%"
+  },
+  {
+   "name": "Smoke Bomb",
+   "icon": "/icons/assassin-smoke-bomb.webp",
+   "tip": "100",
+   "meta": "Cooldown: 30s",
+   "pve": "48.9%",
+   "pvp": "67.2%",
+   "global": "12.1%"
+  },
+  {
+   "name": "Evasion Contract",
+   "icon": "/icons/assassin-evasion-contract.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "44.7%",
+   "pvp": "64.3%",
+   "global": "13.6%"
+  },
+  {
+   "name": "Shadowstep",
+   "icon": "/icons/assassin-shadowstep.webp",
+   "tip": "100",
+   "meta": "Cooldown: 45s",
+   "pve": "35.6%",
+   "pvp": "56.2%",
+   "global": "25.8%"
+  },
+  {
+   "name": "Assault Ambush",
+   "icon": "/icons/assassin-assault-ambush.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "22.3%",
+   "pvp": "26.5%",
+   "global": "3%"
+  }
+ ],
+ "wings": [
+  {
+   "name": "Talisra Wings",
+   "icon": "/icons/talisra-wings.webp",
+   "tip": "+10: Flight Power +300, Defense Bonus +100, Attack Bonus +10, Accuracy Bonus +20 How to get it: • Season Shop (Special tab, 210,000 Oath Coin)",
+   "meta": "Stats when equipped",
+   "pve": "53.1%",
+   "pvp": "60.1%"
+  },
+  {
+   "name": "Nightmare Wings",
+   "icon": "/icons/nightmare-wings.webp",
+   "tip": "+10: Flight Power +300, Boss Attack +20, Boss Defense +300, PvE Damage Boost +1% How to get it: • Nightmare Trade Shop (Wings tab, 160,000 Phantasmal Fragment)",
+   "meta": "Stats when equipped",
+   "pve": "17.5%",
+   "pvp": "1.7%"
+  },
+  {
+   "name": "Dark Veil Wings",
+   "icon": "/icons/dark-veil-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Boost +1%, Boss Defense +300, PvE Attack +20 How to get it: • Substance Morph (1 x Sealed Dark Veil Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "3.1%",
+   "pvp": "1.4%"
+  },
+  {
+   "name": "Ultimate Daeva Wings",
+   "icon": "/icons/ultimate-daeva-wings.webp",
+   "tip": "+10: Flight Power +600, Penetration +100, Accuracy Bonus +20, Attack Bonus +10 How to get it: • The One Who Witnesses the Nightmare (Ascension)",
+   "meta": "Stats when equipped",
+   "pve": "3%",
+   "pvp": "–"
+  },
+  {
+   "name": "Forest Spirit Wings",
+   "icon": "/icons/forest-spirit-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Tolerance +1%, Boss Attack +30, Accuracy Bonus +20 How to get it: • Substance Morph (1 x Sealed Forest Spirit Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "0.7%",
+   "pvp": "–"
+  },
+  {
+   "name": "Kromede Wings",
+   "icon": "/icons/kromede-wings.webp",
+   "tip": "+10: Flight Power +300, HP +50, Natural HP Regen +50, Attack Bonus +10 How to get it: • Substance Morph (1 x Sealed Kromede Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "0.4%",
+   "pvp": "–"
+  },
+  {
+   "name": "Brawler Wings",
+   "icon": "/icons/brawler-wings.webp",
+   "tip": "+10: Flight Power +300, Status Effect Chance +2.5%, PvP Damage Boost +1%, PvP Defense +100 How to get it: • Abyss Trade Shop (Wings tab, 800,000 Abyss Points)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "11.2%"
+  },
+  {
+   "name": "Radiant Love Wings",
+   "icon": "/icons/radiant-love-wings.webp",
+   "tip": "+10: Flight Power +300, Back Attack +10, Critical Hit +25, Accuracy Bonus +20 How to get it: • Hidden Cube",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "9%"
+  },
+  {
+   "name": "Springflower Butterfly Wings",
+   "icon": "/icons/springflower-butterfly-wings.webp",
+   "tip": "+10: Flight Power +300, Evasion Bonus +20, Block +20, Front Attack +20 How to get it: • Festival Shop (Wings tab, 8,350 Centuryroot Token)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "3.4%"
+  }
+ ],
+ "titles": [
+  {
+   "name": "Empty Closet",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Combat Speed +3.5%, Natural HP Regen +42, Cooldown Reduction +3.5% How to get it: • Fashionista VII (Achievement): Collect 700 Skins",
+   "meta": "Both factions",
+   "pve": "64.2%"
+  },
+  {
+   "name": "Unbound by Genus",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvE Damage Boost +4.5%, Attack Bonus +34, Critical Hit +68 How to get it: • Genus Genius (Achievement): Reach All Genus Insights Level 10",
+   "meta": "Both factions",
+   "pve": "44.1%"
+  },
+  {
+   "name": "Rule All Creation",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +320, Back Attack Damage Tolerance +3%, Boss Damage Tolerance +4% How to get it: • My Reliable Friends VII (Achievement): Collect 200 pets",
+   "meta": "Both factions",
+   "pve": "22.3%"
+  },
+  {
+   "name": "Dominator of Dimensions",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +340, HP +1,000, PvE Damage Tolerance +4.5% How to get it: • Veteran Wing Collector V (Achievement): Collect 25 Wings",
+   "meta": "Both factions",
+   "pve": "15.3%"
+  },
+  {
+   "name": "Saint of Altgard",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Altgard Monolith (Monolith, Safe Haven / Nornir Assembly)",
+   "meta": "Asmodian",
+   "pve": "12.4%"
+  },
+  {
+   "name": "Saint of Verteron",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Verteron Monolith (Monolith, Dawn Legion Base / Zumion Village)",
+   "meta": "Elyos",
+   "pve": "11.6%"
+  },
+  {
+   "name": "Saint of Ereshkigal",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, Endurance Penetration +2.5%, Critical Hit +60 How to get it: • Ereshkigal's Monolith (Monolith, Latesran Eastern Root / Western Root)",
+   "meta": "Both factions",
+   "pve": "8%"
+  },
+  {
+   "name": "Through Hell and Back",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Cooldown Reduction +3%, HP +900, Stamina +225 How to get it: • Ruins of the Ancient City of Ru (Sealed Dungeon)",
+   "meta": "Both factions",
+   "pve": "6.3%"
+  },
+  {
+   "name": "Treading on White Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Asmodian",
+   "pve": "4.1%"
+  },
+  {
+   "name": "Treading on Black Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Elyos",
+   "pve": "3.4%"
+  },
+  {
+   "name": "Encountering Kaisinel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Kaisinel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Elyos",
+   "pve": "2.2%"
+  },
+  {
+   "name": "Encountering Zikel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Zikel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Asmodian",
+   "pve": "1.7%"
+  },
+  {
+   "name": "Golden Glow",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: Critical Attack +45, Critical Damage Boost +3%, Accuracy Bonus +60 How to get it: • Tailor-Made V (Achievement): Enhance Unique Gear to +15",
+   "meta": "Both factions",
+   "pve": "1.2%"
+  }
+ ],
+ "statPriority": [
+  {
+   "slot": "Weapons",
+   "text": "Weapons All come with the piece Manastones: Back Attack Damage Boost › Attack › HP"
+  },
+  {
+   "slot": "Armor",
+   "text": "Armor Attack › Perfect Chance › Damage Tolerance Manastones: Back Attack Damage Boost › Attack › HP"
+  },
+  {
+   "slot": "Jewelry",
+   "text": "Jewelry Critical Hit › Accuracy Manastones: Attack › MP › HP Slot Bonus stats Manastones Weapon Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Back Attack Damage Boost 67% Attack 60% HP 41% Critical Hit 35% Off-hand Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Back Attack Damage Boost 62% Attack 58% HP 39% MP 39% Helmet Attack increase 100% Double Chance 100% Attack 92% Incoming Heal 24% Back Attack Damage Boost 59% Attack 57% MP 41% HP 40% Shoulders Critical Damage Boost 100% Attack 98% Critical Hit 15% Back Attack Damage Boost 60% Attack 55% HP 40% MP 39% Chest Damage Boost 100% Attack 97% Critical Hit 19% Defense increase 17% Back Attack Damage Boost 61% Attack 58% HP 42% MP 40% Legs Attack increase 99% Damage Tolerance 95% Perfect Chance 92% Attack 89% Back Attack Damage Boost 61% Attack 57% MP 40% HP 39% Gloves Combat Speed 100% Attack 95% Perfect Chance 93% Back Attack Damage Boost 60% Attack 55% HP 43% MP 39% Boots Move Speed 100% Attack 96% Perfect Chance 94% Back Attack Damage Boost 60% Attack 58% HP 41% MP 40% Cloak Attack increase 100% Double Chance 99% Perfect Chance 93% Attack 75% Back Attack Damage Boost 63% Attack 58% HP 40% MP 39% Necklace Attack 100% Critical Hit 70% Accuracy 42% Attack 56% Back Attack Damage Boost 51% MP 39% HP 38% Earrings Attack 100% Critical Hit 76% Accuracy 48% Attack 77% HP 65% MP 64% Back Attack Damage Boost 64% Rings Attack 99% Critical Hit 48% Accuracy 24% Attack 81% HP 62% MP 62% Critical Hit 58% Bracelets Time [Siel] 100% Destruction [Zikel] 100% Illusion [Kaisinel] 100% Wisdom [Lumiel] 99% Attack 78% MP 63% HP 62% Accuracy Bonus 58% Data: AION2CAL (Korean PvE rankings), 12 October 2026. Stat names as in the global client."
+  }
+ ]
+}

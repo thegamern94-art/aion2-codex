@@ -145,6 +145,29 @@ export const GUIDES: GuideMeta[] = [
       },
     ],
   },
+  {
+    category: 'progression',
+    slug: 'skill-specializations-guide',
+    title: 'Skill Specializations: Equip Them Yourself',
+    description:
+      'AION 2 Skill Specializations: where to find them (K → Mastery → Specialty), unlock levels 8/12/16/20, presets 1–3, the “empty slots at 45” mistake, and per-class picks via the Meta Build tab.',
+    updated: '2026-10-17',
+    readingMinutes: 5,
+    faq: [
+      {
+        q: 'Where do I equip Skill Specializations in AION 2?',
+        a: 'Open Skills (K) → Mastery → Specialty. Specializations are not auto-equipped — you must place them into the specialty slots yourself, and slots unlock at character levels 8 / 12 / 16 / 20.',
+      },
+      {
+        q: 'How many specialization presets are there?',
+        a: 'Three presets. Use them as loadouts (PvE single-target/AoE, PvP control/burst, farm speed) — but re-check after every swap, because switching presets changes which specializations are active.',
+      },
+      {
+        q: 'Can I reset my specializations?',
+        a: 'Yes — specialty choices can be reset; it is not a permanent character decision. The classic mistake is resetting and forgetting to re-equip: the slots go back to empty, not to a default.',
+      },
+    ],
+  },
 ];
 
 export function guideHref(g: GuideMeta): string {

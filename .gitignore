@@ -12,3 +12,6 @@ next-env.d.ts.bak
 # env
 .env
 .env.*
+
+# one-time scrape recon cache
+.recon/

@@ -1,0 +1,456 @@
+{
+ "slug": "templar",
+ "source": "aion2-meta.com — KR top-player builds (AION2CAL) + NCSOFT official Global profiles",
+ "skillOrder": [
+  {
+   "name": "Judgment",
+   "icon": "/icons/templar-judgment.webp",
+   "order": 1,
+   "meta": "Cooldown: 5s"
+  },
+  {
+   "name": "Vicious Strike",
+   "icon": "/icons/templar-vicious-strike.webp",
+   "order": 2,
+   "meta": null
+  },
+  {
+   "name": "Pummel",
+   "icon": "/icons/templar-pummel.webp",
+   "order": 3,
+   "meta": null
+  },
+  {
+   "name": "Punishment",
+   "icon": "/icons/templar-punishment.webp",
+   "order": 4,
+   "meta": "Cooldown: 30s"
+  },
+  {
+   "name": "Warding Strike",
+   "icon": "/icons/templar-warding-strike.webp",
+   "order": 5,
+   "meta": "Cooldown: 30s"
+  }
+ ],
+ "ringSkills": [
+  {
+   "name": "Judgment",
+   "icon": "/icons/templar-judgment.webp"
+  },
+  {
+   "name": "Vicious Strike",
+   "icon": "/icons/templar-vicious-strike.webp"
+  },
+  {
+   "name": "Pummel",
+   "icon": "/icons/templar-pummel.webp"
+  },
+  {
+   "name": "Punishment",
+   "icon": "/icons/templar-punishment.webp"
+  },
+  {
+   "name": "Judgment",
+   "icon": "/icons/templar-judgment.webp"
+  },
+  {
+   "name": "Vicious Strike",
+   "icon": "/icons/templar-vicious-strike.webp"
+  },
+  {
+   "name": "Pummel",
+   "icon": "/icons/templar-pummel.webp"
+  },
+  {
+   "name": "Punishment",
+   "icon": "/icons/templar-punishment.webp"
+  },
+  {
+   "name": "Warding Strike",
+   "icon": "/icons/templar-warding-strike.webp"
+  },
+  {
+   "name": "Shield Rush",
+   "icon": "/icons/templar-shield-rush.webp"
+  },
+  {
+   "name": "Shield Smite",
+   "icon": "/icons/templar-shield-smite.webp"
+  },
+  {
+   "name": "Annihilate",
+   "icon": "/icons/templar-annihilate.webp"
+  },
+  {
+   "name": "Poach",
+   "icon": "/icons/templar-poach.webp"
+  },
+  {
+   "name": "Debilitating Smash",
+   "icon": "/icons/templar-debilitating-smash.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/templar-defiance.webp"
+  },
+  {
+   "name": "Flash Rampage",
+   "icon": "/icons/templar-flash-rampage.webp"
+  }
+ ],
+ "specialties": [
+  {
+   "name": "Judgment",
+   "icon": "/icons/templar-judgment.webp"
+  },
+  {
+   "name": "Vicious Strike",
+   "icon": "/icons/templar-vicious-strike.webp"
+  },
+  {
+   "name": "Pummel",
+   "icon": "/icons/templar-pummel.webp"
+  },
+  {
+   "name": "Punishment",
+   "icon": "/icons/templar-punishment.webp"
+  },
+  {
+   "name": "Judgment",
+   "icon": "/icons/templar-judgment.webp"
+  },
+  {
+   "name": "Pummel",
+   "icon": "/icons/templar-pummel.webp"
+  },
+  {
+   "name": "Punishment",
+   "icon": "/icons/templar-punishment.webp"
+  },
+  {
+   "name": "Vicious Strike",
+   "icon": "/icons/templar-vicious-strike.webp"
+  },
+  {
+   "name": "Pummel",
+   "icon": "/icons/templar-pummel.webp"
+  },
+  {
+   "name": "Judgment",
+   "icon": "/icons/templar-judgment.webp"
+  },
+  {
+   "name": "Punishment",
+   "icon": "/icons/templar-punishment.webp"
+  },
+  {
+   "name": "Flash Rampage",
+   "icon": "/icons/templar-flash-rampage.webp"
+  },
+  {
+   "name": "Warding Strike",
+   "icon": "/icons/templar-warding-strike.webp"
+  },
+  {
+   "name": "Poach",
+   "icon": "/icons/templar-poach.webp"
+  },
+  {
+   "name": "Shield Smite",
+   "icon": "/icons/templar-shield-smite.webp"
+  },
+  {
+   "name": "Debilitating Smash",
+   "icon": "/icons/templar-debilitating-smash.webp"
+  },
+  {
+   "name": "Shield Rush",
+   "icon": "/icons/templar-shield-rush.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/templar-defiance.webp"
+  },
+  {
+   "name": "Annihilate",
+   "icon": "/icons/templar-annihilate.webp"
+  }
+ ],
+ "passives": [],
+ "stigmas": [
+  {
+   "name": "Shield of Protection",
+   "icon": "/icons/templar-shield-of-protection.webp",
+   "tip": "—",
+   "meta": "Cooldown: 20s",
+   "pve": "96.7%",
+   "pvp": "99.4%",
+   "global": "51.7%"
+  },
+  {
+   "name": "Taunt",
+   "icon": "/icons/templar-taunt.webp",
+   "tip": "—",
+   "meta": "Cooldown: 30s",
+   "pve": "96%",
+   "pvp": "95.8%",
+   "global": "82.8%"
+  },
+  {
+   "name": "Battlefield Banner",
+   "icon": "/icons/templar-battlefield-banner.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "94.9%",
+   "pvp": "90.7%",
+   "global": "93.1%"
+  },
+  {
+   "name": "Doom Shield",
+   "icon": "/icons/templar-doom-shield.webp",
+   "tip": "—",
+   "meta": "Cooldown: 30s",
+   "pve": "92.1%",
+   "pvp": "98.9%",
+   "global": "100%"
+  },
+  {
+   "name": "Empyrean Lord's Punishment",
+   "icon": "/icons/templar-empyrean-lords-punishment.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "90.6%",
+   "pvp": "85.3%",
+   "global": "27.6%"
+  },
+  {
+   "name": "Comrade in Arms",
+   "icon": "/icons/templar-comrade-in-arms.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "66.6%",
+   "pvp": "88%",
+   "global": "3.4%"
+  },
+  {
+   "name": "Noble Armor",
+   "icon": "/icons/templar-noble-armor.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "66%",
+   "pvp": "78.5%",
+   "global": "93.1%"
+  },
+  {
+   "name": "Nezekan's Shield",
+   "icon": "/icons/templar-nezekans-shield.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "65.9%",
+   "pvp": "61.7%",
+   "global": "17.2%"
+  },
+  {
+   "name": "Second Skin",
+   "icon": "/icons/templar-second-skin.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "63.3%",
+   "pvp": "78.8%",
+   "global": "27.6%"
+  },
+  {
+   "name": "Grapple",
+   "icon": "/icons/templar-grapple.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "63%",
+   "pvp": "78.9%",
+   "global": "37.9%"
+  },
+  {
+   "name": "Armor of Balance",
+   "icon": "/icons/templar-armor-of-balance.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "38.8%",
+   "pvp": "72.3%",
+   "global": "10.3%"
+  },
+  {
+   "name": "Executing Blade",
+   "icon": "/icons/templar-executing-blade.webp",
+   "tip": "100",
+   "meta": "Cooldown: 45s",
+   "pve": "35.1%",
+   "pvp": "53.1%",
+   "global": "31%"
+  }
+ ],
+ "wings": [
+  {
+   "name": "Talisra Wings",
+   "icon": "/icons/talisra-wings.webp",
+   "tip": "+10: Flight Power +300, Defense Bonus +100, Attack Bonus +10, Accuracy Bonus +20 How to get it: • Season Shop (Special tab, 210,000 Oath Coin)",
+   "meta": "Stats when equipped",
+   "pve": "31.8%",
+   "pvp": "25.5%"
+  },
+  {
+   "name": "Nightmare Wings",
+   "icon": "/icons/nightmare-wings.webp",
+   "tip": "+10: Flight Power +300, Boss Attack +20, Boss Defense +300, PvE Damage Boost +1% How to get it: • Nightmare Trade Shop (Wings tab, 160,000 Phantasmal Fragment)",
+   "meta": "Stats when equipped",
+   "pve": "20.4%",
+   "pvp": "1.7%"
+  },
+  {
+   "name": "Dark Veil Wings",
+   "icon": "/icons/dark-veil-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Boost +1%, Boss Defense +300, PvE Attack +20 How to get it: • Substance Morph (1 x Sealed Dark Veil Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "3.4%",
+   "pvp": "0.4%"
+  },
+  {
+   "name": "Ultimate Daeva Wings",
+   "icon": "/icons/ultimate-daeva-wings.webp",
+   "tip": "+10: Flight Power +600, Penetration +100, Accuracy Bonus +20, Attack Bonus +10 How to get it: • The One Who Witnesses the Nightmare (Ascension)",
+   "meta": "Stats when equipped",
+   "pve": "2.8%",
+   "pvp": "–"
+  },
+  {
+   "name": "Forest Spirit Wings",
+   "icon": "/icons/forest-spirit-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Tolerance +1%, Boss Attack +30, Accuracy Bonus +20 How to get it: • Substance Morph (1 x Sealed Forest Spirit Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "0.8%",
+   "pvp": "–"
+  },
+  {
+   "name": "Brawler Wings",
+   "icon": "/icons/brawler-wings.webp",
+   "tip": "+10: Flight Power +300, Status Effect Chance +2.5%, PvP Damage Boost +1%, PvP Defense +100 How to get it: • Abyss Trade Shop (Wings tab, 800,000 Abyss Points)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "25.3%"
+  },
+  {
+   "name": "Springflower Butterfly Wings",
+   "icon": "/icons/springflower-butterfly-wings.webp",
+   "tip": "+10: Flight Power +300, Evasion Bonus +20, Block +20, Front Attack +20 How to get it: • Festival Shop (Wings tab, 8,350 Centuryroot Token)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "0.6%"
+  }
+ ],
+ "titles": [
+  {
+   "name": "Empty Closet",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Combat Speed +3.5%, Natural HP Regen +42, Cooldown Reduction +3.5% How to get it: • Fashionista VII (Achievement): Collect 700 Skins",
+   "meta": "Both factions",
+   "pve": "73.3%"
+  },
+  {
+   "name": "Unbound by Genus",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvE Damage Boost +4.5%, Attack Bonus +34, Critical Hit +68 How to get it: • Genus Genius (Achievement): Reach All Genus Insights Level 10",
+   "meta": "Both factions",
+   "pve": "45.5%"
+  },
+  {
+   "name": "Saint of Altgard",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Altgard Monolith (Monolith, Safe Haven / Nornir Assembly)",
+   "meta": "Asmodian",
+   "pve": "26.2%"
+  },
+  {
+   "name": "Saint of Verteron",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Verteron Monolith (Monolith, Dawn Legion Base / Zumion Village)",
+   "meta": "Elyos",
+   "pve": "22.4%"
+  },
+  {
+   "name": "Rule All Creation",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +320, Back Attack Damage Tolerance +3%, Boss Damage Tolerance +4% How to get it: • My Reliable Friends VII (Achievement): Collect 200 pets",
+   "meta": "Both factions",
+   "pve": "10.2%"
+  },
+  {
+   "name": "Saint of Ereshkigal",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, Endurance Penetration +2.5%, Critical Hit +60 How to get it: • Ereshkigal's Monolith (Monolith, Latesran Eastern Root / Western Root)",
+   "meta": "Both factions",
+   "pve": "5%"
+  },
+  {
+   "name": "Treading on White Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Asmodian",
+   "pve": "4.6%"
+  },
+  {
+   "name": "Dominator of Dimensions",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +340, HP +1,000, PvE Damage Tolerance +4.5% How to get it: • Veteran Wing Collector V (Achievement): Collect 25 Wings",
+   "meta": "Both factions",
+   "pve": "4.2%"
+  },
+  {
+   "name": "Treading on Black Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Elyos",
+   "pve": "4%"
+  },
+  {
+   "name": "Through Hell and Back",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Cooldown Reduction +3%, HP +900, Stamina +225 How to get it: • Ruins of the Ancient City of Ru (Sealed Dungeon)",
+   "meta": "Both factions",
+   "pve": "2.2%"
+  },
+  {
+   "name": "Golden Glow",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: Critical Attack +45, Critical Damage Boost +3%, Accuracy Bonus +60 How to get it: • Tailor-Made V (Achievement): Enhance Unique Gear to +15",
+   "meta": "Both factions",
+   "pve": "2%"
+  },
+  {
+   "name": "Encountering Kaisinel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Kaisinel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Elyos",
+   "pve": "1%"
+  },
+  {
+   "name": "Encountering Zikel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Zikel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Asmodian",
+   "pve": "0.9%"
+  }
+ ],
+ "statPriority": [
+  {
+   "slot": "Weapons",
+   "text": "Weapons All come with the piece Manastones: Attack › Front Attack Damage Boost › HP"
+  },
+  {
+   "slot": "Armor",
+   "text": "Armor Attack › Perfect Chance › Dexterity Manastones: Attack › HP › MP"
+  },
+  {
+   "slot": "Jewelry",
+   "text": "Jewelry Accuracy › Critical Hit › Block Manastones: Attack › HP › MP Slot Bonus stats Manastones Weapon Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 99% Attack 59% Front Attack Damage Boost 45% Critical Hit 38% HP 37% Off-hand Might 100% Combat Speed 100% Weapon Damage Boost 100% Damage Boost 99% Attack 57% HP 40% Front Attack Damage Boost 40% Accuracy Bonus 38% Helmet Double Chance 100% Attack increase 99% Attack 92% Dexterity 31% Attack 58% HP 38% Accuracy Bonus 38% Front Attack Damage Boost 38% Shoulders Critical Damage Boost 100% Attack 95% Dexterity 48% Block 34% Attack 55% HP 39% Front Attack Damage Boost 38% MP 38% Chest Damage Boost 100% Attack 92% Dexterity 50% Block 42% Attack 51% Front Attack Damage Boost 40% HP 38% Accuracy Bonus 37% Legs Attack increase 99% Perfect Chance 92% Damage Tolerance 91% Attack 85% Attack 56% HP 41% MP 37% Front Attack Damage Boost 37% Gloves Combat Speed 100% Attack 94% Perfect Chance 93% Dexterity 28% Attack 56% HP 41% Critical Hit 40% MP 37% Boots Move Speed 100% Attack 94% Perfect Chance 93% Dexterity 23% Attack 59% HP 41% Critical Hit 38% MP 37% Cloak Attack increase 100% Double Chance 100% Perfect Chance 93% Attack 77% Attack 53% Critical Hit 41% MP 40% HP 40% Necklace Attack 100% Accuracy 88% Critical Hit 86% Block 61% Attack 59% HP 41% Critical Hit 40% MP 38% Earrings Attack 100% Accuracy 93% Critical Hit 90% Block 63% Attack 79% HP 62% MP 57% Critical Hit 57% Rings Attack 98% Block 52% Critical Hit 52% Accuracy 50% Attack 79% Accuracy Bonus 63% HP 63% MP 61% Bracelets Time [Siel] 100% Destruction [Zikel] 100% Wisdom [Lumiel] 98% Illusion [Kaisinel] 94% Attack 81% HP 63% MP 63% Critical Hit 60% Data: AION2CAL (Korean PvE rankings), 12 October 2026. Stat names as in the global client."
+  }
+ ]
+}

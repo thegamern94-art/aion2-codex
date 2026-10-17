@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ROADMAP } from '@/lib/data';
+import WhatNow from '@/components/WhatNow';
 
 export const metadata: Metadata = {
   title: 'Progression Roadmap — Level 1 to Sanctuary Raids',
@@ -21,6 +22,10 @@ export default function RoadmapPage() {
         </Link>
         .
       </p>
+
+      <div className="mt-8">
+        <WhatNow stages={ROADMAP.stages} />
+      </div>
 
       <div className="mt-10 space-y-6">
         {ROADMAP.stages.map((stage, idx) => (

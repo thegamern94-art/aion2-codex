@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useMemo, useState, type ReactNode } from 'react';
 import type { ClassInfo, MetaTier, Role } from '@/types/game';
+import { withBase } from '@/lib/asset';
 
 const ROLES: (Role | 'All')[] = ['All', 'Tank', 'Melee DPS', 'Ranged DPS', 'Magic DPS', 'Healer', 'Support'];
 const TIERS: (MetaTier | 'All')[] = ['All', 'S', 'A', 'B', 'C'];
@@ -134,14 +135,25 @@ export default function ClassFilters({ classes }: { classes: ClassInfo[] }) {
             href={`/classes/${c.slug}/`}
             className="card-corners group rounded-lg border border-zinc-800 bg-zinc-900/40 p-5 transition hover:border-amber-500/40 hover:bg-zinc-900/70"
           >
-            <div className="flex items-start justify-between gap-2">
-              <div className="min-w-0">
-                <h3 className="font-semibold text-zinc-100 group-hover:text-amber-300">{c.name}</h3>
-                <p className="truncate text-xs text-zinc-500">
-                  {c.role} · {c.weapons.join(' / ')}
-                </p>
+            <div className="flex items-start gap-3">
+              <img
+                src={withBase(`/portraits/${c.slug}.webp`)}
+                alt=""
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-lg border border-zinc-700 bg-zinc-950 object-cover"
+              />
+              <div className="min-w-0 flex-1">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="min-w-0">
+                    <h3 className="font-semibold text-zinc-100 group-hover:text-amber-300">{c.name}</h3>
+                    <p className="truncate text-xs text-zinc-500">
+                      {c.role} · {c.weapons.join(' / ')}
+                    </p>
+                  </div>
+                  <TierBadge tier={c.tiers[mode]} />
+                </div>
               </div>
-              <TierBadge tier={c.tiers[mode]} />
             </div>
             <p className="mt-3 line-clamp-2 text-sm text-zinc-400">{c.tagline}</p>
             <div className="mt-4 flex items-center justify-between text-xs text-zinc-500">

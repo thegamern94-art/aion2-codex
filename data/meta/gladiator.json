@@ -1,0 +1,442 @@
+{
+ "slug": "gladiator",
+ "source": "aion2-meta.com — KR top-player builds (AION2CAL) + NCSOFT official Global profiles",
+ "skillOrder": [
+  {
+   "name": "Overhead Slam",
+   "icon": "/icons/gladiator-overhead-slam.webp",
+   "order": 1,
+   "meta": "Cooldown: 5s"
+  },
+  {
+   "name": "Rending Blow",
+   "icon": "/icons/gladiator-rending-blow.webp",
+   "order": 2,
+   "meta": null
+  },
+  {
+   "name": "Ruinous Blow",
+   "icon": "/icons/gladiator-ruinous-blow.webp",
+   "order": 3,
+   "meta": "Cooldown: 45s"
+  },
+  {
+   "name": "Crushing Wave",
+   "icon": "/icons/gladiator-crushing-wave.webp",
+   "order": 4,
+   "meta": "Cooldown: 20s"
+  }
+ ],
+ "ringSkills": [
+  {
+   "name": "Overhead Slam",
+   "icon": "/icons/gladiator-overhead-slam.webp"
+  },
+  {
+   "name": "Ruinous Blow",
+   "icon": "/icons/gladiator-ruinous-blow.webp"
+  },
+  {
+   "name": "Rending Blow",
+   "icon": "/icons/gladiator-rending-blow.webp"
+  },
+  {
+   "name": "Overhead Slam",
+   "icon": "/icons/gladiator-overhead-slam.webp"
+  },
+  {
+   "name": "Rending Blow",
+   "icon": "/icons/gladiator-rending-blow.webp"
+  },
+  {
+   "name": "Ruinous Blow",
+   "icon": "/icons/gladiator-ruinous-blow.webp"
+  },
+  {
+   "name": "Crushing Wave",
+   "icon": "/icons/gladiator-crushing-wave.webp"
+  },
+  {
+   "name": "Leaping Slam",
+   "icon": "/icons/gladiator-leaping-slam.webp"
+  },
+  {
+   "name": "Rush Strike",
+   "icon": "/icons/gladiator-rush-strike.webp"
+  },
+  {
+   "name": "Keen Strike",
+   "icon": "/icons/gladiator-keen-strike.webp"
+  },
+  {
+   "name": "Ankle Slice",
+   "icon": "/icons/gladiator-ankle-slice.webp"
+  },
+  {
+   "name": "Sword Aura Rampage",
+   "icon": "/icons/gladiator-sword-aura-rampage.webp"
+  },
+  {
+   "name": "Mocking Blade",
+   "icon": "/icons/gladiator-mocking-blade.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/gladiator-defiance.webp"
+  },
+  {
+   "name": "Aerial Snare",
+   "icon": "/icons/gladiator-aerial-snare.webp"
+  }
+ ],
+ "specialties": [
+  {
+   "name": "Overhead Slam",
+   "icon": "/icons/gladiator-overhead-slam.webp"
+  },
+  {
+   "name": "Rending Blow",
+   "icon": "/icons/gladiator-rending-blow.webp"
+  },
+  {
+   "name": "Ruinous Blow",
+   "icon": "/icons/gladiator-ruinous-blow.webp"
+  },
+  {
+   "name": "Crushing Wave",
+   "icon": "/icons/gladiator-crushing-wave.webp"
+  },
+  {
+   "name": "Ruinous Blow",
+   "icon": "/icons/gladiator-ruinous-blow.webp"
+  },
+  {
+   "name": "Crushing Wave",
+   "icon": "/icons/gladiator-crushing-wave.webp"
+  },
+  {
+   "name": "Overhead Slam",
+   "icon": "/icons/gladiator-overhead-slam.webp"
+  },
+  {
+   "name": "Overhead Slam",
+   "icon": "/icons/gladiator-overhead-slam.webp"
+  },
+  {
+   "name": "Rending Blow",
+   "icon": "/icons/gladiator-rending-blow.webp"
+  },
+  {
+   "name": "Ruinous Blow",
+   "icon": "/icons/gladiator-ruinous-blow.webp"
+  },
+  {
+   "name": "Crushing Wave",
+   "icon": "/icons/gladiator-crushing-wave.webp"
+  },
+  {
+   "name": "Mocking Blade",
+   "icon": "/icons/gladiator-mocking-blade.webp"
+  },
+  {
+   "name": "Keen Strike",
+   "icon": "/icons/gladiator-keen-strike.webp"
+  },
+  {
+   "name": "Leaping Slam",
+   "icon": "/icons/gladiator-leaping-slam.webp"
+  },
+  {
+   "name": "Ankle Slice",
+   "icon": "/icons/gladiator-ankle-slice.webp"
+  },
+  {
+   "name": "Rush Strike",
+   "icon": "/icons/gladiator-rush-strike.webp"
+  },
+  {
+   "name": "Aerial Snare",
+   "icon": "/icons/gladiator-aerial-snare.webp"
+  },
+  {
+   "name": "Defiance",
+   "icon": "/icons/gladiator-defiance.webp"
+  }
+ ],
+ "passives": [],
+ "stigmas": [
+  {
+   "name": "Lunge Stance",
+   "icon": "/icons/gladiator-lunge-stance.webp",
+   "tip": "—",
+   "meta": "Cooldown: 60s",
+   "pve": "99%",
+   "pvp": "99.6%",
+   "global": "100%"
+  },
+  {
+   "name": "Zikel's Blessing",
+   "icon": "/icons/gladiator-zikels-blessing.webp",
+   "tip": "—",
+   "meta": "Cooldown: 120s",
+   "pve": "98.8%",
+   "pvp": "99.3%",
+   "global": "97.8%"
+  },
+  {
+   "name": "Rage Burst",
+   "icon": "/icons/gladiator-rage-burst.webp",
+   "tip": "100",
+   "meta": "Cooldown: 45s",
+   "pve": "96.9%",
+   "pvp": "99.7%",
+   "global": "98.9%"
+  },
+  {
+   "name": "Focused Block",
+   "icon": "/icons/gladiator-focused-block.webp",
+   "tip": "—",
+   "meta": "Cooldown: 20s",
+   "pve": "94.7%",
+   "pvp": "99.3%",
+   "global": "84.3%"
+  },
+  {
+   "name": "Lifestealing Blade",
+   "icon": "/icons/gladiator-lifestealing-blade.webp",
+   "tip": "200",
+   "meta": "Cooldown: 90s",
+   "pve": "93.7%",
+   "pvp": "96.8%",
+   "global": "33.7%"
+  },
+  {
+   "name": "Tenaciousness",
+   "icon": "/icons/gladiator-tenaciousness.webp",
+   "tip": "—",
+   "meta": "Cooldown: 150s",
+   "pve": "76.7%",
+   "pvp": "98.5%",
+   "global": "53.9%"
+  },
+  {
+   "name": "Wave Armor",
+   "icon": "/icons/gladiator-wave-armor.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "75.1%",
+   "pvp": "85.4%",
+   "global": "23.6%"
+  },
+  {
+   "name": "Armor of Balance",
+   "icon": "/icons/gladiator-armor-of-balance.webp",
+   "tip": "—",
+   "meta": "Cooldown: 90s",
+   "pve": "60.8%",
+   "pvp": "90.8%",
+   "global": "13.5%"
+  },
+  {
+   "name": "Wrath Wave",
+   "icon": "/icons/gladiator-wrath-wave.webp",
+   "tip": "200",
+   "meta": "Cooldown: 60s",
+   "pve": "43.8%",
+   "pvp": "59.7%",
+   "global": "9%"
+  },
+  {
+   "name": "Blade Toss",
+   "icon": "/icons/gladiator-blade-toss.webp",
+   "tip": "—",
+   "meta": "Cooldown: 20s",
+   "pve": "42.7%",
+   "pvp": "63.9%",
+   "global": "34.8%"
+  },
+  {
+   "name": "Fracturing Rush",
+   "icon": "/icons/gladiator-fracturing-rush.webp",
+   "tip": "100",
+   "meta": "Cooldown: 90s",
+   "pve": "23.9%",
+   "pvp": "30.3%",
+   "global": "4.5%"
+  },
+  {
+   "name": "Forced Restraint",
+   "icon": "/icons/gladiator-forced-restraint.webp",
+   "tip": "100",
+   "meta": "Cooldown: 60s",
+   "pve": "23.2%",
+   "pvp": "37.2%",
+   "global": "9%"
+  }
+ ],
+ "wings": [
+  {
+   "name": "Talisra Wings",
+   "icon": "/icons/talisra-wings.webp",
+   "tip": "+10: Flight Power +300, Defense Bonus +100, Attack Bonus +10, Accuracy Bonus +20 How to get it: • Season Shop (Special tab, 210,000 Oath Coin)",
+   "meta": "Stats when equipped",
+   "pve": "37.3%",
+   "pvp": "55.4%"
+  },
+  {
+   "name": "Nightmare Wings",
+   "icon": "/icons/nightmare-wings.webp",
+   "tip": "+10: Flight Power +300, Boss Attack +20, Boss Defense +300, PvE Damage Boost +1% How to get it: • Nightmare Trade Shop (Wings tab, 160,000 Phantasmal Fragment)",
+   "meta": "Stats when equipped",
+   "pve": "15.8%",
+   "pvp": "1.3%"
+  },
+  {
+   "name": "Ultimate Daeva Wings",
+   "icon": "/icons/ultimate-daeva-wings.webp",
+   "tip": "+10: Flight Power +600, Penetration +100, Accuracy Bonus +20, Attack Bonus +10 How to get it: • The One Who Witnesses the Nightmare (Ascension)",
+   "meta": "Stats when equipped",
+   "pve": "3.3%",
+   "pvp": "–"
+  },
+  {
+   "name": "Dark Veil Wings",
+   "icon": "/icons/dark-veil-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Boost +1%, Boss Defense +300, PvE Attack +20 How to get it: • Substance Morph (1 x Sealed Dark Veil Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "2.2%",
+   "pvp": "0.8%"
+  },
+  {
+   "name": "Forest Spirit Wings",
+   "icon": "/icons/forest-spirit-wings.webp",
+   "tip": "+10: Flight Power +300, Damage Tolerance +1%, Boss Attack +30, Accuracy Bonus +20 How to get it: • Substance Morph (1 x Sealed Forest Spirit Wings, 10 x Radiant Odyle)",
+   "meta": "Stats when equipped",
+   "pve": "1.2%",
+   "pvp": "–"
+  },
+  {
+   "name": "Brawler Wings",
+   "icon": "/icons/brawler-wings.webp",
+   "tip": "+10: Flight Power +300, Status Effect Chance +2.5%, PvP Damage Boost +1%, PvP Defense +100 How to get it: • Abyss Trade Shop (Wings tab, 800,000 Abyss Points)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "23.6%"
+  },
+  {
+   "name": "Springflower Butterfly Wings",
+   "icon": "/icons/springflower-butterfly-wings.webp",
+   "tip": "+10: Flight Power +300, Evasion Bonus +20, Block +20, Front Attack +20 How to get it: • Festival Shop (Wings tab, 8,350 Centuryroot Token)",
+   "meta": "Stats when equipped",
+   "pve": "–",
+   "pvp": "0.8%"
+  }
+ ],
+ "titles": [
+  {
+   "name": "Empty Closet",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Combat Speed +3.5%, Natural HP Regen +42, Cooldown Reduction +3.5% How to get it: • Fashionista VII (Achievement): Collect 700 Skins",
+   "meta": "Both factions",
+   "pve": "72.7%"
+  },
+  {
+   "name": "Unbound by Genus",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvE Damage Boost +4.5%, Attack Bonus +34, Critical Hit +68 How to get it: • Genus Genius (Achievement): Reach All Genus Insights Level 10",
+   "meta": "Both factions",
+   "pve": "41.2%"
+  },
+  {
+   "name": "Saint of Altgard",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Altgard Monolith (Monolith, Safe Haven / Nornir Assembly)",
+   "meta": "Asmodian",
+   "pve": "19.5%"
+  },
+  {
+   "name": "Saint of Verteron",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +300, Damage Tolerance +3%, Block +100 How to get it: • Verteron Monolith (Monolith, Dawn Legion Base / Zumion Village)",
+   "meta": "Elyos",
+   "pve": "16.7%"
+  },
+  {
+   "name": "Rule All Creation",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +320, Back Attack Damage Tolerance +3%, Boss Damage Tolerance +4% How to get it: • My Reliable Friends VII (Achievement): Collect 200 pets",
+   "meta": "Both factions",
+   "pve": "16.6%"
+  },
+  {
+   "name": "Saint of Ereshkigal",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, Endurance Penetration +2.5%, Critical Hit +60 How to get it: • Ereshkigal's Monolith (Monolith, Latesran Eastern Root / Western Root)",
+   "meta": "Both factions",
+   "pve": "6.6%"
+  },
+  {
+   "name": "Dominator of Dimensions",
+   "icon": null,
+   "tip": "Equipped: Defensive Just for owning it: Defense Bonus +340, HP +1,000, PvE Damage Tolerance +4.5% How to get it: • Veteran Wing Collector V (Achievement): Collect 25 Wings",
+   "meta": "Both factions",
+   "pve": "6.4%"
+  },
+  {
+   "name": "Golden Glow",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: Critical Attack +45, Critical Damage Boost +3%, Accuracy Bonus +60 How to get it: • Tailor-Made V (Achievement): Enhance Unique Gear to +15",
+   "meta": "Both factions",
+   "pve": "4.5%"
+  },
+  {
+   "name": "Treading on White Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Asmodian",
+   "pve": "4%"
+  },
+  {
+   "name": "Treading on Black Wings",
+   "icon": null,
+   "tip": "Equipped: Offensive Just for owning it: PvP Damage Boost +4%, PvP Attack +40, PvP Accuracy +80 How to get it: • Nothing Personal, Kid VII (Achievement): Kill 300 players",
+   "meta": "Elyos",
+   "pve": "3.4%"
+  },
+  {
+   "name": "Through Hell and Back",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: Cooldown Reduction +3%, HP +900, Stamina +225 How to get it: • Ruins of the Ancient City of Ru (Sealed Dungeon)",
+   "meta": "Both factions",
+   "pve": "2.1%"
+  },
+  {
+   "name": "Encountering Kaisinel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Kaisinel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Elyos",
+   "pve": "1.2%"
+  },
+  {
+   "name": "Encountering Zikel's Core",
+   "icon": null,
+   "tip": "Equipped: Utility Just for owning it: HP Potion Recovery +400, Move Speed +3%, HP +900 How to get it: • Encountering Zikel's Core (Achievement): Complete Episode Quest 6",
+   "meta": "Asmodian",
+   "pve": "0.9%"
+  }
+ ],
+ "statPriority": [
+  {
+   "slot": "Weapons",
+   "text": "Weapons All come with the piece Manastones: Attack › Front Attack Damage Boost › HP"
+  },
+  {
+   "slot": "Armor",
+   "text": "Armor Attack › Perfect Chance › Damage Tolerance Manastones: Attack › HP › MP"
+  },
+  {
+   "slot": "Jewelry",
+   "text": "Jewelry Accuracy › Critical Hit Manastones: Attack › HP › MP Slot Bonus stats Manastones Weapon Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 98% Attack 58% Front Attack Damage Boost 43% HP 41% MP 41% Off-hand Weapon Damage Boost 100% Might 100% Combat Speed 100% Damage Boost 100% Attack 61% Accuracy Bonus 39% HP 38% Front Attack Damage Boost 38% Helmet Double Chance 99% Attack increase 99% Attack 91% Incoming Heal 21% Attack 59% HP 40% Front Attack Damage Boost 38% MP 38% Shoulders Critical Damage Boost 100% Attack 96% Accuracy 20% Attack 63% Critical Hit 38% HP 38% Front Attack Damage Boost 37% Chest Damage Boost 100% Attack 94% Accuracy 19% Defense increase 16% Attack 63% Critical Hit 37% Accuracy Bonus 37% HP 36% Legs Attack increase 99% Perfect Chance 94% Damage Tolerance 88% Attack 84% Attack 61% HP 42% Critical Hit 38% MP 36% Gloves Combat Speed 100% Perfect Chance 95% Attack 91% Attack 62% HP 38% Accuracy Bonus 38% MP 38% Boots Move Speed 100% Perfect Chance 95% Attack 91% Attack 60% HP 41% Critical Hit 38% MP 37% Cloak Double Chance 100% Attack increase 99% Perfect Chance 94% Attack 68% Attack 65% Front Attack Damage Boost 39% HP 38% MP 37% Necklace Attack 100% Accuracy 65% Critical Hit 43% Attack 61% HP 43% Critical Hit 38% MP 37% Earrings Attack 100% Accuracy 72% Critical Hit 48% Attack 82% HP 65% MP 61% Critical Hit 58% Rings Attack 99% Accuracy 56% Critical Hit 46% Attack 84% HP 64% MP 58% Accuracy Bonus 58% Bracelets Time [Siel] 100% Destruction [Zikel] 100% Wisdom [Lumiel] 99% Illusion [Kaisinel] 99% Attack 81% HP 64% MP 61% Critical Hit 58% Data: AION2CAL (Korean PvE rankings), 12 October 2026. Stat names as in the global client."
+  }
+ ]
+}

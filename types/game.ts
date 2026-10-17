@@ -288,3 +288,65 @@ export interface RoadmapData {
   stages: RoadmapStage[];
   altGuide: string[];
 }
+
+// ---------- Phase 3: Daevanion boards & meta build (scraped from aion2-meta.com) ----------
+
+export interface DaevaNode {
+  x: number;
+  y: number;
+  spent: number;
+  gives: string;
+  order: number | null;
+  type: string;
+  icon: string;
+  cost: number | null;
+  krShare: string | null;
+  variant: string;
+}
+
+export interface DaevaBoard {
+  name: string;
+  unlockLevel: number | null;
+  totalCrystals: number | null;
+  viewBox: string;
+  links: string;
+  nodes: DaevaNode[];
+  firstTwelve: { type: string; gives: string; cost: string }[];
+}
+
+export interface DaevanionData {
+  slug: string;
+  source: string;
+  boards: DaevaBoard[];
+}
+
+export interface MetaSkill {
+  name: string;
+  icon: string | null;
+  order?: number | null;
+  meta?: string | null;
+}
+
+export interface MetaRow {
+  name: string;
+  icon: string | null;
+  tip?: string | null;
+  meta?: string | null;
+  pve?: string;
+  pvp?: string;
+  global?: string;
+  effect?: string;
+}
+
+export interface MetaBuildData {
+  slug: string;
+  source: string;
+  skillOrder: MetaSkill[];
+  ringSkills: MetaSkill[];
+  specialties: MetaSkill[];
+  passives: MetaRow[];
+  stigmas: MetaRow[];
+  wings: MetaRow[];
+  titles: MetaRow[];
+  statPriority: { slot: string; text: string }[];
+}

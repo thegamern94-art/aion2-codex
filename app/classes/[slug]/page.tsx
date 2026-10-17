@@ -2,10 +2,13 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { CLASSES, getClass } from '@/lib/data';
+import { DAEVANION_BY_SLUG } from '@/lib/daevanion';
+import { METABUILD_BY_SLUG } from '@/lib/metabuild';
 import ClassTabs from '@/components/ClassTabs';
 import JsonLd from '@/components/JsonLd';
 import { faqPageJsonLd } from '@/lib/seo';
 import { DifficultyPips, TierBadge } from '@/components/ClassFilters';
+import { withBase } from '@/lib/asset';
 
 export const dynamicParams = false;
 
@@ -60,10 +63,21 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
       </nav>
 
       <header className="mt-6">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-50">{cls.name}</h1>
-        <p className="mt-2 text-sm text-zinc-400">
-          {cls.role} · {cls.weapons.join(' / ')}
-        </p>
+        <div className="flex flex-wrap items-start gap-5">
+          <img
+            src={withBase(`/portraits/${cls.slug}.webp`)}
+            alt={`${cls.name} portrait`}
+            width={96}
+            height={96}
+            className="h-24 w-24 rounded-lg border border-zinc-700 bg-zinc-900 object-cover"
+          />
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight text-zinc-50">{cls.name}</h1>
+            <p className="mt-2 text-sm text-zinc-400">
+              {cls.role} · {cls.weapons.join(' / ')}
+            </p>
+          </div>
+        </div>
         <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-300">{cls.tagline}</p>
         <div className="mt-5 flex flex-wrap items-center gap-4 text-xs text-zinc-500">
           <span className="flex items-center gap-2">
@@ -82,8 +96,19 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
       </header>
 
       <div className="mt-8">
-        <ClassTabs cls={cls} />
+        <ClassTabs
+          cls={cls}
+          daevanion={DAEVANION_BY_SLUG[cls.slug]}
+          meta={METABUILD_BY_SLUG[cls.slug]}
+        />
       </div>
+
+      <p className="mt-6 text-[11px] leading-4 text-zinc-600">
+        Daevanion boards, meta build data and portraits adapted from{' '}
+        <a href="https://aion2-meta.com" target="_blank" rel="noreferrer" className="text-sky-400 hover:text-sky-300">aion2-meta.com</a>{' '}
+        and{' '}
+        <a href="https://daevaguides.com" target="_blank" rel="noreferrer" className="text-sky-400 hover:text-sky-300">daevaguides.com</a>. Game assets © NCSOFT.
+      </p>
     </div>
   );
 }
